@@ -4,5 +4,5 @@
 *.xlsx
 *.html
 *.tsv
-1./data
 2.RNN/dataset_pickle_tuple_type
+0.temp
