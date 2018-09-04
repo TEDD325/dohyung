@@ -1,0 +1,8 @@
+*.csv
+*.xls
+*.json
+*.xlsx
+*.html
+*.tsv
+1./data
+2.RNN/dataset_pickle_tuple_type
