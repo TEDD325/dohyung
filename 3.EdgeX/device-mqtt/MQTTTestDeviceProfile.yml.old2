@@ -1,0 +1,92 @@
+name: "RASPI.Device.MQTT.Profile"
+manufacturer: "RASPI"
+model: "MQTT-2"
+labels: 
+    - "raspi-mqtt-profile"
+description: "RASPI MQTT device profile"
+deviceResources:
+    -   
+        name: angle
+        description: "RASPI angle degree values"
+        attributes:
+            { name: "angle" }
+        properties: 
+            value:
+                { type: "Float", size: "4", readWrite: "R", defaultValue: "0.00", minimum: "100.00", maximum: "0.00"  }
+            units:
+                { type: "String", readWrite: "R", defaultValue: "" }
+
+    -   
+        name: ping
+        description: "device awake"
+        attributes:
+            { name: "ping" }        
+        properties: 
+            value:
+                { type: "String", size: "0", readWrite: "R", defaultValue: "oops" }
+            units:
+                { type: "String", readWrite: "R", defaultValue: "" }                
+
+    -
+        name: power_idx
+        description: "RASPI Motor POWER IDX message"
+        attributes:
+            { name: "power_idx" }
+        properties:
+            value:
+                { type: "String", size: "0", readWrite: "W"  }
+            units:
+                { type: "String", readWrite: "R", defaultValue: "" }
+
+resources:
+    -
+        name: angle
+        get:
+          - { index: "1", operation: "get", object: "angle", property: "value", parameter: "angle" }
+
+    -
+        name: ping
+        get:
+          - { index: "1", operation: "get", object: "ping", property: "value", parameter: "ping" }
+          
+commands: 
+  - 
+    name: getangle
+    get: 
+        path: "/api/v1/device/{deviceId}/angle"
+        responses:
+          - 
+            code: "200"
+            description: ""
+            expectedValues: ["angle"]
+          -
+            code: "503"
+            description: "service unavailable"
+            expectedValues: []
+  - 
+    name: testping
+    get:
+        path: "/api/v1/device/{deviceId}/ping"
+        responses:
+          -
+            code: "200"
+            description: "ping the device"
+            expectedValues: ["ping"]
+          -
+            code: "503"
+            description: "service unavailable"
+            expectedValues: []
+  -
+    name: power_idx_message
+    put:
+        path: "/api/v1/device/{deviceId}/power"
+        parameterNames: ["power_idx"]
+        responses:
+          -
+            code: "204"
+            description: "Set the message."
+            expectedValues: []
+          -
+            code: "503"
+            description: "service unavailable"
+            expectedValues: []
