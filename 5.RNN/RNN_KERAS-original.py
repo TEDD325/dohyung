@@ -1,9 +1,25 @@
+# -*- coding: utf-8 -*-
+# ---
+# jupyter:
+#   jupytext_format_version: '1.2'
+#   jupytext_formats: ipynb,py
+#   kernelspec:
+#     display_name: Python 3
+#     language: python
+#     name: python3
+#   language_info:
+#     codemirror_mode:
+#       name: ipython
+#       version: 3
+#     file_extension: .py
+#     mimetype: text/x-python
+#     name: python
+#     nbconvert_exporter: python
+#     pygments_lexer: ipython3
+#     version: 3.6.5
+# ---
 
-# coding: utf-8
-
-# In[1]:
-
-
+# +
 # import library
 import tensorflow as tf
 
@@ -34,6 +50,8 @@ from keras.backend.tensorflow_backend import set_session
 # # The GPU id to use, usually either "0" or "1"
 # os.environ["CUDA_VISIBLE_DEVICES"]="0" 
 
+# test
+# !!!!!!!
 from sklearn.model_selection import GridSearchCV
 # from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import MinMaxScaler, StandardScaler, PolynomialFeatures
@@ -44,7 +62,7 @@ from sklearn.metrics import precision_recall_fscore_support
 from sklearn.metrics import confusion_matrix, f1_score, precision_score, recall_score
 from sklearn.metrics import classification_report # https://stackoverflow.com/questions/50065484/getting-precision-recall-and-f1-score-per-class-in-keras
 
-from IPython.display import Javascript
+# from IPython.display import Javascript
 import numpy as np
 from distutils.version import LooseVersion as LV
 from datetime import datetime
@@ -92,10 +110,7 @@ coins = {
 bucket = "bithumb10"
 cleanup_file_name = "coin_{0}_{1}_cleanup.csv"
 
-
-# In[2]:
-
-
+# + {"scrolled": false}
 def get_all_raw_data_from_aws(coin_name_list, start_date, end_date):
     start_ms_time = datetime.strptime(start_date + " +0900", "%Y-%m-%d %H:%M:%S %z").timestamp() * 1000
     end_ms_time = datetime.strptime(end_date + " +0900", "%Y-%m-%d %H:%M:%S %z").timestamp() * 1000
@@ -184,7 +199,8 @@ def Make_Dataset(dir_path, coin_list, start_date, end_date, time_unit, window_si
                     key_name_y += str(idx_time_unit) + "_" + str(idx_window_size) + "_" + str(idx_gap) + "_" + str(idx_margin_rate)
                     if (os.path.isfile(dir_path+key_name_X+".pickle")) is not True:
                         print(key_name_X)
-                        X[key_name_X] =                         make_cryptocurrency_dataset(
+                        X[key_name_X] = \
+                        make_cryptocurrency_dataset(
                                                     coin_list, 
                                                     start_date, 
                                                     end_date,
@@ -199,7 +215,8 @@ def Make_Dataset(dir_path, coin_list, start_date, end_date, time_unit, window_si
                         print("X_success.")
                     if (os.path.isfile(dir_path + key_name_y+".pickle")) is not True:
                         print(key_name_y)
-                        y[key_name_y] =                         make_cryptocurrency_dataset(
+                        y[key_name_y] = \
+                        make_cryptocurrency_dataset(
                                                     coin_list, 
                                                     start_date, 
                                                     end_date,
@@ -341,7 +358,11 @@ def make_cryptocurrency_dataset_y(coin_name_list, start_date, end_date, time_uni
 #
 
 def Load_Dataset_X(dir_path, time_unit, window_size, gap, margin_rate):
-    key_name_X = "X_" +                     str(time_unit) + "_" +                     str(window_size) + "_" +                     str(gap) + "_" +                     str(margin_rate)
+    key_name_X = "X_" + \
+                    str(time_unit) + "_" + \
+                    str(window_size) + "_" + \
+                    str(gap) + "_" + \
+                    str(margin_rate)
                     
 
     with open(dir_path + key_name_X + ".pickle", 'rb') as handle:
@@ -349,7 +370,11 @@ def Load_Dataset_X(dir_path, time_unit, window_size, gap, margin_rate):
     return b_x
     
 def Load_Dataset_y(dir_path, time_unit, window_size, gap, margin_rate):
-    key_name_y = "y_" +                     str(time_unit) + "_" +                     str(window_size) + "_" +                     str(gap) + "_" +                     str(margin_rate)
+    key_name_y = "y_" + \
+                    str(time_unit) + "_" + \
+                    str(window_size) + "_" + \
+                    str(gap) + "_" + \
+                    str(margin_rate)
                     
 
     with open(dir_path + key_name_y + ".pickle", 'rb') as handle:
@@ -374,7 +399,8 @@ def Make_Dataset_numpy(dir_path, coin_list, start_date, end_date, time_unit, win
                     key_name_y += str(idx_time_unit) + "_" + str(idx_window_size) + "_" + str(idx_gap) + "_" + str(idx_margin_rate)
                     if (os.path.isfile(dir_path + key_name_X+".pickle")) is not True:
                         print(key_name_X)
-                        X[key_name_X] =                         make_cryptocurrency_dataset_X(
+                        X[key_name_X] = \
+                        make_cryptocurrency_dataset_X(
                                                     coin_list, 
                                                     start_date, 
                                                     end_date,
@@ -389,7 +415,8 @@ def Make_Dataset_numpy(dir_path, coin_list, start_date, end_date, time_unit, win
                         print("X_success.")
                     if (os.path.isfile(dir_path+key_name_y+".pickle")) is not True:
                         print(key_name_y)
-                        y[key_name_y] =                         make_cryptocurrency_dataset_y(
+                        y[key_name_y] = \
+                        make_cryptocurrency_dataset_y(
                                                     coin_list, 
                                                     start_date, 
                                                     end_date,
@@ -428,7 +455,8 @@ def Make_Dataset_tuple(dir_path, coin_list, start_date, end_date, time_unit, win
                     key_name_y += str(idx_time_unit) + "_" + str(idx_window_size) + "_" + str(idx_gap) + "_" + str(idx_margin_rate)
                     if (os.path.isfile(dir_path + key_name_X+".pickle")) is not True:
                         print(key_name_X)
-                        X[key_name_X], _ =                         make_cryptocurrency_dataset(
+                        X[key_name_X], _ = \
+                        make_cryptocurrency_dataset(
                                                     coin_list, 
                                                     start_date, 
                                                     end_date,
@@ -443,7 +471,8 @@ def Make_Dataset_tuple(dir_path, coin_list, start_date, end_date, time_unit, win
                         print("X_success.")
                     if (os.path.isfile(dir_path+key_name_y+".pickle")) is not True:
                         print(key_name_y)
-                        _, y[key_name_y] =                         make_cryptocurrency_dataset(
+                        _, y[key_name_y] = \
+                        make_cryptocurrency_dataset(
                                                     coin_list, 
                                                     start_date, 
                                                     end_date,
@@ -492,7 +521,8 @@ def Check_Dataset(dir_path, coin_list, start_date, end_date, time_unit, window_s
         
                     if (os.path.isfile(dir_path+key_name_X+".pickle")) is not True:
                         print(key_name_X)
-                        X[key_name_X] =                         make_cryptocurrency_dataset_X(
+                        X[key_name_X] = \
+                        make_cryptocurrency_dataset_X(
                                                     coin_list, 
                                                     start_date, 
                                                     end_date,
@@ -507,7 +537,8 @@ def Check_Dataset(dir_path, coin_list, start_date, end_date, time_unit, window_s
                         print("[SUCCESS] ",key_name_X,".pickle is created.")
                     if (os.path.isfile(dir_path+key_name_y+".pickle")) is not True:
                         print(key_name_y)
-                        y[key_name_y] =                         make_cryptocurrency_dataset_y(
+                        y[key_name_y] = \
+                        make_cryptocurrency_dataset_y(
                                                     coin_list, 
                                                     start_date, 
                                                     end_date,
@@ -526,10 +557,7 @@ def Check_Dataset(dir_path, coin_list, start_date, end_date, time_unit, window_s
     print("Check_Dataset is Done.")
     #print("time: ", b-a)
 
-
-# In[3]:
-
-
+# +
 # Create Dataset
 data_files_dir = "/Users/dohyung/OneDrive/2018-RNN/RNN_python/AWS_dataset/"
 dataset_dir_path_tuple_type = "./dataset_pickle_tuple_type/"
@@ -554,18 +582,12 @@ end_date = "2018-08-20 23:50:00"
 # gap = [1,2,3]            # Unit: num. of candle sticks
 # margin_rate = [0.1,0.25,0.5]  # Unit: percent
 
-
-# In[4]:
-
-
+# + {"scrolled": true}
 #Make_Dataset_tuple(dataset_dir_path_tuple_type, coin_list, start_date, end_date, time_unit, window_size, gap, margin_rate)
 #Make_Dataset_numpy(dataset_dir_path_numpy_type, coin_list, start_date, end_date, time_unit, window_size, gap, margin_rate)
 #Check_Dataset(dataset_dir_path, coin_list, start_date, end_date, time_unit, window_size, gap, margin_rate)
 # Tuple 형태의 데이터셋이 나오지 않도록.
-
-
-# In[5]:
-
+# -
 
 def plot_history(history):
     loss_list = [s for s in history.history.keys() if 'loss' in s and 'val' not in s]
@@ -605,10 +627,7 @@ def plot_history(history):
     plt.legend()
     plt.show()
 
-
-# In[6]:
-
-
+# +
 def f1_score(y_true, y_pred):
     def recall(y_true, y_pred):
         """Recall metric.
@@ -925,8 +944,21 @@ def Start_Model(pickle_load_dir_path, data_files_dir, epochs, pickle_result_dir_
 
     if (_TEST == False):
         for coin in coin_list2:
-            if (os.path.isfile(pickle_result_dir_path +                               MODEL + "_" +                               coin + "_" +                               str(idx_time_unit) + "_" +                               str(idx_window_size) + "_" +                               str(idx_gap) + "_" +                               str(idx_margin_rate) +                               "_result.pickle")) is True:
-                print(MODEL + "_" +                       coin + "_" +                       str(idx_time_unit) + "_" +                       str(idx_window_size) + "_" +                       str(idx_gap) + "_" +                       str(idx_margin_rate) +                       "_result.pickle FILE ALREADY EXIST.")
+            if (os.path.isfile(pickle_result_dir_path + \
+                              MODEL + "_" + \
+                              coin + "_" + \
+                              str(idx_time_unit) + "_" + \
+                              str(idx_window_size) + "_" + \
+                              str(idx_gap) + "_" + \
+                              str(idx_margin_rate) + \
+                              "_result.pickle")) is True:
+                print(MODEL + "_" + \
+                      coin + "_" + \
+                      str(idx_time_unit) + "_" + \
+                      str(idx_window_size) + "_" + \
+                      str(idx_gap) + "_" + \
+                      str(idx_margin_rate) + \
+                      "_result.pickle FILE ALREADY EXIST.")
                 continue
             else:
                 y2 = onehottify(y_single[coin], n=2)
@@ -958,8 +990,23 @@ def Start_Model(pickle_load_dir_path, data_files_dir, epochs, pickle_result_dir_
     if (_TEST == True):
         # for test                                
         for coin in range(1):
-            if (os.path.isfile(pickle_result_dir_path +                               "_test_" +                               MODEL + "_" +                               "BTC" + "_" +                               str(idx_time_unit) + "_" +                               str(idx_window_size) + "_" +                               str(idx_gap) + "_" +                               str(idx_margin_rate) +                               "_result.pickle")) is True:
-                print("_test_" +                       MODEL + "_" +                       "BTC" + "_" +                       str(idx_time_unit) + "_" +                       str(idx_window_size) + "_" +                       str(idx_gap) + "_" +                       str(idx_margin_rate) +                       "_result.pickle FILE ALREADY EXIST.")
+            if (os.path.isfile(pickle_result_dir_path + \
+                              "_test_" + \
+                              MODEL + "_" + \
+                              "BTC" + "_" + \
+                              str(idx_time_unit) + "_" + \
+                              str(idx_window_size) + "_" + \
+                              str(idx_gap) + "_" + \
+                              str(idx_margin_rate) + \
+                              "_result.pickle")) is True:
+                print("_test_" + \
+                      MODEL + "_" + \
+                      "BTC" + "_" + \
+                      str(idx_time_unit) + "_" + \
+                      str(idx_window_size) + "_" + \
+                      str(idx_gap) + "_" + \
+                      str(idx_margin_rate) + \
+                      "_result.pickle FILE ALREADY EXIST.")
                 #Javascript('IPython.notebook.kernel.restart()')
                 #Javascript('IPython.notebook.execute_all_cells()')
                 continue
@@ -1000,10 +1047,7 @@ def Start_Model(pickle_load_dir_path, data_files_dir, epochs, pickle_result_dir_
 # print(tmp["10_1_1_0.1"][0])
 # print(tmp["10_1_1_0.1"][0]['grid_result.best_score_'])
 
-
-# In[7]:
-
-
+# +
 def Evaluate(pickle_load_dir_path, 
              data_files_dir, 
              epochs, 
@@ -1169,14 +1213,24 @@ def Evaluate(pickle_load_dir_path,
         print("----------------------")
         print("<"+MODEL+">")
         print("----------------------")
-        print("__"+"BTC"+"__" +                 "time unit: "+str(idx_time_unit) + "  |  " +                 "window_size :"+str(idx_window_size) + "  |  " +                 "gap :"+str(idx_gap) + "  |  " +                 "margin_rate :"+str(idx_margin_rate) +                 "  started.")
+        print("__"+"BTC"+"__" + \
+                "time unit: "+str(idx_time_unit) + "  |  " + \
+                "window_size :"+str(idx_window_size) + "  |  " + \
+                "gap :"+str(idx_gap) + "  |  " + \
+                "margin_rate :"+str(idx_margin_rate) + \
+                "  started.")
     elif (_TEST == False):
         print()
         print()
         print("----------------------")
         print("<"+MODEL+">")
         print("----------------------")
-        print("__"+coin+"__" +                 "time unit: "+str(idx_time_unit) + "  |  " +                 "window_size :"+str(idx_window_size) + "  |  " +                 "gap :"+str(idx_gap) + "  |  " +                 "margin_rate :"+str(idx_margin_rate) +                 "  started.")
+        print("__"+coin+"__" + \
+                "time unit: "+str(idx_time_unit) + "  |  " + \
+                "window_size :"+str(idx_window_size) + "  |  " + \
+                "gap :"+str(idx_gap) + "  |  " + \
+                "margin_rate :"+str(idx_margin_rate) + \
+                "  started.")
 
     grid_result = grid.fit(X_train_scaled, 
                            y_train, 
@@ -1200,7 +1254,14 @@ def Evaluate(pickle_load_dir_path,
     
     if (_TEST == True): 
         test_score = grid_result.score(X_test_scaled, y_test)
-        evaluate_result[MODEL + "_" +                       "BTC" + "_" +                       str(idx_time_unit) + "_" +                       str(idx_window_size) + "_" +                       str(idx_gap) + "_" +                       str(idx_margin_rate)] = {"MODEL":MODEL,                                        "Cryptocurrency":"BTC",#                                         "grid_result.cv_results_":grid_result.cv_results_, \
+        evaluate_result[MODEL + "_" + \
+                      "BTC" + "_" + \
+                      str(idx_time_unit) + "_" + \
+                      str(idx_window_size) + "_" + \
+                      str(idx_gap) + "_" + \
+                      str(idx_margin_rate)] = {"MODEL":MODEL,\
+                                        "Cryptocurrency":"BTC",\
+#                                         "grid_result.cv_results_":grid_result.cv_results_, \
 #                                         "grid_result.best_estimator_":grid_result.best_estimator_, \
                                         "Score":grid_result.cv_results_['mean_test_score'], \
                                         "Params":grid_result.cv_results_['params'],\
@@ -1209,7 +1270,16 @@ def Evaluate(pickle_load_dir_path,
 
     elif (_TEST == False): 
         test_score = grid_result.score(X_test_scaled, y_test)
-        evaluate_result[MODEL + "_" +                       coin + "_" +                       str(idx_time_unit) + "_" +                       str(idx_window_size) + "_" +                       str(idx_gap) + "_" +                       str(idx_margin_rate)] = {"MODEL":MODEL,                                        "Cryptocurrency":coin,                                         "Score":grid_result.cv_results_['mean_test_score'],                                         "Params":grid_result.cv_results_['params'],                                        "test_score":test_score}
+        evaluate_result[MODEL + "_" + \
+                      coin + "_" + \
+                      str(idx_time_unit) + "_" + \
+                      str(idx_window_size) + "_" + \
+                      str(idx_gap) + "_" + \
+                      str(idx_margin_rate)] = {"MODEL":MODEL,\
+                                        "Cryptocurrency":coin, \
+                                        "Score":grid_result.cv_results_['mean_test_score'], \
+                                        "Params":grid_result.cv_results_['params'],\
+                                        "test_score":test_score}
 #     print()
 #     print("evaluate result dict: ", evaluate_result)
 #     print()
@@ -1231,8 +1301,24 @@ def Evaluate(pickle_load_dir_path,
                     for idx_margin_rate in margin_rate:
                         key_name_X += str(idx_time_unit) + "_" + str(idx_window_size) + "_" + str(idx_gap) + "_" + str(idx_margin_rate)
                         key_name_y += str(idx_time_unit) + "_" + str(idx_window_size) + "_" + str(idx_gap) + "_" + str(idx_margin_rate)
-                        if (os.path.isfile(pickle_result_dir_path +                                           "_test_" +                                           MODEL + "_" +                                           "BTC" + "_" +                                           str(idx_time_unit) + "_" +                                           str(idx_window_size) + "_" +                                           str(idx_gap) + "_" +                                           str(idx_margin_rate) +                                           "_result.pickle")) is not True:
-                            with open(pickle_result_dir_path +                                       "_test_" +                                       MODEL + "_" +                                       "BTC" + "_" +                                       str(idx_time_unit) + "_" +                                       str(idx_window_size) + "_" +                                       str(idx_gap) + "_" +                                       str(idx_margin_rate) +                                       "_result.pickle", 'wb') as handle:
+                        if (os.path.isfile(pickle_result_dir_path + \
+                                          "_test_" + \
+                                          MODEL + "_" + \
+                                          "BTC" + "_" + \
+                                          str(idx_time_unit) + "_" + \
+                                          str(idx_window_size) + "_" + \
+                                          str(idx_gap) + "_" + \
+                                          str(idx_margin_rate) + \
+                                          "_result.pickle")) is not True:
+                            with open(pickle_result_dir_path + \
+                                      "_test_" + \
+                                      MODEL + "_" + \
+                                      "BTC" + "_" + \
+                                      str(idx_time_unit) + "_" + \
+                                      str(idx_window_size) + "_" + \
+                                      str(idx_gap) + "_" + \
+                                      str(idx_margin_rate) + \
+                                      "_result.pickle", 'wb') as handle:
                                 pickle.dump(evaluate_result, handle, protocol=pickle.HIGHEST_PROTOCOL)
                                 
                                 # Sending Email
@@ -1242,14 +1328,37 @@ def Evaluate(pickle_load_dir_path,
                                     smtp.starttls()  # TLS 사용시 필요
                                     smtp.login(EMAIL_ADDRESS, EMAIL_PASSWORD)
 
-                                    msg = MIMEText(pickle_result_dir_path +                                                    "_test_" +                                                    MODEL + "_" +                                                    "BTC" + "_" +                                                    str(idx_time_unit) + "_" +                                                    str(idx_window_size) + "_" +                                                    str(idx_gap) + "_" +                                                    str(idx_margin_rate) +                                                    "_result.pickle")
-                                    msg['Subject'] =   pickle_result_dir_path +                                                        MODEL + "_" +                                                        "BTC" + "_" +                                                        str(idx_time_unit) + "_" +                                                        str(idx_window_size) + "_" +                                                        str(idx_gap) + "_" +                                                        str(idx_margin_rate) +                                                        "_result.pickle"
+                                    msg = MIMEText(pickle_result_dir_path + \
+                                                   "_test_" + \
+                                                   MODEL + "_" + \
+                                                   "BTC" + "_" + \
+                                                   str(idx_time_unit) + "_" + \
+                                                   str(idx_window_size) + "_" + \
+                                                   str(idx_gap) + "_" + \
+                                                   str(idx_margin_rate) + \
+                                                   "_result.pickle")
+                                    msg['Subject'] =   pickle_result_dir_path + \
+                                                       MODEL + "_" + \
+                                                       "BTC" + "_" + \
+                                                       str(idx_time_unit) + "_" + \
+                                                       str(idx_window_size) + "_" + \
+                                                       str(idx_gap) + "_" + \
+                                                       str(idx_margin_rate) + \
+                                                       "_result.pickle"
                                     msg['To'] = EMAIL_ADDRESS
                                     smtp.sendmail(EMAIL_ADDRESS, EMAIL_ADDRESS, msg.as_string())
 
                                     smtp.quit()
                         else:
-                            print("Already exist the file: ", pickle_result_dir_path +                                                               "_test_" +                                                               MODEL + "_" +                                                               "BTC" + "_" +                                                               str(idx_time_unit) + "_" +                                                               str(idx_window_size) + "_" +                                                               str(idx_gap) + "_" +                                                               str(idx_margin_rate) +                                                               "_result.pickle")
+                            print("Already exist the file: ", pickle_result_dir_path + \
+                                                              "_test_" + \
+                                                              MODEL + "_" + \
+                                                              "BTC" + "_" + \
+                                                              str(idx_time_unit) + "_" + \
+                                                              str(idx_window_size) + "_" + \
+                                                              str(idx_gap) + "_" + \
+                                                              str(idx_margin_rate) + \
+                                                              "_result.pickle")
 
     elif (_TEST == False): 
         X = {}
@@ -1259,8 +1368,22 @@ def Evaluate(pickle_load_dir_path,
         
         key_name_X += str(idx_time_unit) + "_" + str(idx_window_size) + "_" + str(idx_gap) + "_" + str(idx_margin_rate)
         key_name_y += str(idx_time_unit) + "_" + str(idx_window_size) + "_" + str(idx_gap) + "_" + str(idx_margin_rate)
-        if (os.path.isfile(pickle_result_dir_path +                           MODEL + "_" +                           coin + "_" +                           str(idx_time_unit) + "_" +                           str(idx_window_size) + "_" +                           str(idx_gap) + "_" +                           str(idx_margin_rate) +                           "_result.pickle")) is not True:
-            with open(pickle_result_dir_path +                       MODEL + "_" +                       coin + "_" +                       str(idx_time_unit) + "_" +                       str(idx_window_size) + "_" +                       str(idx_gap) + "_" +                       str(idx_margin_rate) +                       "_result.pickle", 'wb') as handle:
+        if (os.path.isfile(pickle_result_dir_path + \
+                          MODEL + "_" + \
+                          coin + "_" + \
+                          str(idx_time_unit) + "_" + \
+                          str(idx_window_size) + "_" + \
+                          str(idx_gap) + "_" + \
+                          str(idx_margin_rate) + \
+                          "_result.pickle")) is not True:
+            with open(pickle_result_dir_path + \
+                      MODEL + "_" + \
+                      coin + "_" + \
+                      str(idx_time_unit) + "_" + \
+                      str(idx_window_size) + "_" + \
+                      str(idx_gap) + "_" + \
+                      str(idx_margin_rate) + \
+                      "_result.pickle", 'wb') as handle:
                 pickle.dump(evaluate_result, handle, protocol=pickle.HIGHEST_PROTOCOL)
 
                 # Sending Email
@@ -1270,14 +1393,38 @@ def Evaluate(pickle_load_dir_path,
                     smtp.starttls()  # TLS 사용시 필요
                     smtp.login(EMAIL_ADDRESS, EMAIL_PASSWORD)
 
-                    msg = MIMEText(machine +                                    pickle_result_dir_path +                                    MODEL + "_" +                                    coin + "_" +                                    str(idx_time_unit) + "_" +                                    str(idx_window_size) + "_" +                                    str(idx_gap) + "_" +                                    str(idx_margin_rate) +                                    "_result.pickle")
-                    msg['Subject'] =   machine +                                        pickle_result_dir_path +                                        MODEL + "_" +                                        coin + "_" +                                        str(idx_time_unit) + "_" +                                        str(idx_window_size) + "_" +                                        str(idx_gap) + "_" +                                        str(idx_margin_rate) +                                        "_result.pickle"
+                    msg = MIMEText(machine + \
+                                   pickle_result_dir_path + \
+                                   MODEL + "_" + \
+                                   coin + "_" + \
+                                   str(idx_time_unit) + "_" + \
+                                   str(idx_window_size) + "_" + \
+                                   str(idx_gap) + "_" + \
+                                   str(idx_margin_rate) + \
+                                   "_result.pickle")
+                    msg['Subject'] =   machine + \
+                                       pickle_result_dir_path + \
+                                       MODEL + "_" + \
+                                       coin + "_" + \
+                                       str(idx_time_unit) + "_" + \
+                                       str(idx_window_size) + "_" + \
+                                       str(idx_gap) + "_" + \
+                                       str(idx_margin_rate) + \
+                                       "_result.pickle"
                     msg['To'] = EMAIL_ADDRESS
                     smtp.sendmail(EMAIL_ADDRESS, EMAIL_ADDRESS, msg.as_string())
 
                     smtp.quit()
         else:
-            print("Already exist the file: ", pickle_result_dir_path +                                               "_test_" +                                               MODEL + "_" +                                               "BTC" + "_" +                                               str(idx_time_unit) + "_" +                                               str(idx_window_size) + "_" +                                               str(idx_gap) + "_" +                                               str(idx_margin_rate) +                                               "_result.pickle")
+            print("Already exist the file: ", pickle_result_dir_path + \
+                                              "_test_" + \
+                                              MODEL + "_" + \
+                                              "BTC" + "_" + \
+                                              str(idx_time_unit) + "_" + \
+                                              str(idx_window_size) + "_" + \
+                                              str(idx_gap) + "_" + \
+                                              str(idx_margin_rate) + \
+                                              "_result.pickle")
     
     
     #print("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
@@ -1301,10 +1448,7 @@ def Evaluate(pickle_load_dir_path,
     
     
 #     return eval_result
-
-
-# In[8]:
-
+# -
 
 def start(machine, Internet_connection, _TEST, _GPU, n_jobs, MODEL, idx_time_unit, idx_window_size, idx_gap, idx_margin_rate, epochs):
     '''
@@ -1344,9 +1488,9 @@ def start(machine, Internet_connection, _TEST, _GPU, n_jobs, MODEL, idx_time_uni
         end_time = time.time()
         print()
         print("TIME: ", end_time-start_time)
-        Javascript('IPython.notebook.kernel.restart()')
-        time.sleep(1)
-        Javascript('IPython.notebook.execute_all_cells()')
+        # Javascript('IPython.notebook.kernel.restart()')
+        # time.sleep(1)
+        # Javascript('IPython.notebook.execute_all_cells()')
 
     elif machine=="link-koreatech":
         #time_unit = [10]     # candle stick minutes
@@ -1372,9 +1516,9 @@ def start(machine, Internet_connection, _TEST, _GPU, n_jobs, MODEL, idx_time_uni
         end_time = time.time()
         print()
         print("TIME: ", end_time-start_time)
-        Javascript('IPython.notebook.kernel.restart()')
-        time.sleep(1)
-        Javascript('IPython.notebook.execute_all_cells()')
+        # Javascript('IPython.notebook.kernel.restart()')
+        # time.sleep(1)
+        # Javascript('IPython.notebook.execute_all_cells()')
 
     elif machine=="slave04":
         #time_unit = [10]     # candle stick minutes
@@ -1403,9 +1547,9 @@ def start(machine, Internet_connection, _TEST, _GPU, n_jobs, MODEL, idx_time_uni
         end_time = time.time()
         print()
         print("TIME: ", end_time-start_time)
-        Javascript('IPython.notebook.kernel.restart()')
-        time.sleep(1)
-        Javascript('IPython.notebook.execute_all_cells()')
+        # Javascript('IPython.notebook.kernel.restart()')
+        # time.sleep(1)
+        # Javascript('IPython.notebook.execute_all_cells()')
 
     elif machine=="link01":
         #time_unit = [10]     # candle stick minutes
@@ -1434,9 +1578,9 @@ def start(machine, Internet_connection, _TEST, _GPU, n_jobs, MODEL, idx_time_uni
         end_time = time.time()
         print()
         print("TIME: ", end_time-start_time)
-        Javascript('IPython.notebook.kernel.restart()')
-        time.sleep(1)
-        Javascript('IPython.notebook.execute_all_cells()')
+        # Javascript('IPython.notebook.kernel.restart()')
+        # time.sleep(1)
+        # Javascript('IPython.notebook.execute_all_cells()')
 
     elif machine=="MSI":
         #time_unit = [10]     # candle stick minutes
@@ -1465,9 +1609,9 @@ def start(machine, Internet_connection, _TEST, _GPU, n_jobs, MODEL, idx_time_uni
         end_time = time.time()
         print()
         print("TIME: ", end_time-start_time)
-        Javascript('IPython.notebook.kernel.restart()')
-        time.sleep(1)
-        Javascript('IPython.notebook.execute_all_cells()')
+        # Javascript('IPython.notebook.kernel.restart()')
+        # time.sleep(1)
+        # Javascript('IPython.notebook.execute_all_cells()')
         
     elif _TEST==True:
         
@@ -1497,30 +1641,24 @@ def start(machine, Internet_connection, _TEST, _GPU, n_jobs, MODEL, idx_time_uni
         end_time = time.time()
         print()
         print("TIME: ", end_time-start_time)
-        Javascript('IPython.notebook.kernel.restart()')
-        time.sleep(1)
-        Javascript('IPython.notebook.execute_all_cells()')
+        # Javascript('IPython.notebook.kernel.restart()')
+        # time.sleep(1)
+        # Javascript('IPython.notebook.execute_all_cells()')
 
-
-# In[9]:
-
-
+# +
 # # evaluate model using test data
 # score = 
 
-
-# In[10]:
-
-
+# +
 # # load pickle file 
 # import pickle
 # b_x = pickle.load(open("./evaluate_result/_test_SimpleRNN_BTC_10_10_1_0.1_result.pickle", "rb"))
 # b_x
+# -
 
 
-# In[11]:
 
-
+# +
 # # Boost-up Acc, F1
 # evaluate_result_dir_path = "./evaluate_result/acc_f1/"
 # dataset_dir_path = dataset_dir_path_tuple_type 
@@ -1528,10 +1666,7 @@ def start(machine, Internet_connection, _TEST, _GPU, n_jobs, MODEL, idx_time_uni
 # epochs = 100
 # Evaluate(dataset_dir_path, data_files_dir, epochs, evaluate_result_dir_path, time_unit, window_size, gap, margin_rate)
 
-
-# In[12]:
-
-
+# +
 model_info = {}
 model_info["test"] = {#"MODEL_list":["SimpleRNN", "LSTM", "GRU"],
                       "MODEL_list":["LSTM"],
@@ -1568,9 +1703,8 @@ model_info["MSI"] = {"MODEL_list":["SimpleRNN", "LSTM", "GRU"],
                       "margin_rate":[0.1,0.25,0.5]}
 
 
-# In[14]:
 
-
+# + {"scrolled": true}
 Machine = "test"
 # If Machine is "test" then, _TEST argument must be True
 test = True
@@ -1595,16 +1729,14 @@ for model in model_info[Machine]["MODEL_list"]:
                          idx_gap=idx_gap, 
                          idx_margin_rate=idx_margin_rate,
                          epochs=epochs)
-                    Javascript('IPython.notebook.kernel.restart()')
-                    time.sleep(1)
-                    Javascript('IPython.notebook.execute_all_cells()')
-
+#                     Javascript('IPython.notebook.kernel.restart()')
+#                     time.sleep(1)
+#                     Javascript('IPython.notebook.execute_all_cells()')
+# # -
 
 # # Hyperio test
 
-# In[ ]:
-
-
+# +
 # from __future__ import print_function
 # import keras
 # from keras.datasets import mnist
@@ -1656,10 +1788,7 @@ for model in model_info[Machine]["MODEL_list"]:
     
 #     return out
 
-
-# In[ ]:
-
-
+# + {"scrolled": true}
 # from keras.optimizers import Adam, Nadam
 # from keras.activations import softmax
 # from keras.losses import categorical_crossentropy, logcosh
@@ -1781,15 +1910,11 @@ for model in model_info[Machine]["MODEL_list"]:
 #                # create_model_SimpleRNN_non_GPU_test(x_train, y_train, x_val, y_val, params)
 #                grid_downsample=.01)
 
-
-# In[ ]:
-
-
+# +
 # h
 
-
-# In[ ]:
-
-
+# + {"scrolled": true}
 # h.result
+# -
+
 
