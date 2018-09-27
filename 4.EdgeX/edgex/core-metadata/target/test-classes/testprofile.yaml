@@ -1,0 +1,19 @@
+commands:
+- created: 1470931682595
+  get:
+    path: /test
+    responses: [{code: 200, description: ok, expectedValues: [temperature, humidity]}]
+  id: 57aca2e2555e2e046e6c813c
+  modified: 1470931682595
+  name: setTemp
+  origin: 123456789
+  put: null
+created: 1470931682637
+description: Test Description
+id: 57aca2e2555e2e046e6c813d
+labels: [labe1, label2]
+manufacturer: Test Manufacturer
+model: Test Model
+modified: 1470931682637
+name: Test YAML Profile
+origin: 123456789

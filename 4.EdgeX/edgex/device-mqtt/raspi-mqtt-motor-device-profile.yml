@@ -1,0 +1,73 @@
+name: "raspi-mqtt-motor-device-profile"
+manufacturer: "device-RASPI-motor"
+model: "MQTT-2"
+labels:
+- "raspi-mqtt-motor-device-profile"
+description: "raspi-mqtt-motor-device-profile"
+
+deviceResources:
+-
+    name: motor_angle
+    description: "RASPI motor angle degree values"
+    attributes:
+      { name: "motor_angle" }
+    properties:
+        value:
+          { type: "Integer", readWrite: "R", defaultValue: "0", minimum: "-36000", maximum: "36000", "size": "6"  }
+        units:
+          { type: "String", readWrite: "R", defaultValue: "" }
+
+-
+    name: motor_power
+    description: "RASPI motor power values"
+    attributes:
+      { name: "motor_power" }
+    properties:
+        value:
+          { type: "Integer", readWrite: "W", defaultValue: "0", minimum: "-70", maximum: "70", "size": "3"  }
+        units:
+          { type: "String", readWrite: "W", defaultValue: "" }
+
+-
+    name: motor_status
+    description: "RASPI motor power set status"
+    attributes:
+      { name: "motor_status" }
+    properties:
+        value:
+          { type: "Integer", readWrite: "R", defaultValue: "1", minimum: "0", maximum: "1", "size": "1"  }
+        units:
+          { type: "String", readWrite: "R", defaultValue: "" }
+
+resources:
+-
+    name: motor_angle
+    get:
+    - { index: "1", operation: "get", object: "motor_angle", property: "value", parameter: "motor_angle" }
+
+-
+    name: motor_power
+    set:
+    - { index: "1", operation: "set", object: "motor_power", property: "value", parameter: "motor_power" }
+
+-
+    name: motor_status
+    get:
+    - { index: "1", operation: "get", object: "motor_status", property: "value", parameter: "motor_status" }
+
+
+commands:
+-
+    name: motor_power
+    put:
+        path: "/api/v1/device/{deviceId}/motor_power"
+        parameterNames: ["motor_power"]
+        responses:
+        -
+            code: "200"
+            description: ""
+            expectedValues: ["motor_power"]
+        -
+            code: "503"
+            description: "service unavailable"
+            expectedValues: []

@@ -27,3 +27,13 @@ email_info.py
 5.RNN/venv
 5.RNN/venv1
 5.RNN/venv2
+4.EdgeX/log
+4.EdgeX/edgex/motor_addressable_publisher-tcp192168137101883
+4.EdgeX/edgex/pendulum_pub_at_edgex-tcp192168137101883
+4.EdgeX/edgex/motor_power_response_at_edgex-tcp192168137101883
+4.EdgeX/edgex/.idea
+4.EdgeX/edgex/RASPI-tcp100021883
+*.log
+support-rulesengine.zip
+edgex-export-distro.log.1
+4.EdgeX/.idea

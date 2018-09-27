@@ -1,0 +1,126 @@
+name: "raspi_mqtt_device_profile"
+manufacturer: "LINKLAB"
+model: "Raspberry Pi 3"
+labels: 
+    - "raspi"
+description: "raspi-mqtt-pendulum-device-profile"
+deviceResources:
+-
+    name: pendulum_angle
+    description: "RASPI pendulum angle degree values"
+    attributes:
+      { name: "pendulum_angle" }
+    properties:
+        value:
+          { type: "Integer", readWrite: "R", defaultValue: "0", minimum: "-180", maximum: "180"}
+        units:
+          { type: "String", readWrite: "R", defaultValue: "degree" }
+-
+    name: motor_angle
+    description: "RASPI motor angle degree values"
+    attributes:
+      { name: "motor_angle" }
+    properties:
+        value:
+          { type: "Integer", readWrite: "R", defaultValue: "0", minimum: "-36000", maximum: "36000"}
+        units:
+          { type: "String", readWrite: "R", defaultValue: "degree" }
+
+-
+    name: motor_power
+    description: "RASPI motor power values"
+    attributes:
+      { name: "motor_power" }
+    properties:
+        value:
+          { type: "Integer", readWrite: "W", defaultValue: "0", minimum: "-70", maximum: "70"}
+        units:
+          { type: "String", readWrite: "W", defaultValue: "" }
+
+-
+    name: motor_status
+    description: "RASPI motor power set status"
+    attributes:
+      { name: "motor_status" }
+    properties:
+        value:
+          { type: "Integer", readWrite: "R", defaultValue: "1", minimum: "0", maximum: "1"}
+        units:
+          { type: "String", readWrite: "R", defaultValue: "" }
+
+resources:
+-
+    name: pendulum_angle
+    get:
+    - { index: "1", operation: "get", object: "pendulum_angle", property: "value", parameter: "pendulum_angle" }
+
+-
+    name: motor_angle
+    get:
+    - { index: "1", operation: "get", object: "motor_angle", property: "value", parameter: "motor_angle" }
+
+-
+    name: motor_power
+    set:
+    - { index: "1", operation: "set", object: "motor_power", property: "value", parameter: "motor_power" }
+
+-
+    name: motor_status
+    get:
+    - { index: "1", operation: "get", object: "motor_status", property: "value", parameter: "motor_status" }
+
+commands: 
+  - 
+    name: PendulumAngle
+    get: 
+        path: "/api/v1/devices/{deviceId}/pendulumangle"
+        responses:
+          - 
+            code: "200"
+            description: "Angle of Pendulum"
+            expectedValues: ["pendulum_angle_value"]
+          -
+            code: "503"
+            description: "service unavailable"
+            expectedValues: ["pendulum_error_value"]
+  - 
+    name: MotorAngle
+    get: 
+        path: "/api/v1/devices/{deviceId}/motorangle"
+        responses:
+          - 
+            code: "200"
+            description: "Angle of Motor"
+            expectedValues: ["motor_angle_value"]
+          -
+            code: "503"
+            description: "service unavailable"
+            expectedValues: ["motor_error_value"]
+  - 
+    name: MotorPower 
+    put:
+        path: "/api/v1/devices/{deviceId}/motorpower"
+        parameterNames: ["motor_power_value"]
+        responses:
+          - 
+            code: "204"
+            description: "Set the power of motor."
+            expectedValues: []
+          -
+            code: "503"
+            description: "service unavailable"
+            expectedValues: ["motor_error_value"]
+  - 
+    name: MotorStatus
+    put:
+        path: "/api/v1/devices/{deviceId}/motorpoweridx"
+        parameterNames: ["motor_status_value"]
+        responses:
+          - 
+            code: "204"
+            description: "Set the snapshot duration."
+            expectedValues: []
+          -
+            code: "503"
+            description: "service unavailable"
+            expectedValues: ["motor_error_value"]

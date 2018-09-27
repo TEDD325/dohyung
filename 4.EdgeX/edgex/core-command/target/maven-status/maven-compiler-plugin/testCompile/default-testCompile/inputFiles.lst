@@ -1,0 +1,8 @@
+/home/etri/edgex/edgex_core_services/core-command/src/test/java/org/edgexfoundry/controller/PingControllerTest.java
+/home/etri/edgex/edgex_core_services/core-command/src/test/java/org/edgexfoundry/controller/LocalErrorControllerTest.java
+/home/etri/edgex/edgex_core_services/core-command/src/test/java/org/edgexfoundry/controller/CommandControllerTest.java
+/home/etri/edgex/edgex_core_services/core-command/src/test/java/org/edgexfoundry/domain/serializer/CommandResponseSerializerTest.java
+/home/etri/edgex/edgex_core_services/core-command/src/test/java/org/edgexfoundry/suites/UnitTestSuite.java
+/home/etri/edgex/edgex_core_services/core-command/src/test/java/org/edgexfoundry/test/data/CommandResponseData.java
+/home/etri/edgex/edgex_core_services/core-command/src/test/java/org/edgexfoundry/suites/IntegrationTestSuite.java
+/home/etri/edgex/edgex_core_services/core-command/src/test/java/org/edgexfoundry/controller/integration/CommandControllerTest.java

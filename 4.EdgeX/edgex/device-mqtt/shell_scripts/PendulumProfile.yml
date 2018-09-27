@@ -1,0 +1,39 @@
+name: "pendulum_raspi_mqtt_device_profile"
+manufacturer: "LINKLAB"
+model: "Raspberry Pi 3"
+labels: 
+    - "pendulum"
+description: "raspi-mqtt-PENDULUM-device-profile"
+deviceResources:
+  -
+    name: pendulum_angle
+    description: "RASPI pendulum angle degree values"
+    attributes:
+      { name: "pendulum_angle" }
+    properties:
+        value:
+          { type: "Integer", readWrite: "R", defaultValue: "0", minimum: "-180", maximum: "180"}
+        units:
+          { type: "String", readWrite: "R", defaultValue: "degree" }
+
+resources:
+  -
+    name: pendulum_angle
+    get:
+    - { index: "1", operation: "get", object: "pendulum_angle", property: "value", parameter: "pendulum_angle" }
+
+
+commands: 
+  - 
+    name: pendulum_angle
+    get: 
+        path: "/api/v1/device/{deviceId}/pendulum_angle"
+        responses:
+          - 
+            code: "200"
+            description: "Angle of Pendulum"
+            expectedValues: ["pendulum_angle"]
+          -
+            code: "503"
+            description: "service unavailable"
+            expectedValues: []

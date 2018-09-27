@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.edgexfoundry:core-test:0.5.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/edgexfoundry/core-test/0.5.0-SNAPSHOT/core-test-0.5.0-20180807.211248-1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/edgexfoundry/core-test/0.5.0-SNAPSHOT/core-test-0.5.0-20180807.211248-1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/edgexfoundry/core-test/0.5.0-SNAPSHOT/core-test-0.5.0-20180807.211248-1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,61 @@
+name: "raspi-mqtt-pendulum-device-profile profile"
+manufacturer: "device-RASPI-pendulum"
+model: "MQTT-2"
+labels: 
+    - "raspi"
+description: "raspi-mqtt-pendulum-device-profile"
+commands: 
+  - 
+    name: PendulumAngle
+    get: 
+        path: "/api/v1/devices/{deviceId}/pendulumangle"
+        responses:
+          - 
+            code: "200"
+            description: "Angle of Pendulum"
+            expectedValues: ["angle"]
+          -
+            code: "503"
+            description: "service unavailable"
+            expectedValues: []
+  - 
+    name: MotorAngle
+    get: 
+        path: "/api/v1/devices/{deviceId}/motorangle"
+        responses:
+          - 
+            code: "200"
+            description: "Angle of Motor"
+            expectedValues: ["motor_angle"]
+          -
+            code: "503"
+            description: "service unavailable"
+            expectedValues: []
+  - 
+    name: MotorPower 
+    put:
+        path: "/api/v1/devices/{deviceId}/motorpower"
+        parameterNames: ["motor_power"]
+        responses:
+          - 
+            code: "204"
+            description: "Set the power of motor."
+            expectedValues: []
+          -
+            code: "503"
+            description: "service unavailable"
+            expectedValues: []
+  - 
+    name: MotorPowerIDX
+    put:
+        path: "/api/v1/devices/{deviceId}/motorpoweridx"
+        parameterNames: ["power_idx"]
+        responses:
+          - 
+            code: "204"
+            description: "Set the snapshot duration."
+            expectedValues: []
+          -
+            code: "503"
+            description: "service unavailable"
+            expectedValues: []

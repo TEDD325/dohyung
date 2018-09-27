@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.microsoft.azure.iothub-java-client:iothub-java-device-client:1.0.16">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/microsoft/azure/iothub-java-client/iothub-java-device-client/1.0.16/iothub-java-device-client-1.0.16.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/microsoft/azure/iothub-java-client/iothub-java-device-client/1.0.16/iothub-java-device-client-1.0.16-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/microsoft/azure/iothub-java-client/iothub-java-device-client/1.0.16/iothub-java-device-client-1.0.16-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,97 @@
+name: "motor_raspi_mqtt_device_profile"
+manufacturer: "LINKLAB"
+model: "Raspberry Pi 3"
+labels: 
+    - "motor"
+description: "raspi-mqtt-MOTOR-device-profile"
+deviceResources:
+  -
+    name: motor_angle
+    description: "RASPI motor angle degree values"
+    attributes:
+      { name: "motor_angle" }
+    properties:
+        value:
+          { type: "Integer", readWrite: "R", defaultValue: "0", minimum: "-36000", maximum: "36000", "size": "6"}
+        units:
+          { type: "String", readWrite: "R", defaultValue: "degree" }
+
+  -
+    name: motor_power
+    description: "RASPI motor power values"
+    attributes:
+      { name: "motor_power" }
+    properties:
+        value:
+          { type: "Integer", readWrite: "W", defaultValue: "0", minimum: "-100", maximum: "100", "size": "3"}
+        units:
+          { type: "String", readWrite: "W", defaultValue: "" }
+
+  -
+    name: motor_status
+    description: "RASPI motor power set status"
+    attributes:
+      { name: "motor_status" }
+    properties:
+        value:
+          { type: "Integer", readWrite: "R", defaultValue: "1", minimum: "0", maximum: "1", "size": "1"}
+        units:
+          { type: "String", readWrite: "R", defaultValue: "" }
+
+resources:
+  -
+    name: motor_angle
+    get:
+    - { index: "1", operation: "get", object: "motor_angle", property: "value", parameter: "motor_angle" }
+
+  -
+    name: motor_power
+    set:
+    - { index: "1", operation: "set", object: "motor_power", property: "value", parameter: "motor_power" }
+
+  -
+    name: motor_status
+    get:
+    - { index: "1", operation: "get", object: "motor_status", property: "value", parameter: "motor_status" }
+
+commands: 
+  -
+    name: motor_angle
+    get: 
+        path: "/api/v1/device/{deviceId}/motor_angle"
+        responses:
+          - 
+            code: "200"
+            description: "Angle of Motor"
+            expectedValues: ["motor_angle"]
+          -
+            code: "503"
+            description: "service unavailable"
+            expectedValues: []
+  - 
+    name: motor_power
+    put:
+        path: "/api/v1/device/{deviceId}/motor_power"
+        parameterNames: ["motor_power"]
+        responses:
+          - 
+            code: "200"
+            description: "Set the power of motor."
+            expectedValues: ["motor_power"]
+          -
+            code: "503"
+            description: "service unavailable"
+            expectedValues: []
+  - 
+    name: motor_status
+    get:
+        path: "/api/v1/device/{deviceId}/motor_status"
+        responses:
+          - 
+            code: "200"
+            description: "Set the snapshot duration."
+            expectedValues: ["motor_status"]
+          -
+            code: "503"
+            description: "service unavailable"
+            expectedValues: []

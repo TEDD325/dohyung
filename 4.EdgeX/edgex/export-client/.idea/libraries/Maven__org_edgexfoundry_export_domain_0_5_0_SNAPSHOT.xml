@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.edgexfoundry:export-domain:0.5.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/edgexfoundry/export-domain/0.5.0-SNAPSHOT/export-domain-0.5.0-20180907.113003-1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/edgexfoundry/export-domain/0.5.0-SNAPSHOT/export-domain-0.5.0-20180907.113003-1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/edgexfoundry/export-domain/0.5.0-SNAPSHOT/export-domain-0.5.0-20180907.113003-1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

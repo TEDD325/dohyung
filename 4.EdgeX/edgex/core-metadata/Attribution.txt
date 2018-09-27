@@ -1,0 +1,28 @@
+The following open source projects are referenced by Core Metadata:
+
+Spring Framework (Apache 2.0) - http://projects.spring.io/spring-framework/
+https://github.com/spring-projects/spring-framework
+
+Spring Cloud (Apache 2.0) - http://projects.spring.io/spring-cloud/
+https://github.com/spring-cloud/spring-cloud-release/blob/master/LICENSE.txt
+
+Spring Boot (Apache 2.0) - https://projects.spring.io/spring-boot/
+https://github.com/spring-projects/spring-boot/blob/master/LICENSE.txt
+
+Spring Data JPA (Apache 2.0) - http://projects.spring.io/spring-data-jpa/
+http://docs.spring.io/spring-data/jpa/snapshot-site/license.html
+
+Quartz Job Scheduler (Apache 2.0) - http://www.quartz-scheduler.org/
+http://www.quartz-scheduler.org/overview/license.html
+
+Log4J (Apache 2.0) - https://logging.apache.org/log4j/2.x/
+https://logging.apache.org/log4j/2.0/license.html
+
+Snakeyaml (Apache 2.0) - https://bitbucket.org/asomov/snakeyaml
+https://bitbucket.org/asomov/snakeyaml/src/f563667f64835b7d9461b8b4cc7487dbb2f9faf5/LICENSE.txt
+
+Json Framework (JSON) - www.JSON.org
+https://github.com/stleary/JSON-java/blob/master/LICENSE
+
+Junit (EPL 1.0) - http://junit.org/junit4/
+http://junit.org/junit4/license.html
