@@ -1,4 +1,4 @@
-conda create -n RL_modu python=3.6 anaconda
+conda create -n RL_modu python=3.7 anaconda
 source activate RL_modu
 pip install gym
 pip install readchar
