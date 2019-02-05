@@ -1,4 +1,5 @@
-# https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-0-q-learning-with-tables-and-neural-networks-d195264329d0#.pjz9g59ap
+# https://github.com/hunkim/ReinforcementZeroToAll
+# http://stackoverflow.com/questions/510357/python-read-a-single-character-from-the-user
 
 import gym
 import numpy as np

@@ -1,4 +1,6 @@
 # https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-0-q-learning-with-tables-and-neural-networks-d195264329d0#.pjz9g59ap
+# https://github.com/hunkim/ReinforcementZeroToAll
+
 import gym
 import numpy as np
 import matplotlib.pyplot as plt
@@ -28,6 +30,7 @@ for i in range(num_episodes):
     rAll = 0
     done = False
 
+    # 알고리즘 3-1, 3-2
     # The Q-Table learning algorithm
     while not done:
         # Choose an action by greedily (with noise) picking from Q table

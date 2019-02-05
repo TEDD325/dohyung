@@ -1,6 +1,7 @@
 '''
 This code is based on
 https://github.com/hunkim/DeepRL-Agents
+https://github.com/hunkim/ReinforcementZeroToAll
 '''
 import numpy as np
 import tensorflow as tf

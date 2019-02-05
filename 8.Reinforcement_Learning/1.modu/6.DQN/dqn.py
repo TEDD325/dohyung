@@ -7,6 +7,8 @@ https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf
 DQN(Nature-2015)
 "Human-level control through deep reinforcement learning"
 http://web.stanford.edu/class/psych209/Readings/MnihEtAlHassibis15NatureControlDeepRL.pdf
+
+https://github.com/hunkim/ReinforcementZeroToAll
 """
 import numpy as np
 import tensorflow as tf

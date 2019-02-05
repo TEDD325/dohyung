@@ -1,10 +1,7 @@
-# https://github.com/hunkim/ReinforcementZeroToAll
-# http://stackoverflow.com/questions/510357/python-read-a-single-character-from-the-user
-
-
 import gym
 from gym.envs.registration import register
 
+# http://stackoverflow.com/questions/510357/python-read-a-single-character-from-the-user
 import readchar  # pip3 install readchar
 
 # MACROS
@@ -28,7 +25,9 @@ register(
 )
 
 env = gym.make('FrozenLake-v3')
+env.reset()
 env.render()  # Show the initial board
+
 
 while True:
     # Choose an action from keyboard
@@ -42,7 +41,7 @@ while True:
     env.render()  # Show the board after action
     print("State: ", state, "Action: ", action,
           "Reward: ", reward, "Info: ", info)
-
+    print("[INFO]: done: ", done)
     if done:
         print("Finished with reward", reward)
         break

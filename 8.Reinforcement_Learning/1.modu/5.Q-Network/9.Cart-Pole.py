@@ -1,3 +1,6 @@
+# https://github.com/hunkim/DeepRL-Agents
+# https://github.com/hunkim/ReinforcementZeroToAll
+
 import gym
 
 env = gym.make('CartPole-v0')

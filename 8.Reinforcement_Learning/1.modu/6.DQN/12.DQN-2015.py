@@ -1,6 +1,7 @@
 """
 Double DQN (Nature 2015)
 http://web.stanford.edu/class/psych209/Readings/MnihEtAlHassibis15NatureControlDeepRL.pdf
+https://github.com/hunkim/ReinforcementZeroToAll
 
 Notes:
     The difference is that now there are two DQNs (DQN & Target DQN)

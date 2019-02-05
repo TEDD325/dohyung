@@ -3,6 +3,7 @@ DQN (NIPS 2013)
 
 Playing Atari with Deep Reinforcement Learning
 https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf
+https://github.com/hunkim/ReinforcementZeroToAll
 """
 import numpy as np
 import tensorflow as tf

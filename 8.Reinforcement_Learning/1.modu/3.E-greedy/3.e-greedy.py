@@ -3,7 +3,6 @@ import gym
 import numpy as np
 import matplotlib.pyplot as plt
 from gym.envs.registration import register
-import random as pr
 
 register(
     id='FrozenLake-v3',
@@ -28,8 +27,8 @@ for i in range(num_episodes):
     rAll = 0
     done = False
 
+    # 알고리즘 2-1, 2-2
     e = 1. / ((i // 100) + 1)  # Python2&3
-
     # The Q-Table learning algorithm
     while not done:
         # Choose an action by e greedy

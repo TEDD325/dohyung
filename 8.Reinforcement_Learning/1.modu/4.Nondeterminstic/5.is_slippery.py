@@ -1,3 +1,6 @@
+# https://github.com/hunkim/ReinforcementZeroToAll
+# http://stackoverflow.com/questions/510357/python-read-a-single-character-from-the-user
+
 import gym
 import readchar
 
