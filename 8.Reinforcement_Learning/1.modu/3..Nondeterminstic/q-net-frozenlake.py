@@ -1,7 +1,6 @@
 '''
 This code is based on
 https://github.com/hunkim/DeepRL-Agents
-https://github.com/hunkim/ReinforcementZeroToAll
 '''
 import gym
 import numpy as np
@@ -13,21 +12,19 @@ env = gym.make('FrozenLake-v0')
 # Input and output size based on the Env
 input_size = env.observation_space.n
 output_size = env.action_space.n
-learning_rate = 0.005
+learning_rate = 0.1
 
 # These lines establish the feed-forward part of the network used to
 # choose actions
 X = tf.placeholder(shape=[1, input_size], dtype=tf.float32)  # state input
 W = tf.Variable(tf.random_uniform(
-    [input_size, output_size], minval=0, maxval=0.01))  # weight
+    [input_size, output_size], 0, 0.01))  # weight
 
 Qpred = tf.matmul(X, W)  # Out Q prediction
 Y = tf.placeholder(shape=[1, output_size], dtype=tf.float32)  # Y label
 
 loss = tf.reduce_sum(tf.square(Y - Qpred))
-# train = tf.train.GradientDescentOptimizer(
-#     learning_rate=learning_rate).minimize(loss)
-train = tf.train.AdamOptimizer(
+train = tf.train.GradientDescentOptimizer(
     learning_rate=learning_rate).minimize(loss)
 
 # Set Q-learning related parameters

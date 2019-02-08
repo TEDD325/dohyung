@@ -61,3 +61,4 @@ _dataset
 email_info.cpython-36.pyc
 X.pickle
 y.pickle
+*.pickle
