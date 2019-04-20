@@ -120,7 +120,7 @@ class DQN_solver(threading.Thread):
     def __init__(self, idx, ):
         threading.Thread.__init__(self)
         self.thread_id = idx
-        self.loss = None
+        self.loss = 0.0
         self.__global_score_list_lock = threading.RLock()
 
         # self.config = tf.ConfigProto(log_device_placement=False, allow_soft_placement=True)
@@ -134,6 +134,7 @@ class DQN_solver(threading.Thread):
             state_size = env.observation_space.shape[0]
             action_size = env.action_space.n
             agent = DQNAgent(state_size, action_size)
+            # print("agent:",agent)
             # agent.load("./save/cartpole-dqn.h5")
             done = False
             batch_size = 32
@@ -161,36 +162,50 @@ class DQN_solver(threading.Thread):
                     # print(agent.layer_output[0])
                     if done and len(agent.memory) > batch_size:
                         self.loss = agent.replay(batch_size)
+                        shared_memory_0.append([0,
+                                                0.0,
+                                                None,
+                                                None])
+                        shared_memory_1.append([0,
+                                                0.0,
+                                                None,
+                                                None])
+                        # print("[INFO] agent.model.layers[0].get_weights():", agent.model.layers[0].get_weights())
+                        # print("22")
+                        # print("[INFO] agent.model.layers[0].get_weights():", agent.model.layers[0].get_weights()[0])
+                        # print("2222")
+                        # print("[INFO] agent.model.layers[0].get_weights():", agent.model.layers[0].get_weights()[0][0])
+                        # print("222222")
                         if self.thread_id == 0:
                             shared_memory_0.append([self.thread_id,
                                                   self.loss,
-                                                  agent.model.layers[0].get_weights()[0][0],
-                                                  agent.model.layers[1].get_weights()[0][0]])
+                                                  agent.model.layers[0].get_weights(),
+                                                  agent.model.layers[1].get_weights()])
                             # print("shared_memory_0[0]: ", shared_memory_0[0])
-                            print("shared_memory_0[0][1]: ", shared_memory_0[0][1])
-                            print("shared_memory_0[0][2]: ", shared_memory_0[0][2])
-                            print("shared_memory_0[0][3]: ", shared_memory_0[0][3])
+                            # print("shared_memory_0[0][1]: ", shared_memory_0[0][1])
+                            # print("shared_memory_0[0][2]: ", shared_memory_0[0][2])
+                            # print("shared_memory_0[0][3]: ", shared_memory_0[0][3])
 
                             if self.loss > shared_memory_1[0][1]:
                                 print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
                                 print("0-", self.loss, shared_memory_1[0][1])
 
-                                agent.model.layers[0].set_weights(shared_memory_1[0][2])
-                                agent.model.layers[1].set_weights(shared_memory_1[0][3])
+                                # agent.model.layers[0].set_weights(shared_memory_1[0][2])
+                                # agent.model.layers[1].set_weights(shared_memory_1[0][3])
 
                         elif self.thread_id == 1:
                             shared_memory_1.append([self.thread_id,
                                                     self.loss,
-                                                    agent.model.layers[0].get_weights()[0][0],
-                                                    agent.model.layers[1].get_weights()[0][0]])
-                            print("shared_memory_1[0][1]: ", shared_memory_1[0][1])
-                            print("shared_memory_1[0][2]: ", shared_memory_1[0][2])
-                            print("shared_memory_1[0][3]: ", shared_memory_1[0][3])
+                                                    agent.model.layers[0].get_weights(),
+                                                    agent.model.layers[1].get_weights()])
+                            # print("shared_memory_1[0][1]: ", shared_memory_1[0][1])
+                            # print("shared_memory_1[0][2]: ", shared_memory_1[0][2])
+                            # print("shared_memory_1[0][3]: ", shared_memory_1[0][3])
                             if self.loss > shared_memory_0[0][1]:
                                 print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
                                 print("1-", self.loss, shared_memory_0[0][1])
-                                agent.model.layers[0].set_weights(shared_memory_0[0][2])
-                                agent.model.layers[1].set_weights(shared_memory_0[0][3])
+                                # agent.model.layers[0].set_weights(shared_memory_0[0][2])
+                                # agent.model.layers[1].set_weights(shared_memory_0[0][3])
 
                             # print("shared_memory_1: ", shared_memory_1)
 
