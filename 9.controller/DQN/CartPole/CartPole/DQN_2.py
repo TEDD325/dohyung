@@ -16,21 +16,25 @@ EPISODES = 1000
 global_param = {}
 shared_memory_0 = deque(maxlen=1)
 shared_memory_1 = deque(maxlen=1)
-
+graph = None
 
 class DQNAgent:
     def __init__(self, state_size, action_size):
         global sess
         self.state_size = state_size
         self.action_size = action_size
-        # print(self.state_size, self.action_size)
+
         self.memory = deque(maxlen=2000)
+
         self.gamma = 0.95    # discount rate
         self.epsilon = 1.0  # exploration rate
         self.epsilon_min = 0.01
         self.epsilon_decay = 0.995
         self.learning_rate = 0.001
+
         self.__global_score_list_lock = threading.RLock()
+        global graph
+        graph = tf.get_default_graph()
 
         # model = Sequential()
         # layer_1 =
@@ -64,9 +68,11 @@ class DQNAgent:
         model.add(Dense(24, input_dim=self.state_size, activation='relu', name='Dense_layer_1'))
         model.add(Dense(24, activation='relu', name='Dense_layer_2'))
         model.add(Dense(self.action_size, activation='linear', name='Dense_last_layer'))
+        # model._make_predict_function()
         model.compile(loss='mse',
                       optimizer=Adam(lr=self.learning_rate))
         model.summary()
+
         return model
 
     def remember(self, state, action, reward, next_state, done):
@@ -75,20 +81,31 @@ class DQNAgent:
     def act(self, state):
         if np.random.rand() <= self.epsilon:
             return random.randrange(self.action_size)
-        act_values = self.model.predict(state)
+        with graph.as_default():
+            act_values = self.model.predict(state)
         return np.argmax(act_values[0])  # returns action
 
     def replay(self, batch_size):
         minibatch = random.sample(self.memory, batch_size)
+
         for state, action, reward, next_state, done in minibatch:
             target = reward
+
+            target = (
+                reward +
+                self.gamma *
+                np.amax(self.model.predict(next_state)[0])
+            )
+
             if not done:
-                target = (reward + self.gamma *
-                          np.amax(self.model.predict(next_state)[0]))
+                pass
+
             target_f = self.model.predict(state)
             target_f[0][action] = target
+
             with self.__global_score_list_lock:
                 hist = self.model.fit(state, target_f, epochs=1, verbose=0)
+
             self.loss = np.mean(hist.history['loss'])
 
         if self.epsilon > self.epsilon_min:
@@ -120,7 +137,7 @@ class DQN_solver(threading.Thread):
     def __init__(self, idx, ):
         threading.Thread.__init__(self)
         self.thread_id = idx
-        self.loss = None
+        self.loss = 0.0
         self.__global_score_list_lock = threading.RLock()
 
         # self.config = tf.ConfigProto(log_device_placement=False, allow_soft_placement=True)
@@ -134,9 +151,10 @@ class DQN_solver(threading.Thread):
             state_size = env.observation_space.shape[0]
             action_size = env.action_space.n
             agent = DQNAgent(state_size, action_size)
+            print("agent:",agent)
             # agent.load("./save/cartpole-dqn.h5")
             done = False
-            batch_size = 32
+            batch_size = 24
 
             for e in range(EPISODES):
                 state = env.reset()
@@ -159,38 +177,53 @@ class DQN_solver(threading.Thread):
 
                     # print(id(agent.model.layers[0]))
                     # print(agent.layer_output[0])
+                    shared_memory_0.append([0,
+                                            0.0,
+                                            None,
+                                            None])
+                    shared_memory_1.append([0,
+                                            0.0,
+                                            None,
+                                            None])
                     if done and len(agent.memory) > batch_size:
+                    # if done :
                         self.loss = agent.replay(batch_size)
+                        # print("[INFO] agent.model.layers[0].get_weights():", agent.model.layers[0].get_weights())
+                        # print("22")
+                        # print("[INFO] agent.model.layers[0].get_weights():", agent.model.layers[0].get_weights()[0])
+                        # print("2222")
+                        # print("[INFO] agent.model.layers[0].get_weights():", agent.model.layers[0].get_weights()[0][0])
+                        # print("222222")
                         if self.thread_id == 0:
                             shared_memory_0.append([self.thread_id,
                                                   self.loss,
-                                                  agent.model.layers[0].get_weights()[0][0],
-                                                  agent.model.layers[1].get_weights()[0][0]])
+                                                  agent.model.layers[0].get_weights(),
+                                                  agent.model.layers[1].get_weights()])
                             # print("shared_memory_0[0]: ", shared_memory_0[0])
-                            print("shared_memory_0[0][1]: ", shared_memory_0[0][1])
-                            print("shared_memory_0[0][2]: ", shared_memory_0[0][2])
-                            print("shared_memory_0[0][3]: ", shared_memory_0[0][3])
+                            # print("shared_memory_0[0][1]: ", shared_memory_0[0][1])
+                            # print("shared_memory_0[0][2]: ", shared_memory_0[0][2])
+                            # print("shared_memory_0[0][3]: ", shared_memory_0[0][3])
 
                             if self.loss > shared_memory_1[0][1]:
                                 print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
                                 print("0-", self.loss, shared_memory_1[0][1])
 
-                                agent.model.layers[0].set_weights(shared_memory_1[0][2])
-                                agent.model.layers[1].set_weights(shared_memory_1[0][3])
+                                # agent.model.layers[0].set_weights(shared_memory_1[0][2])
+                                # agent.model.layers[1].set_weights(shared_memory_1[0][3])
 
                         elif self.thread_id == 1:
                             shared_memory_1.append([self.thread_id,
                                                     self.loss,
-                                                    agent.model.layers[0].get_weights()[0][0],
-                                                    agent.model.layers[1].get_weights()[0][0]])
-                            print("shared_memory_1[0][1]: ", shared_memory_1[0][1])
-                            print("shared_memory_1[0][2]: ", shared_memory_1[0][2])
-                            print("shared_memory_1[0][3]: ", shared_memory_1[0][3])
+                                                    agent.model.layers[0].get_weights(),
+                                                    agent.model.layers[1].get_weights()])
+                            # print("shared_memory_1[0][1]: ", shared_memory_1[0][1])
+                            # print("shared_memory_1[0][2]: ", shared_memory_1[0][2])
+                            # print("shared_memory_1[0][3]: ", shared_memory_1[0][3])
                             if self.loss > shared_memory_0[0][1]:
                                 print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
                                 print("1-", self.loss, shared_memory_0[0][1])
-                                agent.model.layers[0].set_weights(shared_memory_0[0][2])
-                                agent.model.layers[1].set_weights(shared_memory_0[0][3])
+                                # agent.model.layers[0].set_weights(shared_memory_0[0][2])
+                                # agent.model.layers[1].set_weights(shared_memory_0[0][3])
 
                             # print("shared_memory_1: ", shared_memory_1)
 
