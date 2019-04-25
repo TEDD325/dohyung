@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-# https://github.com/openai/gym/wiki/CartPole-v0
 
 import tensorflow as tf
 from tensorflow.keras.layers import Dense, Input
@@ -15,32 +14,51 @@ import os
 
 print(tf.__version__)
 
-class DQNAgent():
-    def __init__(self, state_space, action_space, args, episodes=500):
+FOLDER_NAME_1 = "./dqn_advanced/"
+
+if not os.path.exists(FOLDER_NAME_1):
+    os.makedirs(FOLDER_NAME_1)
+
+N_EPISODES = 500
+N_UPDATES_TERM = 10
+N_UNIT = 256
+N_WIN_TRAINLS = 100
+OBJECTIVE_SCORE = 195.0
+OBJECTIVE_EPISODE = 3000
+EPOCHS = 1
+VERBOSE = 0
+GAMMA = 0.9
+EPSILON = 1.0
+MINIMUM_EPSILON = 0.1
+WEIGHT_FILENAME = './dqn_cartpole.h5'
+
+class DQNAgent(object):
+    def __init__(self, state_space, action_space, args, episodes=N_EPISODES):
         self.action_space = action_space
 
         # experience buffer
         self.memory = []
 
         # discount rate
-        self.gamma = 0.9
+        self.gamma = GAMMA
 
         # initially 90% exploration, 10% exploitation
-        self.epsilon = 1.0
+        self.epsilon = EPSILON
 
-        # iteratively applying decay til 10% exploration/90% exploitation
-        self.epsilon_min = 0.1
-        self.epsilon_decay = (self.epsilon_min / self.epsilon) ** (1. / float(episodes))
+        # iteratively applying decay rate til 10% exploration / 90% exploitation
+        self.epsilon_min = MINIMUM_EPSILON
+        self.epsilon_decay = (self.epsilon_min / self.epsilon) ** (1.0 / float(episodes))
 
         # Q Network weights filename
-        self.weights_file = './dqn_cartpole.h5'
+        self.weights_file = WEIGHT_FILENAME
 
         # Q Network for training
         n_inputs = state_space.shape[0]
         n_outputs = action_space.n
 
         self.q_model = self.build_model(n_inputs, n_outputs)
-        self.q_model.compile(loss='mse', optimizer=Adam())
+        self.q_model.compile(loss='mse',
+                             optimizer=Adam())
 
         # target Q Network
         self.target_q_model = self.build_model(n_inputs, n_outputs)
@@ -59,18 +77,24 @@ class DQNAgent():
 
     # Q Network is 256-256-256 MLP
     def build_model(self, n_inputs, n_outputs):
-        inputs = Input(shape=(n_inputs,), name='state')
-        x = Dense(256, activation='relu')(inputs)
-        x = Dense(256, activation='relu')(x)
-        x = Dense(256, activation='relu')(x)
-        x = Dense(n_outputs, activation='linear', name='action')(x)
+        inputs = Input(shape=(n_inputs, ),
+                       name='state')
+        x = Dense(units=N_UNIT,
+                  activation='relu')(inputs)
+        x = Dense(units=N_UNIT,
+                  activation='relu')(x)
+        x = Dense(units=N_UNIT,
+                  activation='relu')(x)
+        x = Dense(units=n_outputs,
+                  activation='linear',
+                  name='action')(x)
         q_model = Model(inputs, x)
         q_model.summary()
         return q_model
 
     # save Q Network params to a file
     def save_weights(self):
-        self.q_model.save_weights(self.weights_file)
+        self.q_model.save_weights(self.weights_file) # !!!! 파일 형태로 저장한 다음, 불러오기가 된다면, 프로세스 별 구현은 어렵지 않을 듯
 
     # copy trained Q Network params to target Q Network
     def update_weights(self):
@@ -78,17 +102,21 @@ class DQNAgent():
             self.q_model.get_weights()
         )
 
-    # eps-greedy policy
+    # epsilon-greedy policy
     def act(self, state):
         if np.random.rand() < self.epsilon:
+            '''
+            np.random.rand() : 0.0~1.0
+            '''
             # explore - do random action
-            return self.action_space.sample()
-
+            random_action = self.action_space.sample()
+            return random_action
         # exploit
         q_values = self.q_model.predict(state)
 
         # select the action with max Q-value
-        return np.argmax(q_values[0])
+        action = np.argmax(q_values[0])
+        return action
 
     # store experiences in the replay buffer
     def remember(self, state, action, reward, next_state, done):
@@ -96,14 +124,14 @@ class DQNAgent():
         self.memory.append(item)
 
     # compute Q_max
-    # use of target Q Network solves the non-stationarity problem
+    # use of target Q Network solves the non-stationary problem
     def get_target_q_value(self, next_state):
         # max Q value among next state's actions
         if self.ddqn:
             # DDQN
             # current Q Network selects the action
             # a'_max = argmax_a' Q(s', a')
-            action = np.argmax(self.q_model.predict(next_state)[0]) # 최대의 '값의 인덱스' 나옴
+            action = np.argmax(self.q_model.predict(next_state)[0])
 
             # target Q Network evaluates the action
             # Q_max = Q_target(s', a'_max)
@@ -112,11 +140,11 @@ class DQNAgent():
             # DQN chooses the max Q value among next actions
             # selection and evaluation of action is on the target Q Network
             # Q_max = max_a' Q_target(s', a')
-            q_value = np.amax(self.target_q_model.predict(next_state)[0]) # 최대의 '값'이 나옴
+            q_value = np.amax(self.target_q_model.predict(next_state)[0])
 
         # Q_max = reward + gamma * Q_max
         q_value *= self.gamma
-        q_value += reward
+        q_value += reward # ????? reward?
         return q_value
 
     # experience replay addresses the correlation issue between samples
@@ -146,15 +174,15 @@ class DQNAgent():
             x=np.array(state_batch),
             y=np.array(q_values_batch),
             batch_size=batch_size,
-            epochs=1,
-            verbose=0
+            epochs=EPOCHS,
+            verbose=VERBOSE
         )
 
         # update exploration-exploitation probability
         self.update_epsilon()
 
         # copy new params on old target after every 10 training updates
-        if self.replay_counter % 10 == 0:
+        if self.replay_counter % N_UPDATES_TERM == 0:
             self.update_weights()
 
         self.replay_counter += 1
@@ -162,7 +190,7 @@ class DQNAgent():
         loss = self.q_model.evaluate(
             x=np.array(state_batch),
             y=np.array(q_values_batch),
-            verbose=0
+            verbose=VERBOSE
         )
 
         return loss
@@ -172,28 +200,27 @@ class DQNAgent():
         if self.epsilon > self.epsilon_min:
             self.epsilon *= self.epsilon_decay
 
-
-if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description=None)
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
     parser.add_argument('env_id',
                         nargs='?',
                         default='CartPole-v0',
                         help='Select the environment to run')
     parser.add_argument("-d",
                         "--ddqn",
-                        action='store_true',
+                        action="store_true",
                         help="Use Double DQN")
     args = parser.parse_args()
 
-    # the number of trials without falling over
-    win_trials = 100
+    # the number of trails without falling over
+    win_trials = N_WIN_TRAINLS
 
     # the CartPole-v0 is considered solved if for 100 consecutive trials,
     # the cart pole has not fallen over and it has achieved an average
     # reward of 195.0
     # a reward of +1 is provided for every timestep the pole remains
     # upright
-    win_reward = {'CartPole-v0': 195.0}
+    win_reward = {'CartPole-v0': OBJECTIVE_SCORE}
 
     # stores the reward per episode
     scores = deque(maxlen=win_trials)
@@ -216,7 +243,8 @@ if __name__ == '__main__':
     agent = DQNAgent(env.observation_space, env.action_space, args)
 
     # should be solved in this number of episodes
-    episode_count = 3000
+    episode_count = OBJECTIVE_EPISODE
+
     state_size = env.observation_space.shape[0]
     batch_size = 64
 
@@ -271,8 +299,8 @@ if __name__ == '__main__':
                 win_trials
             ))
             print("*** Epsilon: ", agent.epsilon)
-            agent.save_weights()
+            agent.save_weights() # thread_id를 넘겨주어야 할 듯.
             break
 
-    # close the env and write monitor result info to disk
+        # close the env and write monitor result info to disk
     env.close()
