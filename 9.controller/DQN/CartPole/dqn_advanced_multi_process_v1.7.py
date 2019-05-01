@@ -1,3 +1,25 @@
+'''
+
+compare losses and update weights TEST
+# 개선사항:
+- 한 쪽의 워커에서 학습이 완전히 끝나면, loss비교를 하지 않도록.  -> 학습을 방해함.
+- loss의 평균과 LOSs의 평균을 비교하는 게 합리적.
+- loss가 낮더라도 SCORE가 높다면 교환하지 않도록. -> 이전 score를 저장해서 비교야 함. 다른 프로세스의 score가 +- 20의 범위(왜?)라면 교환하도록 함.
+- n_deque 정보도 저장
+- 기준을 변경해야 할지도 모름; MA를 이용해볼까? 프로세스 A의 MA가 프로세스 B의 MA를 넘어서면 기준 충족으로.
+episode 출력과 함께 update가 일어나나? 그렇다면, n_deque의 배수로 수정(10단위의 episode이면, 기존의 loss로 저장하려던 값들이 3이하일 경우 날아가버리기 떄문)
+- loss교환율을 정해서 DECAYing 시킬 수도..
+- loss말고 score를 기준으로 하는 방법.
+- 원 브레인, 멀티 에이전트의 개수가 증가할수록 더 적은 에피소드 내에서도 해결되어야 함
+- socre로는 안됨. LOSS의 변화량, lr을 초반에 키워서 초기의 학습 부스팅?
+    - self.q_model.compile(loss='mse', optimizer=Adam(lr))
+    - 초기의 심한 탐험, 랜덤 액션임. exploration 낮추고, LR은 키우고.
+    - 멀티 에이전트가 여러개니까 탐험을 많이 할 필요없다.
+
+-
+'''
+
+
 # -*- coding: utf-8 -*-
 # https://github.com/openai/gym/wiki/CartPole-v0
 
@@ -10,12 +32,22 @@ import numpy as np
 import random
 import gym
 from multiprocessing import Process
+import pickle
+import os
 
 print(tf.__version__)
 
 ddqn = False
 num_layers = 4
 num_workers = 2
+n_deque = 3
+content = deque(maxlen=n_deque)
+experiment_count = 10
+
+if os.path.isfile(str(0) + '.txt'):
+    os.remove(str(0) + '.txt')
+if os.path.isfile(str(1) + '.txt'):
+    os.remove(str(1) + '.txt')
 
 class DQNAgent():
     def __init__(self, async_dqn, idx, env_id, win_trials, win_reward, loss_trials):
@@ -72,11 +104,11 @@ class DQNAgent():
 
     # Q Network is 256-256-256-2 MLP
     def build_model(self, n_inputs, n_outputs):
-        inputs = Input(shape=(n_inputs,), name='state_'+str(self.idx))
-        x = Dense(256, activation='relu', name="layer_1_"+str(self.idx))(inputs)
-        x = Dense(256, activation='relu', name="layer_2_"+str(self.idx))(x)
-        x = Dense(256, activation='relu', name="layer_3_"+str(self.idx))(x)
-        x = Dense(n_outputs, activation='linear', name='layer_4_'+str(self.idx))(x)
+        inputs = Input(shape=(n_inputs,), name='state_' + str(self.idx))
+        x = Dense(256, activation='relu', name="layer_1_" + str(self.idx))(inputs)
+        x = Dense(256, activation='relu', name="layer_2_" + str(self.idx))(x)
+        x = Dense(256, activation='relu', name="layer_3_" + str(self.idx))(x)
+        x = Dense(n_outputs, activation='linear', name='layer_4_' + str(self.idx))(x)
         model = Model(inputs, x)
         model.summary()
         return model
@@ -85,10 +117,11 @@ class DQNAgent():
     def save_weights(self):
         self.q_model.save_weights(self.weights_file)
 
-    def save_layers(self):
+    def load_layers(self):
         l1 = self.q_model.get_layer(name="layer_" + str(1) + "_" + str(self.idx)).get_weights()
         l2 = self.q_model.get_layer(name="layer_" + str(2) + "_" + str(self.idx)).get_weights()
-        # pickle 저장
+
+        return l1, l2
 
     # copy trained Q Network params to target Q Network
     def update_target_model_weights(self):
@@ -98,8 +131,6 @@ class DQNAgent():
 
     # copy trained other worker's Q Network params to current Q Network
     def update_layer_weights_from_other_worker(self, layer, weights):
-        # pickle 로드
-
         self.q_model.get_layer(name="layer_" + str(layer)).set_weights(weights)
 
     # eps-greedy policy
@@ -202,6 +233,8 @@ class DQNAgent():
         state_size = self.env.observation_space.shape[0]
         batch_size = 64
 
+        n_update = 0
+
         # by default, CartPole-v0 has max episode steps = 200
         # you can use this to experiment beyond 200
         # env._max_episode_steps = 4000
@@ -212,6 +245,7 @@ class DQNAgent():
             state = np.reshape(state, [1, state_size])
             done = False
             total_reward = 0
+
             while not done:
                 # in CartPole-v0, action=0 is left and action=1 is right
                 action = self.act(state)
@@ -227,7 +261,6 @@ class DQNAgent():
             # call experience relay
             if len(self.memory) >= batch_size:
                 loss = self.replay(batch_size, episode)
-                # loss를 파일로 저장 및 save_layers() 호출하여 네트워크 파라미터들 저장
 
                 mean_loss = self.async_dqn.update_loss(self.idx, loss)
 
@@ -238,6 +271,52 @@ class DQNAgent():
                         mean_loss
                     ))
 
+                    # loss를 파일로 저장 및 load_layers() 호출하여 네트워크 파라미터들 저장(loss, l1, l2)
+                    l1_weights, l2_weights = self.load_layers()
+                    content.append({"id":self.idx,
+                               "loss":loss,
+                               "l1_weights":l1_weights,
+                               "l2_weights":l2_weights
+                               })
+                    with open(str(self.idx)+'.txt', 'wb') as f:
+                        pickle.dump(content, f)
+
+                    if self.idx== 1:
+                        idx = 0
+                    else:
+                        idx = 1
+
+                    n_update += 1
+
+                    if os.path.isfile(str(idx)+'.txt') and n_update % (n_deque+1) == 0:
+                        losses_ = 0.0
+
+                        try:
+                            with open(str(idx) + '.txt', 'rb') as f:
+                                data = pickle.load(f)
+                        except FileNotFoundError:
+                            print("Not yet exist the file {0}".format(
+                                str(idx) + '.txt'
+                            ))
+
+                        for i in range(n_deque):
+                            losses_ += data[i]['loss']
+
+                        mean_loss_ = np.mean(losses_)
+                        index = np.argmin(losses_)
+
+                        if loss > mean_loss_:
+                            l1_weights = data[index]['l1_weights']
+                            l2_weights = data[index]['l2_weights']
+
+                            self.async_dqn.update_layer_weights(self.q_model, self.idx, l1_weights=l1_weights, l2_weights=l2_weights)
+                            print("Worekr {0} - Update complete.".format(
+                                self.idx
+                            ))
+
+                        n_update = 0
+
+
             mean_score = self.async_dqn.update_score(self.idx, total_reward)
 
             if episode % self.win_trials == 0:
@@ -247,7 +326,6 @@ class DQNAgent():
                     mean_score,
                     self.win_trials
                 ))
-                # loss 파일 로드 후, 자신의 Loss와 비교 및 update_layer_weights_from_other_worker() 호출
 
             if mean_score >= self.win_reward and episode >= self.win_trials:
                 print("*** Worker {0} - Solved in episode {1}: Mean score = {2} in {3} episodes".format(
@@ -256,12 +334,19 @@ class DQNAgent():
                     mean_score,
                     self.win_trials
                 ))
+
+                with open('dqn_adv_experiment_result.txt', 'a+') as f:
+                    exp_result = "\n\n "+str(experiment_count)+" \n *** Worker "+ str(self.idx)+" - Solved in episode " \
+                                 + str(episode)+ ": Mean score = " + str(mean_score) + " in " + str(self.win_trials)+ " episodes"
+                    f.write(exp_result)
+
                 print("*** Worker {0} - Epsilon: {1}".format(self.idx, self.epsilon))
                 self.save_weights()
                 break
 
         # close the env and write monitor result info to disk
         self.env.close()
+
 
 def process_func(async_dqn, idx, env_id, win_trials, win_reward, loss_trials):
     dqn_agent = DQNAgent(async_dqn, idx, env_id, win_trials, win_reward, loss_trials)
@@ -331,6 +416,9 @@ class AsyncDQN:
         self.scores[worker_idx].append(score)
         return np.mean(self.scores[worker_idx])
 
+    def update_layer_weights(self, q_model, id_, l1_weights, l2_weights):
+        q_model.get_layer(name="layer_" + str(1) + "_" + str(id_)).set_weights(l1_weights)
+        q_model.get_layer(name="layer_" + str(2) + "_" + str(id_)).set_weights(l2_weights)
 
 if __name__ == '__main__':
     # instantiate the DQN/DDQN agent

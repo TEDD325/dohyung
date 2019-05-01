@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9666e642-fc59-44c7-b834-7312582934be" name="Default" comment="TF_DQN">
-      <change afterPath="$PROJECT_DIR$/TF_DQN_v2.2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dqn_advanced_multi_process.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Pendulum.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Pendulum.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dqn_adv_experiment_result.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dqn_advanced_multi_process_v1.3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dqn_advanced_multi_process_v1.4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dqn_advanced_multi_process_v1.5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dqn_advanced_multi_process_v1.6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dqn_advanced_multi_process_v1.7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dqn_advanced_multi_process_v2.0.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logger.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_DQN_v2.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/TF_DQN_v2.1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dqn_advanced_multi_process_v1.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/dqn_advanced_multi_process_v1.1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,62 +21,33 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/CartPole$sample_thread_v2_3.coverage" NAME="sample_thread_v2.3 Coverage Results" MODIFIED="1556104606109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CartPole$dqn_advanced_multi_process.coverage" NAME="dqn_advanced_multi_process Coverage Results" MODIFIED="1556218866195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CartPole$dqn_advanced_multi_process.coverage" NAME="dqn_advanced_multi_process Coverage Results" MODIFIED="1556514794634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CartPole$dqn_advanced_multi_process_v2_0.coverage" NAME="dqn_advanced_multi_process_v2.0 Coverage Results" MODIFIED="1556716336327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CartPole$sample_thread_v3_4.coverage" NAME="sample_thread_v3.4 Coverage Results" MODIFIED="1556096107787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CartPole$dqn_advanced_multi_process_v1_4.coverage" NAME="dqn_advanced_multi_process_v1.4 Coverage Results" MODIFIED="1556523642668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CartPole$TF_DQN_v2_2.coverage" NAME="TF_DQN_v2.2 Coverage Results" MODIFIED="1556183424493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CartPole$dqn_advanced_multi_process_v1_7.coverage" NAME="dqn_advanced_multi_process_v1.7 Coverage Results" MODIFIED="1556541032641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CartPole$TF_DQN_v1_1.coverage" NAME="TF_DQN_v1.1 Coverage Results" MODIFIED="1556114176421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CartPole$noname.coverage" NAME="noname Coverage Results" MODIFIED="1556109953614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CartPole$sample_thread_v3_1.coverage" NAME="sample_thread_v3.1 Coverage Results" MODIFIED="1556088817589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CartPole$dqn_advanced_multi_process_v1_3.coverage" NAME="dqn_advanced_multi_process_v1.3 Coverage Results" MODIFIED="1556522925272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CartPole$dqn_advanced_multi_process_v1_6.coverage" NAME="dqn_advanced_multi_process_v1.6 Coverage Results" MODIFIED="1556526153533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CartPole$TF_DQN_v2_1.coverage" NAME="TF_DQN_v2.1 Coverage Results" MODIFIED="1556162322375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CartPole$sample_thread_v3_2.coverage" NAME="sample_thread_v3.2 Coverage Results" MODIFIED="1556102741393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CartPole$DQN_v8.coverage" NAME="DQN_v8 Coverage Results" MODIFIED="1556015054292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CartPole$sample_PPO.coverage" NAME="sample_PPO Coverage Results" MODIFIED="1556027608200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CartPole$dqn_advanced_multi_process_v1_5.coverage" NAME="dqn_advanced_multi_process_v1.5 Coverage Results" MODIFIED="1556524710609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CartPole$sample_thread_v3_3.coverage" NAME="sample_thread_v3.3 Coverage Results" MODIFIED="1556103060300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CartPole$DQN_2.coverage" NAME="DQN_2 Coverage Results" MODIFIED="1555675331087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CartPole$dqn_advanced_multi_process_v1_1.coverage" NAME="dqn_advanced_multi_process_v1.1 Coverage Results" MODIFIED="1556522104450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TF_DQN_v1.1.py">
+        <entry file="file://$PROJECT_DIR$/dqn_advanced_multi_process_v1.3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="113" selection-start-line="113" selection-end-line="113" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DQN_v1.9.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="13" selection-start-line="13" selection-end-line="16" selection-end-column="27" />
-              <folding>
-                <element signature="e#0#16#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TF_DQN_v2.2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="24" lean-forward="true" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-              <folding>
-                <element signature="e#25#48#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dqn_advanced_multi_process.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+            <state relative-caret-position="4233">
+              <caret line="249" selection-start-line="249" selection-end-line="250" />
               <folding>
                 <element signature="e#74#97#0" expanded="true" />
               </folding>
@@ -81,19 +56,90 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/anaconda3/envs/tf2/lib/python3.6/site-packages/tensorflow/python/keras/engine/base_layer.py">
+        <entry file="file://$PROJECT_DIR$/dqn_advanced_multi_process_v1.4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="1043" selection-start-line="1043" selection-end-line="1043" />
+            <state relative-caret-position="170">
+              <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+              <folding>
+                <element signature="e#105#128#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TF_DQN_v2.1.py">
+        <entry file="file://$PROJECT_DIR$/dqn_advanced_multi_process_v1.5.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="44" />
+            <state relative-caret-position="34">
+              <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+              <folding>
+                <element signature="e#285#308#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dqn_advanced_multi_process_v1.6.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dqn_advanced_multi_process_v1.7.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dqn_advanced_multi_process_v2.0.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="11611">
+              <caret line="683" column="25" selection-start-line="683" selection-start-column="25" selection-end-line="683" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dqn_advanced_multi_process_v2.1.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/logger.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dqn_advanced_multi_process_v1.1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+              <folding>
+                <element signature="e#74#97#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dqn_adv_experiment_result.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="41" column="75" selection-start-line="41" selection-start-column="75" selection-end-line="41" selection-end-column="75" />
             </state>
           </provider>
         </entry>
@@ -109,20 +155,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>train_model</find>
-      <find>ACTION_TIME</find>
-      <find>EPISODES</find>
-      <find>HISTORY_LENGTH</find>
-      <find>MEMORY_LENGTH</find>
-      <find>self.state_size</find>
-      <find>self.action_size</find>
-      <find>self.memory</find>
-      <find>append_sample</find>
-      <find>self.loss</find>
-      <find>agent</find>
-      <find>state_size</find>
-      <find>append_memory</find>
-      <find>get_action</find>
       <find>state</find>
       <find>thread</find>
       <find>RMSp</find>
@@ -132,13 +164,27 @@
       <find>5669388</find>
       <find>loss</find>
       <find>Loss =</find>
-      <find>reshape</find>
       <find>reward</find>
       <find>AsyncDQN</find>
       <find>self.losses</find>
       <find>update_loss</find>
       <find>self.idx</find>
+      <find>update_target_model_weights</find>
+      <find>update_layer_weights_from_other_worker</find>
+      <find>self.weights_file</find>
+      <find>save_weights</find>
+      <find>reshape</find>
+      <find>get_weights</find>
+      <find>q_max = np.amax(se</find>
+      <find>tmp</find>
+      <find>content</find>
+      <find>*** Worker</find>
+      <find>solved</find>
       <find>update_layer_weights</find>
+      <find>pickle</find>
+      <find>n_deque</find>
+      <find>episode</find>
+      <find>compile</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -187,12 +233,20 @@
         <option value="$PROJECT_DIR$/TF_DQN_v2.1.py" />
         <option value="$PROJECT_DIR$/TF_DQN_v2.2.py" />
         <option value="$PROJECT_DIR$/dqn_advanced_multi_process.py" />
+        <option value="$PROJECT_DIR$/dqn_advanced_multi_process_v1.1.py" />
+        <option value="$PROJECT_DIR$/dqn_advanced_multi_process_v1.3.py" />
+        <option value="$PROJECT_DIR$/dqn_advanced_multi_process_v1.4.py" />
+        <option value="$PROJECT_DIR$/dqn_advanced_multi_process_v1.5.py" />
+        <option value="$PROJECT_DIR$/dqn_advanced_multi_process_v1.6.py" />
+        <option value="$PROJECT_DIR$/dqn_adv_experiment_result" />
+        <option value="$PROJECT_DIR$/dqn_adv_experiment_result.txt" />
+        <option value="$PROJECT_DIR$/dqn_advanced_multi_process_v1.7.py" />
+        <option value="$PROJECT_DIR$/dqn_advanced_multi_process_v2.0.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="129" />
-    <option name="y" value="424" />
+    <option name="y" value="23" />
     <option name="width" value="860" />
     <option name="height" value="958" />
   </component>
@@ -246,8 +300,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.dqn_advanced_multi_process">
-    <configuration name="TF_DQN_v1.1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.dqn_advanced_multi_process_v2.0">
+    <configuration name="dqn_advanced_multi_process_v1.4" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Pendulum" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -260,7 +314,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TF_DQN_v1.1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dqn_advanced_multi_process_v1.4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -269,7 +323,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="TF_DQN_v2.1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="dqn_advanced_multi_process_v1.5" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Pendulum" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -282,7 +336,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TF_DQN_v2.1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dqn_advanced_multi_process_v1.5.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -291,7 +345,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="TF_DQN_v2.2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="dqn_advanced_multi_process_v1.6" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Pendulum" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -304,7 +358,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TF_DQN_v2.2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dqn_advanced_multi_process_v1.6.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -313,7 +367,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dqn_advanced_multi_process" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="dqn_advanced_multi_process_v1.7" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Pendulum" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -326,7 +380,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dqn_advanced_multi_process_v1.2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dqn_advanced_multi_process_v1.7.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -335,7 +389,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="noname" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="dqn_advanced_multi_process_v2.0" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Pendulum" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -348,7 +402,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/noname.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dqn_advanced_multi_process_v2.0.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -358,19 +412,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.noname" />
-      <item itemvalue="Python.TF_DQN_v1.1" />
-      <item itemvalue="Python.TF_DQN_v2.1" />
-      <item itemvalue="Python.TF_DQN_v2.2" />
-      <item itemvalue="Python.dqn_advanced_multi_process" />
+      <item itemvalue="Python.dqn_advanced_multi_process_v1.4" />
+      <item itemvalue="Python.dqn_advanced_multi_process_v1.5" />
+      <item itemvalue="Python.dqn_advanced_multi_process_v1.6" />
+      <item itemvalue="Python.dqn_advanced_multi_process_v1.7" />
+      <item itemvalue="Python.dqn_advanced_multi_process_v2.0" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.dqn_advanced_multi_process" />
-        <item itemvalue="Python.TF_DQN_v2.2" />
-        <item itemvalue="Python.TF_DQN_v2.1" />
-        <item itemvalue="Python.TF_DQN_v1.1" />
-        <item itemvalue="Python.noname" />
+        <item itemvalue="Python.dqn_advanced_multi_process_v2.0" />
+        <item itemvalue="Python.dqn_advanced_multi_process_v1.7" />
+        <item itemvalue="Python.dqn_advanced_multi_process_v1.6" />
+        <item itemvalue="Python.dqn_advanced_multi_process_v1.5" />
+        <item itemvalue="Python.dqn_advanced_multi_process_v1.4" />
       </list>
     </recent_temporary>
   </component>
@@ -384,7 +438,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553851917974</updated>
-      <workItem from="1555995198348" duration="39500000" />
+      <workItem from="1555995198348" duration="60797000" />
     </task>
     <task id="LOCAL-00001" summary="TF, multi-threading practice">
       <created>1556089190991</created>
@@ -400,11 +454,18 @@
       <option name="project" value="LOCAL" />
       <updated>1556157431519</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="TF_DQN">
+      <created>1556219391830</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1556219391830</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39500000" />
+    <option name="totallyTimeSpent" value="60797000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -417,17 +478,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.093406595" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20757021" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42857143" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3989796" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.43469387" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39838338" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32901832" />
@@ -451,21 +511,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="TF_DQN" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/backup/backup/play_a3c_model_5.py" />
-    <entry file="file://$PROJECT_DIR$/backup/backup/play_a3c_model.py" />
-    <entry file="file://$PROJECT_DIR$/backup/environment_1.py" />
-    <entry file="file://$PROJECT_DIR$/backup/dqn_playing.py" />
-    <entry file="file://$PROJECT_DIR$/Pendulum/A3C_worker_2.py" />
-    <entry file="file://$PROJECT_DIR$/Pendulum/logger.py" />
-    <entry file="file://$PROJECT_DIR$/Pendulum/PCC_test.py" />
-    <entry file="file://$PROJECT_DIR$/Pendulum/PCC.py" />
-    <entry file="file://$PROJECT_DIR$/Pendulum/tmp.py" />
-    <entry file="file://$PROJECT_DIR$/backup/190408/logs/.log" />
-    <entry file="file://$PROJECT_DIR$/backup/environment_2.py" />
-    <entry file="file://$PROJECT_DIR$/backup/dqn_training.py" />
-    <entry file="file://$PROJECT_DIR$/Pendulum/A3C_2.py" />
-    <entry file="file://$PROJECT_DIR$/backup/backup/play_a3c_model_4.py" />
-    <entry file="file://$PROJECT_DIR$/backup/A3C/deeplink_public/2.ReinforcementLearning/CartPole/CartPole-A3C/A3C.py" />
     <entry file="file://$PROJECT_DIR$/Pendulum/environment_2.py" />
     <entry file="file://$PROJECT_DIR$/Pendulum/A3C_worker.py" />
     <entry file="file://$PROJECT_DIR$/Pendulum/environment_1.py" />
@@ -712,17 +757,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TF_DQN_v2.1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TF_DQN_v2.2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
-          <caret line="26" column="24" lean-forward="true" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
           <folding>
             <element signature="e#25#48#0" expanded="true" />
           </folding>
@@ -736,15 +774,126 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dqn_advanced_multi_process.py">
+    <entry file="file://$PROJECT_DIR$/TF_DQN_v2.1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dqn_advanced_multi_process_v1.2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="745">
+          <caret line="281" column="76" lean-forward="true" selection-start-line="281" selection-start-column="76" selection-end-line="281" selection-end-column="76" />
           <folding>
             <element signature="e#74#97#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/tf2/lib/python3.6/typing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="2323" column="8" selection-start-line="2323" selection-start-column="8" selection-end-line="2323" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/tf2/lib/python3.6/site-packages/numpy/core/fromnumeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11">
+          <caret line="1096" column="9" selection-start-line="1096" selection-start-column="9" selection-end-line="1096" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dqn_advanced_multi_process_v1.3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4233">
+          <caret line="249" selection-start-line="249" selection-end-line="250" />
+          <folding>
+            <element signature="e#74#97#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dqn_advanced_multi_process_v1.4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <folding>
+            <element signature="e#105#128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dqn_advanced_multi_process_v1.5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+          <folding>
+            <element signature="e#285#308#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dqn_advanced_multi_process_v1.6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dqn_advanced_multi_process_v1.1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <folding>
+            <element signature="e#74#97#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dqn_adv_experiment_result.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="41" column="75" selection-start-line="41" selection-start-column="75" selection-end-line="41" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dqn_advanced_multi_process_v1.7.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dqn_advanced_multi_process_v2.0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11611">
+          <caret line="683" column="25" selection-start-line="683" selection-start-column="25" selection-end-line="683" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dqn_advanced_multi_process_v2.1.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

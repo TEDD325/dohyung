@@ -1,3 +1,10 @@
+'''
+
+set_weights() TEST
+
+'''
+
+
 # -*- coding: utf-8 -*-
 # https://github.com/openai/gym/wiki/CartPole-v0
 
@@ -16,6 +23,7 @@ print(tf.__version__)
 ddqn = False
 num_layers = 4
 num_workers = 2
+
 
 class DQNAgent():
     def __init__(self, async_dqn, idx, env_id, win_trials, win_reward, loss_trials):
@@ -72,11 +80,11 @@ class DQNAgent():
 
     # Q Network is 256-256-256-2 MLP
     def build_model(self, n_inputs, n_outputs):
-        inputs = Input(shape=(n_inputs,), name='state_'+str(self.idx))
-        x = Dense(256, activation='relu', name="layer_1_"+str(self.idx))(inputs)
-        x = Dense(256, activation='relu', name="layer_2_"+str(self.idx))(x)
-        x = Dense(256, activation='relu', name="layer_3_"+str(self.idx))(x)
-        x = Dense(n_outputs, activation='linear', name='layer_4_'+str(self.idx))(x)
+        inputs = Input(shape=(n_inputs,), name='state_' + str(self.idx))
+        x = Dense(256, activation='relu', name="layer_1_" + str(self.idx))(inputs)
+        x = Dense(256, activation='relu', name="layer_2_" + str(self.idx))(x)
+        x = Dense(256, activation='relu', name="layer_3_" + str(self.idx))(x)
+        x = Dense(n_outputs, activation='linear', name='layer_4_' + str(self.idx))(x)
         model = Model(inputs, x)
         model.summary()
         return model
@@ -89,6 +97,7 @@ class DQNAgent():
         l1 = self.q_model.get_layer(name="layer_" + str(1) + "_" + str(self.idx)).get_weights()
         l2 = self.q_model.get_layer(name="layer_" + str(2) + "_" + str(self.idx)).get_weights()
         # pickle 저장
+        return l1, l2
 
     # copy trained Q Network params to target Q Network
     def update_target_model_weights(self):
@@ -238,6 +247,14 @@ class DQNAgent():
                         mean_loss
                     ))
 
+                    l1_weights, l2_weights = self.save_layers()
+                    print("id: {0} - layer 1's weights: {1}".format(
+                        self.idx,
+                        l1_weights
+                    ))
+
+                    self.async_dqn.update_layer_weights(self.q_model, self.idx, l1_weights=l1_weights)
+
             mean_score = self.async_dqn.update_score(self.idx, total_reward)
 
             if episode % self.win_trials == 0:
@@ -262,6 +279,7 @@ class DQNAgent():
 
         # close the env and write monitor result info to disk
         self.env.close()
+
 
 def process_func(async_dqn, idx, env_id, win_trials, win_reward, loss_trials):
     dqn_agent = DQNAgent(async_dqn, idx, env_id, win_trials, win_reward, loss_trials)
@@ -330,6 +348,14 @@ class AsyncDQN:
     def update_score(self, worker_idx, score):
         self.scores[worker_idx].append(score)
         return np.mean(self.scores[worker_idx])
+
+    def update_layer_weights(self, q_model, id_, l1_weights):
+        print("id: {0} - layer 1's weights: {1}".format(
+            id_,
+            l1_weights
+        ))
+        q_model.get_layer(name="layer_" + str(1) + "_" + str(id_)).set_weights(l1_weights)
+        print("set_weights() methods success")
 
 
 if __name__ == '__main__':
