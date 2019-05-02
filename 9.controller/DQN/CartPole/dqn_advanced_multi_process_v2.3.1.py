@@ -1,3 +1,11 @@
+"""
+x = Dense(512, activation='relu', name="hidden_layer_0_"+str(self.worker_idx))(inputs)
+x = Dense(512, activation='relu', name="hidden_layer_1_"+str(self.worker_idx))(x)
+x = Dense(512, activation='relu', name="hidden_layer_2_"+str(self.worker_idx))(x)
+learning_rate = 0.001
+self.epsilon_min = 0.1 / num_workers
+"""
+
 import math
 import threading
 import time
@@ -6,7 +14,7 @@ import tensorflow as tf
 from logger import get_logger
 import sys
 import json
-from tensorflow.keras.layers import Dense, Input
+from tensorflow.keras.layers import Dense, Input, Dropout
 from tensorflow.keras.models import Model
 from tensorflow.keras.optimizers import Adam
 from collections import deque
@@ -27,9 +35,10 @@ ddqn = True
 num_workers = 4
 num_hidden_layers = 3
 transfer = True
-num_weight_transfer_hidden_layers = 1
+num_weight_transfer_hidden_layers = 3
 verbose = False
-learning_rate = 0.0001
+learning_rate = 0.001
+filename = "dqn_advanced_multi_process_v2.2.2"
 
 def exp_moving_average(values, window): #?
     """
@@ -73,7 +82,7 @@ class DQNAgent:
         self.epsilon = 1.0
 
         # iteratively applying decay til 10% exploration/90% exploitation
-        self.epsilon_min = 0.1
+        self.epsilon_min = 0.1 / num_workers
 
         self.win_trials = win_trials
         self.win_reward = win_reward
@@ -114,6 +123,7 @@ class DQNAgent:
         self.max_episodes = max_episodes
 
         self.global_max_mean_score = 0
+        self.global_mean_loss = 0.0
 
         self.local_scores = []
         self.local_losses = []
@@ -126,10 +136,12 @@ class DQNAgent:
         :return: tensorflow.keras.Model
         """
         inputs = Input(shape=(n_inputs,), name="state_"+str(self.worker_idx))
-        x = Dense(256, activation='relu', name="hidden_layer_0_"+str(self.worker_idx))(inputs)
-        x = Dense(256, activation='relu', name="hidden_layer_1_"+str(self.worker_idx))(x)
-        x = Dense(256, activation='relu', name="hidden_layer_2_"+str(self.worker_idx))(x)
-        x = Dense(n_outputs, activation='linear', name="output_layer_"+str(self.worker_idx))(x)
+        drop_x = Dropout(0.3)(x)
+        x = Dense(512, activation='relu', name="hidden_layer_1_"+str(self.worker_idx))(drop_x)
+        drop_x = Dropout(0.3)(x)
+        x = Dense(512, activation='relu', name="hidden_layer_2_"+str(self.worker_idx))(drop_x)
+        drop_x = Dropout(0.3)(x)
+        x = Dense(n_outputs, activation='linear', name="output_layer_"+str(self.worker_idx))(drop_x)
         model = Model(inputs, x)
         # model.summary()
         return model
@@ -270,6 +282,7 @@ class DQNAgent:
 
             if self.epsilon > self.epsilon_min:
                 self.epsilon *= epsilon_decay
+        # print("epsilon:", self.epsilon)
 
     def start_rl(self, socket):
         """
@@ -353,7 +366,7 @@ class DQNAgent:
             self.logger.info(msg)
             if verbose: print(msg)
 
-            if mean_score >= self.win_reward and episode >= self.win_trials:#?
+            if mean_score >= self.win_reward and episode >= self.win_trials: #?
                 msg = "******* Worker {0} - Solved in episode {1}: Mean score = {2} in {3} episodes: Epsilon: {4}".format(
                     self.worker_idx,
                     episode,
@@ -369,6 +382,12 @@ class DQNAgent:
                     socket,
                     last_episode=episode
                 )
+
+                with open(filename + '_experiment_result.txt', 'a+') as f:
+                    exp_result = "\n\n "+" \n *** Worker "+ str(self.worker_idx)+" - Solved in episode " \
+                                 + str(episode)+ ": Mean score = " + str(mean_score) + " in " + str(self.win_trials)+ " episodes"
+                    f.write(exp_result)
+
                 break
 
         # close the env and write monitor result info to disk
@@ -511,17 +530,17 @@ class MultiDQN:
 
         self.continue_loop = True
 
-    def update_loss(self, worker_idx, loss):
+    def update_loss(self, worker_idx, loss, experiment_count):
         # self.global_logger.info("Worker {0} sends its loss value: {1}".format(worker_idx, loss))
         self.losses[worker_idx].append(loss)
-        self.save_graph()
+        self.save_graph(experiment_count)
 
-    def update_score(self, worker_idx, score):
+    def update_score(self, worker_idx, score, experiment_count):
         # self.global_logger.info("Worker {0} sends its score value: {1}".format(worker_idx, score))
         self.scores[worker_idx].append(score)
-        self.save_graph()
+        self.save_graph(experiment_count)
 
-    def save_graph(self): #?
+    def save_graph(self, experiment_count): #?
         plt.clf()
 
         f, axarr = plt.subplots(nrows=num_workers, ncols=2, sharex=True)
@@ -544,13 +563,13 @@ class MultiDQN:
             axarr[worker_idx][1].plot(range(min_size), exp_moving_average(self.scores[worker_idx], 10)[0:min_size]), 'r'
             # axarr[worker_idx][1].legend(["Score", "Score_EMA"])
 
-        plt.savefig("./graphs/loss_score.png")
+        plt.savefig("./graphs/"+filename+"_loss_score_exp_"+str(experiment_count)+".png")
         plt.close('all')
 
     def log_info(self, msg):
         self.global_logger.info(msg)
 
-def server_func(multi_dqn):
+def server_func(multi_dqn, experiment_count):
     context = zmq.Context()
     sockets = {}
 
@@ -572,8 +591,8 @@ def server_func(multi_dqn):
             episode_msg = pickle.loads(episode_msg)
 
             if episode_msg["type"] == "episode":
-                multi_dqn.update_loss(episode_msg["worker_idx"], loss=episode_msg["loss"])
-                multi_dqn.update_score(episode_msg["worker_idx"], score=episode_msg["score"])
+                multi_dqn.update_loss(episode_msg["worker_idx"], loss=episode_msg["loss"], experiment_count=experiment_count)
+                multi_dqn.update_score(episode_msg["worker_idx"], score=episode_msg["score"], experiment_count=experiment_count)
 
                 if multi_dqn.continue_loop:
                     if transfer:
@@ -650,11 +669,11 @@ if __name__ == "__main__":
 
     env_id = "CartPole-v0"
 
-    for _ in range(10):
+    for experiment_count in range(10):
         # instantiate the DQN/DDQN agent
         multi_dqn = MultiDQN()
 
-        server = Process(target=server_func, args=(multi_dqn,))
+        server = Process(target=server_func, args=(multi_dqn,experiment_count))
         server.start()
 
         clients = []

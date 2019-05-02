@@ -227,6 +227,7 @@ class DQNAgent():
         if self.epsilon > self.epsilon_min:
             self.epsilon *= epsilon_decay
 
+
     def start_rl(self):
         # should be solved in this number of episodes
         episode_count = 3000
