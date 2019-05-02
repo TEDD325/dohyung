@@ -35,10 +35,10 @@ ddqn = True
 num_workers = 4
 num_hidden_layers = 3
 transfer = True
-num_weight_transfer_hidden_layers = 6
+num_weight_transfer_hidden_layers = 3
 verbose = False
 learning_rate = 0.001
-filename = "dqn_advanced_multi_process_v2.3.1"
+filename = "dqn_advanced_multi_process_v2.4.1"
 
 def exp_moving_average(values, window): #?
     """
@@ -107,6 +107,8 @@ class DQNAgent:
 
         self.replay_counter = 0
 
+        self.num_transfer_layer = np.random.randint(0, num_weight_transfer_hidden_layers)
+
         if ddqn:
             print("----------Worker {0}-{1}: Double DQN--------".format(
                 self.worker_idx,
@@ -136,11 +138,11 @@ class DQNAgent:
         :return: tensorflow.keras.Model
         """
         inputs = Input(shape=(n_inputs,), name="state_"+str(self.worker_idx))
-        x = Dense(1024, activation='relu', name="hidden_layer_0_" + str(self.worker_idx))(inputs)
-        drop_x = Dropout(0.1)(x)
-        x = Dense(1024, activation='relu', name="hidden_layer_1_"+str(self.worker_idx))(drop_x)
-        drop_x = Dropout(0.2)(x)
-        x = Dense(1024, activation='relu', name="hidden_layer_2_"+str(self.worker_idx))(drop_x)
+        x = Dense(512, activation='relu', name="hidden_layer_0_" + str(self.worker_idx))(inputs)
+        drop_x = Dropout(0.3)(x)
+        x = Dense(512, activation='relu', name="hidden_layer_1_"+str(self.worker_idx))(drop_x)
+        drop_x = Dropout(0.3)(x)
+        x = Dense(512, activation='relu', name="hidden_layer_2_"+str(self.worker_idx))(drop_x)
         drop_x = Dropout(0.3)(x)
         x = Dense(n_outputs, activation='linear', name="output_layer_"+str(self.worker_idx))(drop_x)
         model = Model(inputs, x)
@@ -399,9 +401,9 @@ class DQNAgent:
             # weights = {} #? line 379, 399
             if send_weights:
                 weights = {}
-                if num_weight_transfer_hidden_layers > num_hidden_layers: #?
+                if self.num_transfer_layer > num_hidden_layers: #?
                     layer_id = 0
-                    for layer_id in range(num_hidden_layers): #? indentation
+                    for layer_id in range(self.num_hidden_layers): #? indentation
                         layer_name = "hidden_layer_{0}_{1}".format(
                             layer_id,
                             self.worker_idx
@@ -410,7 +412,7 @@ class DQNAgent:
 
                     weights[layer_id + 1] = self.q_model.get_layer(name="output_layer_{0}".format(self.worker_idx)).get_weights()
                 else:
-                    for layer_id in range(num_weight_transfer_hidden_layers):
+                    for layer_id in range(self.num_transfer_layer):
                         layer_name = "hidden_layer_{0}_{1}".format(
                             layer_id,
                             self.worker_idx
@@ -453,10 +455,9 @@ class DQNAgent:
 
                 if len(best_weights) > 0 and not send_weights:
                     self.global_max_mean_score = global_max_mean_score
-
-                    if num_weight_transfer_hidden_layers > num_hidden_layers: #?
+                    if self.num_transfer_layer > num_hidden_layers: #?
                         layer_id = 0
-                        for layer_id in range(num_hidden_layers): #! line 382-387과 중복되는 코드 부분
+                        for layer_id in range(self.num_hidden_layers): #! line 382-387과 중복되는 코드 부분
                             layer_name = "hidden_layer_{0}_{1}".format(
                                 layer_id,
                                 self.worker_idx
@@ -466,7 +467,7 @@ class DQNAgent:
                             best_weights[layer_id + 1] #?
                         )
                     else:
-                        for layer_id in range(num_weight_transfer_hidden_layers):
+                        for layer_id in range(self.num_transfer_layer):
                             layer_name = "hidden_layer_{0}_{1}".format(
                                 layer_id,
                                 self.worker_idx
