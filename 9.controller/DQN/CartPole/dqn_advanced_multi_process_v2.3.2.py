@@ -57,7 +57,7 @@ def exp_moving_average(values, window): #?
     return a
 
 class DQNAgent:
-    def __init__(self, worker_idx, env_id, win_trials, win_reward, loss_trials, max_episodes, dropout_rate_1, dropout_rate_2, dropout_rate_3):
+    def __init__(self, worker_idx, env_id, win_trials, win_reward, loss_trials, max_episodes):
         """
         :param worker_idx: int
         :param env_id: str
@@ -96,11 +96,11 @@ class DQNAgent:
         self.n_inputs = self.env.observation_space.shape[0]
         self.n_outputs = self.action_space.n
 
-        self.q_model = self.build_model(self.n_inputs, self.n_outputs, dropout_rate_1, dropout_rate_2, dropout_rate_3)
+        self.q_model = self.build_model(self.n_inputs, self.n_outputs)
         self.q_model.compile(loss='mse', optimizer=Adam(lr=learning_rate))
 
         # target Q Network
-        self.target_q_model = self.build_model(self.n_inputs, self.n_outputs, dropout_rate_1, dropout_rate_2, dropout_rate_3)
+        self.target_q_model = self.build_model(self.n_inputs, self.n_outputs)
 
         # copy Q Network params to target Q Network
         self.update_target_model_weights()
@@ -129,7 +129,7 @@ class DQNAgent:
         self.local_losses = []
 
     # Q Network is 256-256-256-2 MLP
-    def build_model(self, n_inputs, n_outputs, dropout_rate_1, dropout_rate_2, dropout_rate_3):
+    def build_model(self, n_inputs, n_outputs):
         """
         :param n_inputs: int, 4
         :param n_outputs: int, 2
@@ -137,11 +137,11 @@ class DQNAgent:
         """
         inputs = Input(shape=(n_inputs,), name="state_"+str(self.worker_idx))
         x = Dense(1024, activation='relu', name="hidden_layer_0_" + str(self.worker_idx))(inputs)
-        drop_x = Dropout(dropout_rate_1)(x)
+        drop_x = Dropout(0.1)(x)
         x = Dense(1024, activation='relu', name="hidden_layer_1_"+str(self.worker_idx))(drop_x)
-        drop_x = Dropout(dropout_rate_2)(x)
+        drop_x = Dropout(0.1)(x)
         x = Dense(1024, activation='relu', name="hidden_layer_2_"+str(self.worker_idx))(drop_x)
-        drop_x = Dropout(dropout_rate_3)(x)
+        drop_x = Dropout(0.1)(x)
         x = Dense(n_outputs, activation='linear', name="output_layer_"+str(self.worker_idx))(drop_x)
         model = Model(inputs, x)
         # model.summary()
@@ -285,7 +285,7 @@ class DQNAgent:
                 self.epsilon *= epsilon_decay
         # print("epsilon:", self.epsilon)
 
-    def start_rl(self, socket, drop_1, drop_2, drop_3):
+    def start_rl(self, socket):
         """
         :param socket:
         :return:
@@ -384,9 +384,9 @@ class DQNAgent:
                     last_episode=episode
                 )
 
-                with open(filename + '_experiment_result.txt', 'a+') as f:
+                with open(filename + "_"+'_experiment_result.txt', 'a+') as f:
                     exp_result = "\n\n "+" \n *** Worker "+ str(self.worker_idx)+" - Solved in episode " \
-                                 + str(episode)+ ": Mean score = " + str(mean_score) + " in " + str(self.win_trials)+ " episodes" + str(drop_1)+"-"+str(drop_2)+"-"+str(drop_3)
+                                 + str(episode)+ ": Mean score = " + str(mean_score) + " in " + str(self.win_trials)+ " episodes"
                     f.write(exp_result)
 
                 break
@@ -509,16 +509,9 @@ def worker_func(worker_idx, env_id, win_trials, win_reward, loss_trials, max_epi
     socket = context.socket(zmq.REQ) # REQUEST
     socket.connect("tcp://127.0.0.1:"+str(port))
 
-    dropout_rate_1 = [0.1, 0.2, 0.3]
-    dropout_rate_2 = [0.1, 0.2, 0.3]
-    dropout_rate_3 = [0.1, 0.2, 0.3]
 
-    for drop_1 in dropout_rate_1:
-        for drop_2 in dropout_rate_2:
-            for drop_3 in dropout_rate_3:
-                if drop_1 != 0.1 and drop_2 != 0.2 and drop_3 != 0.3:
-                    dqn_agent = DQNAgent(worker_idx, env_id, win_trials, win_reward, loss_trials, max_episodes, drop_1, drop_2, drop_3)
-                    dqn_agent.start_rl(socket, drop_1, drop_2, drop_3)
+    dqn_agent = DQNAgent(worker_idx, env_id, win_trials, win_reward, loss_trials, max_episodes)
+    dqn_agent.start_rl(socket)
 
 class MultiDQN:
     def __init__(self):

@@ -23,3 +23,9 @@
 
   
  *** Worker 2 - Solved in episode 218: Mean score = 196.89858023442963 in 100 episodes
+
+  
+ *** Worker 1 - Solved in episode 218: Mean score = 199.99999999999997 in 100 episodes
+
+  
+ *** Worker 0 - Solved in episode 320: Mean score = 196.59158781372517 in 100 episodes
