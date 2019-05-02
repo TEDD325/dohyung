@@ -29,7 +29,7 @@ num_hidden_layers = 3
 transfer = True
 num_weight_transfer_hidden_layers = 1
 verbose = False
-learning_rate = 0.0001
+learning_rate = 0.001
 
 def exp_moving_average(values, window): #?
     """

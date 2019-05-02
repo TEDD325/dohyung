@@ -36,7 +36,7 @@ num_hidden_layers = 3
 transfer = True
 num_weight_transfer_hidden_layers = 1
 verbose = False
-learning_rate = 0.0001 * num_workers
+learning_rate = 0.001 * num_workers
 experiment_count = 1
 filename = "dqn_advanced_multi_process_v2.1.2"
 

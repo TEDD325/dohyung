@@ -1,10 +1,3 @@
-"""
-x = Dense(1024, activation='relu', name="hidden_layer_0_"+str(self.worker_idx))(inputs)
-x = Dense(512, activation='relu', name="hidden_layer_1_"+str(self.worker_idx))(x)
-x = Dense(256, activation='relu', name="hidden_layer_2_"+str(self.worker_idx))(x)
-learning_rate = 0.0001
-"""
-
 import math
 import threading
 import time
@@ -34,11 +27,9 @@ ddqn = True
 num_workers = 4
 num_hidden_layers = 3
 transfer = True
-num_weight_transfer_hidden_layers = 2
+num_weight_transfer_hidden_layers = 1
 verbose = False
 learning_rate = 0.001
-experiment_count = 1
-filename = "dqn_advanced_multi_process_v2.1.1_experiment_result.txt"
 
 def exp_moving_average(values, window): #?
     """
@@ -123,7 +114,6 @@ class DQNAgent:
         self.max_episodes = max_episodes
 
         self.global_max_mean_score = 0
-        self.global_mean_loss = 0.0
 
         self.local_scores = []
         self.local_losses = []
@@ -136,8 +126,8 @@ class DQNAgent:
         :return: tensorflow.keras.Model
         """
         inputs = Input(shape=(n_inputs,), name="state_"+str(self.worker_idx))
-        x = Dense(1024, activation='relu', name="hidden_layer_0_"+str(self.worker_idx))(inputs)
-        x = Dense(512, activation='relu', name="hidden_layer_1_"+str(self.worker_idx))(x)
+        x = Dense(256, activation='relu', name="hidden_layer_0_"+str(self.worker_idx))(inputs)
+        x = Dense(256, activation='relu', name="hidden_layer_1_"+str(self.worker_idx))(x)
         x = Dense(256, activation='relu', name="hidden_layer_2_"+str(self.worker_idx))(x)
         x = Dense(n_outputs, activation='linear', name="output_layer_"+str(self.worker_idx))(x)
         model = Model(inputs, x)
@@ -280,7 +270,6 @@ class DQNAgent:
 
             if self.epsilon > self.epsilon_min:
                 self.epsilon *= epsilon_decay
-        # print("epsilon:", self.epsilon)
 
     def start_rl(self, socket):
         """
@@ -380,12 +369,6 @@ class DQNAgent:
                     socket,
                     last_episode=episode
                 )
-
-                with open(filename + '_experiment_result.txt', 'a+') as f:
-                    exp_result = "\n\n "+str(experiment_count)+" \n *** Worker "+ str(self.worker_idx)+" - Solved in episode " \
-                                 + str(episode)+ ": Mean score = " + str(mean_score) + " in " + str(self.win_trials)+ " episodes"
-                    f.write(exp_result)
-
                 break
 
         # close the env and write monitor result info to disk
