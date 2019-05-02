@@ -38,7 +38,13 @@ transfer = True
 num_weight_transfer_hidden_layers = 6
 verbose = False
 learning_rate = 0.001
-filename = "dqn_advanced_multi_process_v2.3.2"
+dropout_rate_1 = 0.1
+dropout_rate_2 = 0.1
+dropout_rate_3 = 0.2
+filename = "dqn_advanced_multi_process_v2.3.2_"+str(dropout_rate_1)+"-"+str(dropout_rate_2)+"-"+str(dropout_rate_3)+"_"
+
+if not os.path.exists("./graphs/Dropout-"+str(dropout_rate_1)+"-"+str(dropout_rate_2)+"-"+str(dropout_rate_3)):
+    os.makedirs("./graphs/Dropout-"+str(dropout_rate_1)+"-"+str(dropout_rate_2)+"-"+str(dropout_rate_3))
 
 def exp_moving_average(values, window): #?
     """
@@ -137,11 +143,11 @@ class DQNAgent:
         """
         inputs = Input(shape=(n_inputs,), name="state_"+str(self.worker_idx))
         x = Dense(1024, activation='relu', name="hidden_layer_0_" + str(self.worker_idx))(inputs)
-        drop_x = Dropout(0.1)(x)
+        drop_x = Dropout(dropout_rate_1)(x)
         x = Dense(1024, activation='relu', name="hidden_layer_1_"+str(self.worker_idx))(drop_x)
-        drop_x = Dropout(0.1)(x)
+        drop_x = Dropout(dropout_rate_2)(x)
         x = Dense(1024, activation='relu', name="hidden_layer_2_"+str(self.worker_idx))(drop_x)
-        drop_x = Dropout(0.1)(x)
+        drop_x = Dropout(dropout_rate_3)(x)
         x = Dense(n_outputs, activation='linear', name="output_layer_"+str(self.worker_idx))(drop_x)
         model = Model(inputs, x)
         # model.summary()

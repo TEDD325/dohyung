@@ -24,3 +24,9 @@ Dropout 0.1-0.1-0.1
 
   
  *** Worker 0 - Solved in episode 205: Mean score = 195.4251499073657 in 100 episodes
+
+  
+ *** Worker 3 - Solved in episode 370: Mean score = 195.23844909656458 in 100 episodes
+
+  
+ *** Worker 2 - Solved in episode 212: Mean score = 199.99999999999997 in 100 episodes

@@ -2,40 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9666e642-fc59-44c7-b834-7312582934be" name="Default" comment="TF_DQN">
-      <change afterPath="$PROJECT_DIR$/graphs/Dropout-0.1,0.1,0.1/dqn_advanced_multi_process_v2.3.2_loss_score_exp_0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphs/Dropout-0.1,0.1,0.1/dqn_advanced_multi_process_v2.3.2_loss_score_exp_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphs/Dropout-0.1,0.1,0.1/dqn_advanced_multi_process_v2.3.2_loss_score_exp_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphs/Dropout-0.1,0.1,0.1/dqn_advanced_multi_process_v2.3.2_loss_score_exp_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphs/Dropout-0.1,0.1,0.1/dqn_advanced_multi_process_v2.3.2_loss_score_exp_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphs/Dropout-0.1,0.1,0.1/dqn_advanced_multi_process_v2.3.2_loss_score_exp_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphs/Dropout-0.1,0.1,0.1/dqn_advanced_multi_process_v2.3.2_loss_score_exp_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphs/Dropout-0.1,0.1,0.1/dqn_advanced_multi_process_v2.3.2_loss_score_exp_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphs/dqn_advanced_multi_process_v2.2.2_loss_score_exp_0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphs/dqn_advanced_multi_process_v2.2.2_loss_score_exp_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphs/dqn_advanced_multi_process_v2.2.2_loss_score_exp_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphs/dqn_advanced_multi_process_v2.2.2_loss_score_exp_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphs/dqn_advanced_multi_process_v2.2.2_loss_score_exp_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphs/dqn_advanced_multi_process_v2.2.2_loss_score_exp_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphs/dqn_advanced_multi_process_v2.2.2_loss_score_exp_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphs/dqn_advanced_multi_process_v2.2.2_loss_score_exp_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphs/dqn_advanced_multi_process_v2.2.2_loss_score_exp_8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphs/dqn_advanced_multi_process_v2.2.2_loss_score_exp_9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphs/dqn_advanced_multi_process_v2.3.1_loss_score_exp_0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphs/dqn_advanced_multi_process_v2.3.1_loss_score_exp_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphs/dqn_advanced_multi_process_v2.3.1_loss_score_exp_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphs/dqn_advanced_multi_process_v2.3.1_loss_score_exp_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphs/dqn_advanced_multi_process_v2.3.1_loss_score_exp_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphs/dqn_advanced_multi_process_v2.3.1_loss_score_exp_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphs/dqn_advanced_multi_process_v2.3.1_loss_score_exp_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphs/dqn_advanced_multi_process_v2.3.2_loss_score_exp_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dqn_advanced_multi_process_v2.3.2_0.2-0.2-0.1___experiment_result.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/Dropout-0.1,0.1,0.1/dqn_advanced_multi_process_v2.3.2_loss_score_exp_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/Dropout-0.1,0.1,0.1/dqn_advanced_multi_process_v2.3.2_loss_score_exp_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/dqn_advanced_multi_process_v2.3.2_0.2-0.2-0.1__loss_score_exp_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/dqn_advanced_multi_process_v2.3.2_0.2-0.2-0.1__loss_score_exp_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/dqn_advanced_multi_process_v2.3.2_0.2-0.2-0.1__loss_score_exp_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/dqn_advanced_multi_process_v2.3.2_0.2-0.2-0.1__loss_score_exp_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/dqn_advanced_multi_process_v2.3.2_0.2-0.2-0.1__loss_score_exp_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/dqn_advanced_multi_process_v2.3.2_0.2-0.2-0.1__loss_score_exp_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/dqn_advanced_multi_process_v2.3.2_0.2-0.2-0.1__loss_score_exp_6.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dqn_advanced_multi_process_v2.2.1_experiment_result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/experiment_result/dqn_advanced_multi_process_v2.2.1_experiment_result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dqn_advanced_multi_process_v2.2.2_experiment_result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/experiment_result/dqn_advanced_multi_process_v2.2.2_experiment_result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dqn_advanced_multi_process_v2.3.1_experiment_result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/experiment_result/dqn_advanced_multi_process_v2.3.1_experiment_result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dqn_advanced_multi_process_v2.3.2_0.2-0.1-0.1_experiment_result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/experiment_result/dqn_advanced_multi_process_v2.3.2_0.2-0.1-0.1_experiment_result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dqn_advanced_multi_process_v2.3.2_0.2-0.1-0.2_experiment_result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/experiment_result/dqn_advanced_multi_process_v2.3.2_0.2-0.1-0.2_experiment_result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dqn_advanced_multi_process_v2.3.2__experiment_result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dqn_advanced_multi_process_v2.3.2__experiment_result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dqn_advanced_multi_process_v2.3.2_experiment_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dqn_advanced_multi_process_v2.3.2.py" beforeDir="false" afterPath="$PROJECT_DIR$/dqn_advanced_multi_process_v2.3.2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dqn_advanced_multi_process_v2.3.2__experiment_result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/experiment_result/dqn_advanced_multi_process_v2.3.2_0.1-0.1-0.1_experiment_result.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphs/dqn_advanced_multi_process_v2.3.2_loss_score_exp_8.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,24 +46,22 @@
     <SUITE FILE_PATH="coverage/CartPole$TF_DQN_v2_1.coverage" NAME="TF_DQN_v2.1 Coverage Results" MODIFIED="1556162322375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CartPole$sample_thread_v3_2.coverage" NAME="sample_thread_v3.2 Coverage Results" MODIFIED="1556102741393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CartPole$dqn_advanced_multi_process_v2_2.coverage" NAME="dqn_advanced_multi_process_v2.2 Coverage Results" MODIFIED="1556762900949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CartPole$dqn_advanced_multi_process_v2_3_2.coverage" NAME="dqn_advanced_multi_process_v2.3.2 Coverage Results" MODIFIED="1556797370973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CartPole$dqn_advanced_multi_process_v2_3_2.coverage" NAME="dqn_advanced_multi_process_v2.3.2 Coverage Results" MODIFIED="1556839077265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CartPole$DQN_2.coverage" NAME="DQN_2 Coverage Results" MODIFIED="1555675331087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CartPole$dqn_advanced_multi_process_v1_1.coverage" NAME="dqn_advanced_multi_process_v1.1 Coverage Results" MODIFIED="1556522104450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dqn_advanced_multi_process_v2.3.2__experiment_result.txt">
+        <entry file="file://$PROJECT_DIR$/dqn_advanced_multi_process_v2.0.0.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="85" lean-forward="true" selection-start-line="25" selection-start-column="85" selection-end-line="25" selection-end-column="85" />
+            <state relative-caret-position="377">
+              <caret line="443" column="76" selection-start-line="443" selection-start-column="76" selection-end-line="443" selection-end-column="76" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graphs/Dropout-0.1,0.1,0.1/dqn_advanced_multi_process_v2.3.2_loss_score_exp_0.png">
-          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -92,37 +70,58 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graphs/Dropout-0.1,0.1,0.1/dqn_advanced_multi_process_v2.3.2_loss_score_exp_2.png">
+        <entry file="file://$PROJECT_DIR$/experiment_result/dqn_advanced_multi_process_v2.3.2_0.1-0.1-0.1_experiment_result.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dqn_advanced_multi_process_v2.3.2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dqn_advanced_multi_process_v2.3.2_0.2-0.1-0.2___experiment_result.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="86" selection-start-line="15" selection-start-column="86" selection-end-line="15" selection-end-column="86" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/graphs/dqn_advanced_multi_process_v2.3.2_0.2-0.2-0.1__loss_score_exp_0.png">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graphs/Dropout-0.1,0.1,0.1/dqn_advanced_multi_process_v2.3.2_loss_score_exp_3.png">
+        <entry file="file://$PROJECT_DIR$/graphs/dqn_advanced_multi_process_v2.3.2_0.2-0.2-0.1__loss_score_exp_1.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dqn_advanced_multi_process_v2.3.2_0.2-0.2-0.1___experiment_result.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/graphs/dqn_advanced_multi_process_v2.3.2_0.2-0.2-0.1__loss_score_exp_2.png">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/graphs/Dropout-0.1,0.1,0.1/dqn_advanced_multi_process_v2.3.2_loss_score_exp_4.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graphs/Dropout-0.1,0.1,0.1/dqn_advanced_multi_process_v2.3.2_loss_score_exp_5.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graphs/Dropout-0.1,0.1,0.1/dqn_advanced_multi_process_v2.3.2_loss_score_exp_6.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graphs/Dropout-0.1,0.1,0.1/dqn_advanced_multi_process_v2.3.2_loss_score_exp_7.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/graphs/dqn_advanced_multi_process_v2.3.2_loss_score_exp_8.png">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
@@ -137,10 +136,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>update_ep</find>
-      <find>n_deque</find>
-      <find>MultiDQN</find>
-      <find>epsilon</find>
       <find>global_mean_loss</find>
       <find>Solved</find>
       <find>experiment_c</find>
@@ -158,15 +153,19 @@
       <find>range(10)</find>
       <find>experiment_</find>
       <find>Dropout</find>
-      <find>build_model</find>
       <find>DQNAgent</find>
       <find>worker_func</find>
       <find>drop_3</find>
       <find>plt</find>
       <find>num_weight_transfer_hidden_layers</find>
       <find>DQNA</find>
-      <find>build</find>
       <find>filename</find>
+      <find>exp_moving_average</find>
+      <find>mean_loss</find>
+      <find>mean_score</find>
+      <find>build</find>
+      <find>build_model</find>
+      <find>os.</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -180,10 +179,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/backup/A3C/deeplink_public/2.ReinforcementLearning/CartPole/CartPole-A3C/A3C.py" />
-        <option value="$PROJECT_DIR$/Pendulum/environment_1.py" />
-        <option value="$PROJECT_DIR$/Pendulum/environment_2.py" />
-        <option value="$PROJECT_DIR$/Pendulum/A3C_worker.py" />
         <option value="$PROJECT_DIR$/Pendulum/A3C.py" />
         <option value="$PROJECT_DIR$/DQN_v8.py" />
         <option value="$PROJECT_DIR$/tf_util.py" />
@@ -206,15 +201,12 @@
         <option value="$PROJECT_DIR$/dqn_advanced_multi_process_v1.5.py" />
         <option value="$PROJECT_DIR$/dqn_advanced_multi_process_v1.6.py" />
         <option value="$PROJECT_DIR$/dqn_adv_experiment_result" />
-        <option value="$PROJECT_DIR$/dqn_advanced_multi_process_v2.0.py" />
         <option value="$PROJECT_DIR$/dqn_advanced_multi_process_v1.7.py" />
         <option value="$PROJECT_DIR$/dqn_advanced_multi_process_v2.22.py" />
         <option value="$PROJECT_DIR$/dqn_advanced_multi_process_v2.1.py" />
         <option value="$PROJECT_DIR$/dqn_advanced_multi_process_v2.3.py" />
         <option value="$PROJECT_DIR$/dqn_advanced_multi_process_v2.2.py" />
-        <option value="$PROJECT_DIR$/dqn_advanced_multi_process_v2.1.2.py" />
         <option value="$PROJECT_DIR$/dqn_adv_experiment_result.txt" />
-        <option value="$PROJECT_DIR$/dqn_advanced_multi_process_v2.1.1.py" />
         <option value="$PROJECT_DIR$/dqn_advanced_multi_process_v2.2_experiment_result.txt" />
         <option value="$PROJECT_DIR$/dqn_advanced_multi_process_v2.2.1_experiment_result.txt" />
         <option value="$PROJECT_DIR$/dqn_advanced_multi_process_v2.2.1.py" />
@@ -229,16 +221,21 @@
         <option value="$PROJECT_DIR$/dqn_advanced_multi_process_v2.3.8.py" />
         <option value="$PROJECT_DIR$/dqn_advanced_multi_process_v2.3.1_experiment_result.txt" />
         <option value="$PROJECT_DIR$/dqn_advanced_multi_process_v2.3.2_0.2-0.1-0.1_experiment_result.txt" />
-        <option value="$PROJECT_DIR$/dqn_advanced_multi_process_v2.3.2.py" />
         <option value="$PROJECT_DIR$/dqn_advanced_multi_process_v2.3.2__experiment_result.txt" />
+        <option value="$PROJECT_DIR$/dqn_advanced_multi_process_v2.1.1.py" />
+        <option value="$PROJECT_DIR$/dqn_advanced_multi_process_v2.1.2.py" />
+        <option value="$PROJECT_DIR$/dqn_advanced_multi_process_v2.0.1.py" />
+        <option value="$PROJECT_DIR$/dqn_advanced_multi_process_v2.0.2.py" />
+        <option value="$PROJECT_DIR$/dqn_advanced_multi_process_v2.0.py" />
+        <option value="$PROJECT_DIR$/dqn_advanced_multi_process_v2.0.0.py" />
+        <option value="$PROJECT_DIR$/dqn_advanced_multi_process_v2.3.2_0.2-0.2-0.1___experiment_result.txt" />
+        <option value="$PROJECT_DIR$/dqn_advanced_multi_process_v2.3.2.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="1280" />
-    <option name="y" value="-280" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -256,12 +253,6 @@
               <item name="CartPole" type="b2602c69:ProjectViewProjectNode" />
               <item name="CartPole" type="462c0819:PsiDirectoryNode" />
               <item name="graphs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CartPole" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CartPole" type="462c0819:PsiDirectoryNode" />
-              <item name="graphs" type="462c0819:PsiDirectoryNode" />
-              <item name="Dropout-0.1,0.1,0.1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -441,7 +432,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553851917974</updated>
-      <workItem from="1555995198348" duration="93803000" />
+      <workItem from="1555995198348" duration="100131000" />
     </task>
     <task id="LOCAL-00001" summary="TF, multi-threading practice">
       <created>1556089190991</created>
@@ -492,11 +483,25 @@
       <option name="project" value="LOCAL" />
       <updated>1556802216679</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="TF_DQN">
+      <created>1556804334784</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1556804334784</updated>
+    </task>
+    <task id="LOCAL-00009" summary="TF_DQN">
+      <created>1556804487724</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1556804487724</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93803000" />
+    <option name="totallyTimeSpent" value="100131000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -508,16 +513,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1280" y="-280" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22736955" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16300367" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32959184" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.46237624" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4765306" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39795917" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -542,77 +548,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="TF_DQN" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dqn_advanced_multi_process_v2.1.2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dqn_adv_experiment_result.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dqn_advanced_multi_process_v2.1.1_experiment_result.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dqn_advanced_multi_process_v2.1.1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/experiment_result/dqn_advanced_multi_process_v2.2.1_experiment_result.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/envs/tf2/lib/python3.6/site-packages/tensorflow/python/framework/ops.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="2620" selection-start-line="2620" selection-end-line="2620" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dqn_advanced_multi_process_v2.3.1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="141" column="8" lean-forward="true" selection-start-line="141" selection-start-column="8" selection-end-line="141" selection-end-column="32" />
-          <folding>
-            <element signature="e#306#317#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dqn_advanced_multi_process_v2.3-x.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graphs/loss_score.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dqn_advanced_multi_process_v2.2.1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11390">
-          <caret line="670" column="22" selection-start-line="670" selection-start-column="13" selection-end-line="670" selection-end-column="22" />
-          <folding>
-            <element signature="e#83#94#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/experiment_result/dqn_advanced_multi_process_v2.2.1_experiment_result.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -644,22 +579,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/graphs/dqn_advanced_multi_process_v2.2.2_loss_score_exp_8.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/graphs/dqn_advanced_multi_process_v2.2.2_loss_score_exp_7.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/graphs/dqn_advanced_multi_process_v2.2.2_loss_score_exp_6.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/graphs/dqn_advanced_multi_process_v2.2.2_loss_score_exp_5.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/graphs/dqn_advanced_multi_process_v2.2.2_loss_score_exp_4.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graphs/dqn_advanced_multi_process_v2.2.2_loss_score_exp_3.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/graphs/dqn_advanced_multi_process_v2.2.2_loss_score_exp_2.png">
@@ -669,9 +595,6 @@
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/graphs/dqn_advanced_multi_process_v2.2.2_loss_score_exp_0.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graphs/dqn_advanced_multi_process_v2.2.2_loss_score_exp_9.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/graphs/dqn_advanced_multi_process_v2.3.1_loss_score_exp_3.png">
@@ -769,33 +692,10 @@
     <entry file="file://$PROJECT_DIR$/experiment_result/dqn_advanced_multi_process_v2.3.2_0.2-0.1-0.2_experiment_result.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/dqn_advanced_multi_process_v2.3.2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="388" column="129" selection-start-line="388" selection-start-column="129" selection-end-line="388" selection-end-column="129" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dqn_advanced_multi_process_v2.3.2__experiment_result.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="85" lean-forward="true" selection-start-line="25" selection-start-column="85" selection-end-line="25" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graphs/Dropout-0.1,0.1,0.1/dqn_advanced_multi_process_v2.3.2_loss_score_exp_0.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graphs/Dropout-0.1,0.1,0.1/dqn_advanced_multi_process_v2.3.2_loss_score_exp_1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/graphs/Dropout-0.1,0.1,0.1/dqn_advanced_multi_process_v2.3.2_loss_score_exp_2.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/graphs/Dropout-0.1,0.1,0.1/dqn_advanced_multi_process_v2.3.2_loss_score_exp_3.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graphs/Dropout-0.1,0.1,0.1/dqn_advanced_multi_process_v2.3.2_loss_score_exp_4.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/graphs/Dropout-0.1,0.1,0.1/dqn_advanced_multi_process_v2.3.2_loss_score_exp_5.png">
@@ -804,11 +704,107 @@
     <entry file="file://$PROJECT_DIR$/graphs/Dropout-0.1,0.1,0.1/dqn_advanced_multi_process_v2.3.2_loss_score_exp_6.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/graphs/Dropout-0.1,0.1,0.1/dqn_advanced_multi_process_v2.3.2_loss_score_exp_8.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dqn_advanced_multi_process_v2.1.2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dqn_advanced_multi_process_v2.1.1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dqn_advanced_multi_process_v2.0.1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dqn_advanced_multi_process_v2.0.2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphs/Dropout-0.1,0.1,0.1/dqn_advanced_multi_process_v2.3.2_loss_score_exp_0.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphs/dqn_advanced_multi_process_v2.2.2_loss_score_exp_3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphs/dqn_advanced_multi_process_v2.2.2_loss_score_exp_5.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphs/dqn_advanced_multi_process_v2.2.2_loss_score_exp_8.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphs/dqn_advanced_multi_process_v2.2.2_loss_score_exp_9.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/graphs/Dropout-0.1,0.1,0.1/dqn_advanced_multi_process_v2.3.2_loss_score_exp_7.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/graphs/dqn_advanced_multi_process_v2.3.2_loss_score_exp_8.png">
+    <entry file="file://$PROJECT_DIR$/graphs/Dropout-0.1,0.1,0.1/dqn_advanced_multi_process_v2.3.2_loss_score_exp_4.png">
       <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dqn_advanced_multi_process_v2.0.0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="443" column="76" selection-start-line="443" selection-start-column="76" selection-end-line="443" selection-end-column="76" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphs/Dropout-0.1,0.1,0.1/dqn_advanced_multi_process_v2.3.2_loss_score_exp_1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiment_result/dqn_advanced_multi_process_v2.3.2_0.1-0.1-0.1_experiment_result.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphs/dqn_advanced_multi_process_v2.3.2_0.2-0.2-0.1__loss_score_exp_1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphs/dqn_advanced_multi_process_v2.3.2_0.2-0.2-0.1__loss_score_exp_0.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphs/dqn_advanced_multi_process_v2.3.2_0.2-0.2-0.1__loss_score_exp_2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dqn_advanced_multi_process_v2.3.2_0.2-0.2-0.1___experiment_result.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dqn_advanced_multi_process_v2.3.2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dqn_advanced_multi_process_v2.3.2_0.2-0.1-0.2___experiment_result.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="86" selection-start-line="15" selection-start-column="86" selection-end-line="15" selection-end-column="86" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
