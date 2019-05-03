@@ -40,7 +40,7 @@ verbose = False
 learning_rate = 0.001
 dropout_rate_1 = 0.1
 dropout_rate_2 = 0.1
-dropout_rate_3 = 0.2
+dropout_rate_3 = 0.3
 filename = "dqn_advanced_multi_process_v2.3.2_"+str(dropout_rate_1)+"-"+str(dropout_rate_2)+"-"+str(dropout_rate_3)+"_"
 
 if not os.path.exists("./graphs/Dropout-"+str(dropout_rate_1)+"-"+str(dropout_rate_2)+"-"+str(dropout_rate_3)):

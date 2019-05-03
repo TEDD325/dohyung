@@ -30,6 +30,7 @@ transfer = True
 num_weight_transfer_hidden_layers = 1
 verbose = False
 learning_rate = 0.001
+filename = "dqn_advanced_multi_process_v2.2.2"
 
 def exp_moving_average(values, window): #?
     """
@@ -369,6 +370,12 @@ class DQNAgent:
                     socket,
                     last_episode=episode
                 )
+
+                with open(filename + '_experiment_result.txt', 'a+') as f:
+                    exp_result = "\n\n "+" \n *** Worker "+ str(self.worker_idx)+" - Solved in episode " \
+                                 + str(episode)+ ": Mean score = " + str(mean_score) + " in " + str(self.win_trials)+ " episodes"
+                    f.write(exp_result)
+
                 break
 
         # close the env and write monitor result info to disk
