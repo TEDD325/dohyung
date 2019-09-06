@@ -1,0 +1,11 @@
+Acaoncda Navigator 실행 후, keras 환경 만든 후, kears-gpu 설치
+바탕화면에 my-keras 폴더 생성
+Anaconda Prompt 실행 -> activate keras -> cd Desktop\my-keras [창 유지]
+VS code -> open folder -> my-keras
+file -> new file -> save ("hello.py") -> print("hello")
+Anaconda Prompt -> dir -> python hello.py
+https://github.com/limsk405/keras-proj-10
+1. model-learn.py 파일 VS code로 -> Anaconda Prompt에서 실행
+
+HDFview를 이용하여 h5파일 오픈 가능
+

@@ -1,0 +1,3306 @@
+jubong:RL jubong$ python bithumb_graph_data_parser_10min.py 
+BTC - Loop 1 start at 2018-02-19 16:33:38.358776
+BTC - Loop 1 end
+BTC - Saving data start at 2018-02-19 16:33:41.702538
+BTC - Saved data
+ETH - Loop 1 start at 2018-02-19 16:33:44.737400
+ETH - Loop 1 end
+ETH - Saving data start at 2018-02-19 16:33:48.384918
+ETH - Saved data
+XRP - Loop 1 start at 2018-02-19 16:33:51.405504
+XRP - Loop 1 end
+XRP - Saving data start at 2018-02-19 16:33:54.852089
+XRP - Saved data
+BCH - Loop 1 start at 2018-02-19 16:33:57.887042
+BCH - Loop 1 end
+BCH - Saving data start at 2018-02-19 16:34:01.318028
+BCH - Saved data
+LTC - Loop 1 start at 2018-02-19 16:34:04.345329
+LTC - Loop 1 end
+LTC - Saving data start at 2018-02-19 16:34:07.638846
+LTC - Saved data
+EOS - Loop 1 start at 2018-02-19 16:34:10.658905
+EOS - Loop 1 end
+EOS - Saving data start at 2018-02-19 16:34:13.958630
+EOS - Saved data
+DASH - Loop 1 start at 2018-02-19 16:34:16.978890
+DASH - Loop 1 end
+DASH - Saving data start at 2018-02-19 16:34:20.226579
+DASH - Saved data
+XMR - Loop 1 start at 2018-02-19 16:34:23.250617
+XMR - Loop 1 end
+XMR - Saving data start at 2018-02-19 16:34:26.497864
+XMR - Saved data
+ETC - Loop 1 start at 2018-02-19 16:34:29.525397
+ETC - Loop 1 end
+ETC - Saving data start at 2018-02-19 16:34:32.930291
+ETC - Saved data
+QTUM - Loop 1 start at 2018-02-19 16:34:35.957066
+QTUM - Loop 1 end
+QTUM - Saving data start at 2018-02-19 16:34:39.749781
+QTUM - Saved data
+BTG - Loop 1 start at 2018-02-19 16:34:42.772997
+BTG - Loop 1 end
+BTG - Saving data start at 2018-02-19 16:34:46.021912
+BTG - Saved data
+ZEC - Loop 1 start at 2018-02-19 16:34:49.049695
+ZEC - Loop 1 end
+ZEC - Saving data start at 2018-02-19 16:34:52.555302
+ZEC - Saved data
+BTC - Loop 1 start at 2018-02-19 16:34:55.580231
+BTC - Loop 1 end
+BTC - Loop 2 start at 2018-02-19 16:35:38.878237
+BTC - Loop 2 end
+BTC - Loop 3 start at 2018-02-19 16:36:23.838103
+BTC - Loop 3 end
+BTC - Saving data start at 2018-02-19 16:38:25.054948
+BTC - Saved data
+ETH - Loop 1 start at 2018-02-19 16:38:28.116402
+ETH - Loop 1 end
+ETH - Loop 2 start at 2018-02-19 16:39:11.579918
+ETH - Loop 2 end
+ETH - Loop 3 start at 2018-02-19 16:39:55.360651
+ETH - Loop 3 end
+ETH - Saving data start at 2018-02-19 16:41:54.627706
+ETH - Saved data
+XRP - Loop 1 start at 2018-02-19 16:41:57.673561
+XRP - Loop 1 end
+XRP - Loop 2 start at 2018-02-19 16:42:42.316279
+XRP - Loop 2 end
+XRP - Loop 3 start at 2018-02-19 16:43:27.167793
+XRP - Loop 3 end
+XRP - Saving data start at 2018-02-19 16:45:28.066136
+XRP - Saved data
+BCH - Loop 1 start at 2018-02-19 16:45:31.114070
+BCH - Loop 1 end
+BCH - Loop 2 start at 2018-02-19 16:46:15.407002
+BCH - Loop 2 end
+BCH - Loop 3 start at 2018-02-19 16:47:00.521055
+BCH - Loop 3 end
+BCH - Saving data start at 2018-02-19 16:49:00.964468
+BCH - Saved data
+LTC - Loop 1 start at 2018-02-19 16:49:04.028927
+LTC - Loop 1 end
+LTC - Loop 2 start at 2018-02-19 16:49:49.123298
+LTC - Loop 2 end
+LTC - Loop 3 start at 2018-02-19 16:50:34.234923
+LTC - Loop 3 end
+LTC - Saving data start at 2018-02-19 16:52:34.627232
+LTC - Saved data
+EOS - Loop 1 start at 2018-02-19 16:52:37.672733
+EOS - Loop 1 end
+EOS - Loop 2 start at 2018-02-19 16:52:55.197094
+EOS - Loop 2 end
+EOS - Loop 3 start at 2018-02-19 16:53:13.265485
+EOS - Loop 3 end
+EOS - Saving data start at 2018-02-19 16:54:40.656139
+EOS - Saved data
+DASH - Loop 1 start at 2018-02-19 16:54:43.696732
+DASH - Loop 1 end
+DASH - Loop 2 start at 2018-02-19 16:55:27.508276
+DASH - Loop 2 end
+DASH - Loop 3 start at 2018-02-19 16:56:12.466738
+DASH - Loop 3 end
+DASH - Saving data start at 2018-02-19 16:58:11.934557
+DASH - Saved data
+XMR - Loop 1 start at 2018-02-19 16:58:14.983417
+XMR - Loop 1 end
+XMR - Loop 2 start at 2018-02-19 16:58:59.927678
+XMR - Loop 2 end
+XMR - Loop 3 start at 2018-02-19 16:59:44.488022
+XMR - Loop 3 end
+XMR - Saving data start at 2018-02-19 17:01:43.332351
+XMR - Saved data
+ETC - Loop 1 start at 2018-02-19 17:01:46.376906
+ETC - Loop 1 end
+ETC - Loop 2 start at 2018-02-19 17:02:30.173404
+ETC - Loop 2 end
+ETC - Loop 3 start at 2018-02-19 17:03:13.896677
+ETC - Loop 3 end
+ETC - Saving data start at 2018-02-19 17:05:13.851146
+ETC - Saved data
+QTUM - Loop 1 start at 2018-02-19 17:05:16.887139
+QTUM - Loop 1 end
+QTUM - Loop 2 start at 2018-02-19 17:05:59.618239
+QTUM - Loop 2 end
+QTUM - Loop 3 start at 2018-02-19 17:06:43.646055
+QTUM - Loop 3 end
+QTUM - Saving data start at 2018-02-19 17:08:43.080248
+QTUM - Saved data
+BTG - Loop 1 start at 2018-02-19 17:08:46.123202
+BTG - Loop 1 end
+BTG - Loop 2 start at 2018-02-19 17:09:30.067792
+BTG - Loop 2 end
+BTG - Loop 3 start at 2018-02-19 17:10:14.287409
+BTG - Loop 3 end
+BTG - Saving data start at 2018-02-19 17:12:13.250712
+BTG - Saved data
+ZEC - Loop 1 start at 2018-02-19 17:12:16.297114
+ZEC - Loop 1 end
+ZEC - Loop 2 start at 2018-02-19 17:13:00.107472
+ZEC - Loop 2 end
+ZEC - Loop 3 start at 2018-02-19 17:13:44.244999
+ZEC - Loop 3 end
+ZEC - Saving data start at 2018-02-19 17:15:43.519301
+ZEC - Saved data
+BTC - Loop 1 start at 2018-02-19 17:15:46.554641
+BTC - Loop 1 end
+BTC - Saving data start at 2018-02-19 17:16:32.106043
+BTC - Saved data
+ETH - Loop 1 start at 2018-02-19 17:16:35.167760
+ETH - Loop 1 end
+ETH - Saving data start at 2018-02-19 17:17:20.570990
+ETH - Saved data
+XRP - Loop 1 start at 2018-02-19 17:17:23.639022
+XRP - Loop 1 end
+XRP - Saving data start at 2018-02-19 17:18:08.853301
+XRP - Saved data
+BCH - Loop 1 start at 2018-02-19 17:18:11.921178
+BCH - Loop 1 end
+BCH - Saving data start at 2018-02-19 17:18:59.865176
+BCH - Saved data
+LTC - Loop 1 start at 2018-02-19 17:19:02.929632
+LTC - Loop 1 end
+LTC - Saving data start at 2018-02-19 17:19:57.370876
+LTC - Saved data
+EOS - Loop 1 start at 2018-02-19 17:20:00.426565
+Can't search long ago data - EOS.
+EOS - Loop 1 end
+EOS - Saving data start at 2018-02-19 17:20:03.535786
+EOS - Saved data
+DASH - Loop 1 start at 2018-02-19 17:20:06.574086
+DASH - Loop 1 end
+DASH - Saving data start at 2018-02-19 17:21:00.405754
+DASH - Saved data
+XMR - Loop 1 start at 2018-02-19 17:21:03.456694
+XMR - Loop 1 end
+XMR - Saving data start at 2018-02-19 17:21:53.702087
+XMR - Saved data
+ETC - Loop 1 start at 2018-02-19 17:21:56.779157
+ETC - Loop 1 end
+ETC - Saving data start at 2018-02-19 17:22:42.698812
+ETC - Saved data
+QTUM - Loop 1 start at 2018-02-19 17:22:45.753161
+QTUM - Loop 1 end
+QTUM - Saving data start at 2018-02-19 17:23:19.913427
+QTUM - Saved data
+BTG - Loop 1 start at 2018-02-19 17:23:22.970014
+Can't search long ago data - BTG.
+BTG - Loop 1 end
+BTG - Saving data start at 2018-02-19 17:23:26.068066
+BTG - Saved data
+ZEC - Loop 1 start at 2018-02-19 17:23:29.106789
+ZEC - Loop 1 end
+ZEC - Saving data start at 2018-02-19 17:24:14.094349
+ZEC - Saved data
+BTC - Loop 1 start at 2018-02-19 17:24:17.145160
+BTC - Loop 1 end
+BTC - Loop 2 start at 2018-02-19 17:25:03.743595
+BTC - Loop 2 end
+BTC - Loop 3 start at 2018-02-19 17:25:55.319287
+BTC - Loop 3 end
+BTC - Saving data start at 2018-02-19 17:30:49.084142
+BTC - Saved data
+ETH - Loop 1 start at 2018-02-19 17:30:52.168880
+ETH - Loop 1 end
+ETH - Loop 2 start at 2018-02-19 17:31:50.222298
+ETH - Loop 2 end
+ETH - Loop 3 start at 2018-02-19 17:32:45.946837
+ETH - Loop 3 end
+ETH - Saving data start at 2018-02-19 17:37:52.516999
+ETH - Saved data
+XRP - Loop 1 start at 2018-02-19 17:37:55.593372
+XRP - Loop 1 end
+XRP - Loop 2 start at 2018-02-19 17:38:47.397944
+XRP - Loop 2 end
+XRP - Loop 3 start at 2018-02-19 17:39:39.017636
+XRP - Loop 3 end
+XRP - Saving data start at 2018-02-19 17:44:34.914001
+XRP - Saved data
+BCH - Loop 1 start at 2018-02-19 17:44:37.994124
+BCH - Loop 1 end
+BCH - Loop 2 start at 2018-02-19 17:45:32.841012
+BCH - Loop 2 end
+BCH - Loop 3 start at 2018-02-19 17:46:23.447755
+BCH - Loop 3 end
+BCH - Saving data start at 2018-02-19 17:51:29.628152
+BCH - Saved data
+LTC - Loop 1 start at 2018-02-19 17:51:32.719050
+LTC - Loop 1 end
+LTC - Loop 2 start at 2018-02-19 17:52:18.149549
+LTC - Loop 2 end
+LTC - Loop 3 start at 2018-02-19 17:53:06.126707
+LTC - Loop 3 end
+LTC - Saving data start at 2018-02-19 17:57:55.997978
+LTC - Saved data
+EOS - Loop 1 start at 2018-02-19 17:57:59.065777
+Can't search long ago data - EOS.
+EOS - Loop 1 end
+EOS - Loop 2 start at 2018-02-19 17:58:02.155224
+Can't search much long ago data - EOS.
+EOS - Loop 2 end
+EOS - Loop 3 start at 2018-02-19 17:58:05.198116
+EOS - Loop 3 end
+EOS - Saving data start at 2018-02-19 17:59:36.589202
+EOS - Saved data
+DASH - Loop 1 start at 2018-02-19 17:59:39.622037
+DASH - Loop 1 end
+DASH - Loop 2 start at 2018-02-19 18:00:28.910760
+DASH - Loop 2 end
+DASH - Loop 3 start at 2018-02-19 18:01:18.013708
+DASH - Loop 3 end
+DASH - Saving data start at 2018-02-19 18:06:03.939250
+DASH - Saved data
+XMR - Loop 1 start at 2018-02-19 18:06:07.009414
+XMR - Loop 1 end
+XMR - Loop 2 start at 2018-02-19 18:06:56.138688
+XMR - Loop 2 end
+XMR - Loop 3 start at 2018-02-19 18:07:43.985511
+XMR - Loop 3 end
+XMR - Saving data start at 2018-02-19 18:12:29.345903
+XMR - Saved data
+ETC - Loop 1 start at 2018-02-19 18:12:32.418177
+ETC - Loop 1 end
+ETC - Loop 2 start at 2018-02-19 18:13:21.848478
+ETC - Loop 2 end
+ETC - Loop 3 start at 2018-02-19 18:14:11.664130
+ETC - Loop 3 end
+ETC - Saving data start at 2018-02-19 18:18:47.265828
+ETC - Saved data
+QTUM - Loop 1 start at 2018-02-19 18:18:50.355409
+Can't search long ago data - QTUM.
+QTUM - Loop 1 end
+QTUM - Loop 2 start at 2018-02-19 18:18:53.401136
+Can't search much long ago data - QTUM.
+QTUM - Loop 2 end
+QTUM - Loop 3 start at 2018-02-19 18:18:56.436258
+QTUM - Loop 3 end
+QTUM - Saving data start at 2018-02-19 18:22:00.840106
+QTUM - Saved data
+BTG - Loop 1 start at 2018-02-19 18:22:03.903327
+Can't search long ago data - BTG.
+BTG - Loop 1 end
+BTG - Loop 2 start at 2018-02-19 18:22:06.947401
+Can't search much long ago data - BTG.
+BTG - Loop 2 end
+BTG - Loop 3 start at 2018-02-19 18:22:09.993297
+BTG - Loop 3 end
+BTG - Saving data start at 2018-02-19 18:24:09.564830
+BTG - Saved data
+ZEC - Loop 1 start at 2018-02-19 18:24:12.601866
+ZEC - Loop 1 end
+ZEC - Loop 2 start at 2018-02-19 18:24:28.894852
+ZEC - Loop 2 end
+ZEC - Loop 3 start at 2018-02-19 18:24:44.016616
+ZEC - Loop 3 end
+ZEC - Saving data start at 2018-02-19 18:28:38.190917
+ZEC - Saved data
+BTC - Loop 1 start at 2018-02-19 18:28:41.253924
+BTC - Loop 1 end
+BTC - Saving data start at 2018-02-19 18:29:29.303923
+BTC - Saved data
+ETH - Loop 1 start at 2018-02-19 18:29:32.392998
+ETH - Loop 1 end
+ETH - Saving data start at 2018-02-19 18:30:19.998507
+ETH - Saved data
+XRP - Loop 1 start at 2018-02-19 18:30:23.090628
+XRP - Loop 1 end
+XRP - Saving data start at 2018-02-19 18:31:10.516789
+XRP - Saved data
+BCH - Loop 1 start at 2018-02-19 18:31:13.590623
+BCH - Loop 1 end
+BCH - Saving data start at 2018-02-19 18:31:40.135637
+BCH - Saved data
+LTC - Loop 1 start at 2018-02-19 18:31:43.214778
+LTC - Loop 1 end
+LTC - Saving data start at 2018-02-19 18:32:30.881810
+LTC - Saved data
+EOS - Loop 1 start at 2018-02-19 18:32:33.983378
+Can't search long ago data - EOS.
+EOS - Loop 1 end
+EOS - Saving data start at 2018-02-19 18:32:37.025150
+EOS - Saved data
+DASH - Loop 1 start at 2018-02-19 18:32:40.058550
+DASH - Loop 1 end
+DASH - Saving data start at 2018-02-19 18:33:27.530167
+DASH - Saved data
+XMR - Loop 1 start at 2018-02-19 18:33:30.614233
+XMR - Loop 1 end
+XMR - Saving data start at 2018-02-19 18:33:35.298195
+XMR - Saved data
+ETC - Loop 1 start at 2018-02-19 18:33:38.377644
+ETC - Loop 1 end
+ETC - Saving data start at 2018-02-19 18:34:25.889891
+ETC - Saved data
+QTUM - Loop 1 start at 2018-02-19 18:34:28.988374
+Can't search long ago data - QTUM.
+QTUM - Loop 1 end
+QTUM - Saving data start at 2018-02-19 18:34:32.035466
+QTUM - Saved data
+BTG - Loop 1 start at 2018-02-19 18:34:35.098013
+Can't search long ago data - BTG.
+BTG - Loop 1 end
+BTG - Saving data start at 2018-02-19 18:34:38.148881
+BTG - Saved data
+ZEC - Loop 1 start at 2018-02-19 18:34:41.184240
+Can't search long ago data - ZEC.
+ZEC - Loop 1 end
+ZEC - Saving data start at 2018-02-19 18:34:44.220484
+ZEC - Saved data
+BTC - Loop 1 start at 2018-02-19 18:34:47.283566
+BTC - Loop 1 end
+BTC - Loop 2 start at 2018-02-19 18:35:37.296141
+BTC - Loop 2 end
+BTC - Loop 3 start at 2018-02-19 18:36:27.517380
+BTC - Loop 3 end
+BTC - Saving data start at 2018-02-19 18:43:36.225024
+BTC - Saved data
+ETH - Loop 1 start at 2018-02-19 18:43:39.315120
+ETH - Loop 1 end
+ETH - Loop 2 start at 2018-02-19 18:44:27.026979
+ETH - Loop 2 end
+ETH - Loop 3 start at 2018-02-19 18:45:14.966471
+ETH - Loop 3 end
+ETH - Saving data start at 2018-02-19 18:52:21.162245
+ETH - Saved data
+XRP - Loop 1 start at 2018-02-19 18:52:24.256684
+XRP - Loop 1 end
+XRP - Loop 2 start at 2018-02-19 18:53:13.299377
+XRP - Loop 2 end
+XRP - Loop 3 start at 2018-02-19 18:54:04.688031
+XRP - Loop 3 end
+XRP - Saving data start at 2018-02-19 19:01:27.233030
+XRP - Saved data
+BCH - Loop 1 start at 2018-02-19 19:01:30.310373
+Can't search long ago data - BCH.
+BCH - Loop 1 end
+BCH - Loop 2 start at 2018-02-19 19:01:33.395309
+Can't search much long ago data - BCH.
+BCH - Loop 2 end
+BCH - Loop 3 start at 2018-02-19 19:01:36.442235
+BCH - Loop 3 end
+BCH - Saving data start at 2018-02-19 19:07:05.948503
+BCH - Saved data
+LTC - Loop 1 start at 2018-02-19 19:07:09.035016
+LTC - Loop 1 end
+LTC - Loop 2 start at 2018-02-19 19:07:54.778095
+LTC - Loop 2 end
+LTC - Loop 3 start at 2018-02-19 19:08:40.567228
+LTC - Loop 3 end
+LTC - Saving data start at 2018-02-19 19:15:39.346166
+LTC - Saved data
+EOS - Loop 1 start at 2018-02-19 19:15:42.422290
+Can't search long ago data - EOS.
+EOS - Loop 1 end
+EOS - Loop 2 start at 2018-02-19 19:15:45.488402
+Can't search much long ago data - EOS.
+EOS - Loop 2 end
+EOS - Loop 3 start at 2018-02-19 19:15:48.535152
+EOS - Loop 3 end
+EOS - Saving data start at 2018-02-19 19:17:16.025053
+EOS - Saved data
+DASH - Loop 1 start at 2018-02-19 19:17:19.058104
+DASH - Loop 1 end
+DASH - Loop 2 start at 2018-02-19 19:18:02.904284
+DASH - Loop 2 end
+DASH - Loop 3 start at 2018-02-19 19:18:47.350293
+DASH - Loop 3 end
+DASH - Saving data start at 2018-02-19 19:27:05.576152
+DASH - Saved data
+XMR - Loop 1 start at 2018-02-19 19:27:08.746766
+Can't search long ago data - XMR.
+XMR - Loop 1 end
+XMR - Loop 2 start at 2018-02-19 19:27:12.661148
+Can't search much long ago data - XMR.
+XMR - Loop 2 end
+XMR - Loop 3 start at 2018-02-19 19:27:15.709796
+XMR - Loop 3 end
+XMR - Saving data start at 2018-02-19 19:33:02.607113
+XMR - Saved data
+ETC - Loop 1 start at 2018-02-19 19:33:05.708777
+ETC - Loop 1 end
+ETC - Loop 2 start at 2018-02-19 19:33:59.023063
+ETC - Loop 2 end
+ETC - Loop 3 start at 2018-02-19 19:34:58.026114
+ETC - Loop 3 end
+ETC - Saving data start at 2018-02-19 19:42:24.733235
+ETC - Saved data
+QTUM - Loop 1 start at 2018-02-19 19:42:27.822349
+Can't search long ago data - QTUM.
+QTUM - Loop 1 end
+QTUM - Loop 2 start at 2018-02-19 19:42:30.874065
+Can't search much long ago data - QTUM.
+QTUM - Loop 2 end
+QTUM - Loop 3 start at 2018-02-19 19:42:33.936594
+QTUM - Loop 3 end
+QTUM - Saving data start at 2018-02-19 19:45:44.135319
+QTUM - Saved data
+BTG - Loop 1 start at 2018-02-19 19:45:47.194112
+Can't search long ago data - BTG.
+BTG - Loop 1 end
+BTG - Loop 2 start at 2018-02-19 19:45:50.259562
+Can't search much long ago data - BTG.
+BTG - Loop 2 end
+BTG - Loop 3 start at 2018-02-19 19:45:53.324921
+BTG - Loop 3 end
+BTG - Saving data start at 2018-02-19 19:48:05.090985
+BTG - Saved data
+ZEC - Loop 1 start at 2018-02-19 19:48:08.132257
+Can't search long ago data - ZEC.
+ZEC - Loop 1 end
+ZEC - Loop 2 start at 2018-02-19 19:48:11.199511
+Can't search much long ago data - ZEC.
+ZEC - Loop 2 end
+ZEC - Loop 3 start at 2018-02-19 19:48:14.338120
+ZEC - Loop 3 end
+ZEC - Saving data start at 2018-02-19 19:52:14.908106
+ZEC - Saved data
+BTC - Loop 1 start at 2018-02-19 19:52:17.977716
+Can't search long ago data - BTC.
+BTC - Loop 1 end
+BTC - Saving data start at 2018-02-19 19:52:21.015914
+BTC - Saved data
+ETH - Loop 1 start at 2018-02-19 19:52:24.133092
+Can't search long ago data - ETH.
+ETH - Loop 1 end
+ETH - Saving data start at 2018-02-19 19:52:27.177873
+ETH - Saved data
+XRP - Loop 1 start at 2018-02-19 19:52:30.300059
+Can't search long ago data - XRP.
+XRP - Loop 1 end
+XRP - Saving data start at 2018-02-19 19:52:33.341306
+XRP - Saved data
+BCH - Loop 1 start at 2018-02-19 19:52:36.414259
+Can't search long ago data - BCH.
+BCH - Loop 1 end
+BCH - Saving data start at 2018-02-19 19:52:39.481167
+BCH - Saved data
+LTC - Loop 1 start at 2018-02-19 19:52:42.553525
+Can't search long ago data - LTC.
+LTC - Loop 1 end
+LTC - Saving data start at 2018-02-19 19:52:45.600402
+LTC - Saved data
+EOS - Loop 1 start at 2018-02-19 19:52:48.683604
+Can't search long ago data - EOS.
+EOS - Loop 1 end
+EOS - Saving data start at 2018-02-19 19:52:51.745666
+EOS - Saved data
+DASH - Loop 1 start at 2018-02-19 19:52:54.780170
+Can't search long ago data - DASH.
+DASH - Loop 1 end
+DASH - Saving data start at 2018-02-19 19:52:57.826471
+DASH - Saved data
+XMR - Loop 1 start at 2018-02-19 19:53:00.910459
+Can't search long ago data - XMR.
+XMR - Loop 1 end
+XMR - Saving data start at 2018-02-19 19:53:03.962485
+XMR - Saved data
+ETC - Loop 1 start at 2018-02-19 19:53:07.033574
+Can't search long ago data - ETC.
+ETC - Loop 1 end
+ETC - Saving data start at 2018-02-19 19:53:10.080095
+ETC - Saved data
+QTUM - Loop 1 start at 2018-02-19 19:53:13.163933
+Can't search long ago data - QTUM.
+QTUM - Loop 1 end
+QTUM - Saving data start at 2018-02-19 19:53:16.223303
+QTUM - Saved data
+BTG - Loop 1 start at 2018-02-19 19:53:19.279810
+Can't search long ago data - BTG.
+BTG - Loop 1 end
+BTG - Saving data start at 2018-02-19 19:53:22.339304
+BTG - Saved data
+ZEC - Loop 1 start at 2018-02-19 19:53:25.372396
+Can't search long ago data - ZEC.
+ZEC - Loop 1 end
+ZEC - Saving data start at 2018-02-19 19:53:29.437598
+ZEC - Saved data
+BTC - Loop 1 start at 2018-02-19 19:53:32.498538
+Can't search long ago data - BTC.
+BTC - Loop 1 end
+BTC - Loop 2 start at 2018-02-19 19:53:35.557029
+Can't search much long ago data - BTC.
+BTC - Loop 2 end
+BTC - Loop 3 start at 2018-02-19 19:53:38.605650
+BTC - Loop 3 end
+BTC - Saving data start at 2018-02-19 20:00:53.471714
+BTC - Saved data
+ETH - Loop 1 start at 2018-02-19 20:00:56.578215
+Can't search long ago data - ETH.
+ETH - Loop 1 end
+ETH - Loop 2 start at 2018-02-19 20:00:59.642513
+Can't search much long ago data - ETH.
+ETH - Loop 2 end
+ETH - Loop 3 start at 2018-02-19 20:01:02.719974
+ETH - Loop 3 end
+ETH - Saving data start at 2018-02-19 20:08:37.340234
+ETH - Saved data
+XRP - Loop 1 start at 2018-02-19 20:08:40.433437
+Can't search long ago data - XRP.
+XRP - Loop 1 end
+XRP - Loop 2 start at 2018-02-19 20:08:43.528406
+Can't search much long ago data - XRP.
+XRP - Loop 2 end
+XRP - Loop 3 start at 2018-02-19 20:08:46.593441
+XRP - Loop 3 end
+XRP - Saving data start at 2018-02-19 20:16:19.562780
+XRP - Saved data
+BCH - Loop 1 start at 2018-02-19 20:16:22.643434
+Can't search long ago data - BCH.
+BCH - Loop 1 end
+BCH - Loop 2 start at 2018-02-19 20:16:25.714799
+Can't search much long ago data - BCH.
+BCH - Loop 2 end
+BCH - Loop 3 start at 2018-02-19 20:16:28.764550
+BCH - Loop 3 end
+BCH - Saving data start at 2018-02-19 20:22:24.321274
+BCH - Saved data
+LTC - Loop 1 start at 2018-02-19 20:22:27.428382
+Can't search long ago data - LTC.
+LTC - Loop 1 end
+LTC - Loop 2 start at 2018-02-19 20:22:30.496077
+Can't search much long ago data - LTC.
+LTC - Loop 2 end
+LTC - Loop 3 start at 2018-02-19 20:22:33.538721
+BTC - Loop 1 start at 2018-02-19 21:11:18.724206
+BTC - Loop 1 end
+BTC - Saving data start at 2018-02-19 21:19:17.099101
+BTC - Saved data
+ETH - Loop 1 start at 2018-02-19 21:19:20.184816
+ETH - Loop 1 end
+ETH - Saving data start at 2018-02-19 21:27:16.403028
+ETH - Saved data
+XRP - Loop 1 start at 2018-02-19 21:27:19.527064
+XRP - Loop 1 end
+XRP - Saving data start at 2018-02-19 21:35:09.037587
+XRP - Saved data
+BCH - Loop 1 start at 2018-02-19 21:35:12.132255
+BCH - Loop 1 end
+BCH - Saving data start at 2018-02-19 21:41:05.449616
+BCH - Saved data
+LTC - Loop 1 start at 2018-02-19 21:41:08.571360
+LTC - Loop 1 end
+LTC - Saving data start at 2018-02-19 21:48:57.316360
+LTC - Saved data
+EOS - Loop 1 start at 2018-02-19 21:49:00.414455
+EOS - Loop 1 end
+EOS - Saving data start at 2018-02-19 21:50:37.027431
+EOS - Saved data
+DASH - Loop 1 start at 2018-02-19 21:50:40.053267
+DASH - Loop 1 end
+DASH - Saving data start at 2018-02-19 21:58:14.434261
+DASH - Saved data
+XMR - Loop 1 start at 2018-02-19 21:58:17.540094
+XMR - Loop 1 end
+XMR - Saving data start at 2018-02-19 22:03:17.541147
+XMR - Saved data
+ETC - Loop 1 start at 2018-02-19 22:03:20.623870
+ETC - Loop 1 end
+ETC - Saving data start at 2018-02-19 22:11:04.373975
+ETC - Saved data
+QTUM - Loop 1 start at 2018-02-19 22:11:07.461075
+QTUM - Loop 1 end
+QTUM - Saving data start at 2018-02-19 22:14:27.833403
+QTUM - Saved data
+BTG - Loop 1 start at 2018-02-19 22:14:30.883034
+BTG - Loop 1 end
+BTG - Saving data start at 2018-02-19 22:16:42.069227
+BTG - Saved data
+ZEC - Loop 1 start at 2018-02-19 22:16:45.117149
+ZEC - Loop 1 end
+ZEC - Saving data start at 2018-02-19 22:20:58.357752
+ZEC - Saved data
+BTC - Loop 1 start at 2018-02-19 22:21:01.407983
+BTC - Loop 1 end
+BTC - Loop 2 start at 2018-02-19 22:27:34.350314
+BTC - Loop 2 end
+BTC - Loop 3 start at 2018-02-19 22:33:07.984865
+BTC - Loop 3 end
+BTC - Saving data start at 2018-02-19 22:42:14.282291
+BTC - Saved data
+ETH - Loop 1 start at 2018-02-19 22:42:17.413069
+ETH - Loop 1 end
+ETH - Loop 2 start at 2018-02-19 22:49:16.255813
+ETH - Loop 2 end
+ETH - Loop 3 start at 2018-02-19 22:54:59.136457
+ETH - Loop 3 end
+ETH - Saving data start at 2018-02-19 23:03:38.983961
+ETH - Saved data
+XRP - Loop 1 start at 2018-02-19 23:03:42.132910
+XRP - Loop 1 end
+XRP - Loop 2 start at 2018-02-19 23:10:47.016691
+XRP - Loop 2 end
+XRP - Loop 3 start at 2018-02-19 23:16:36.538028
+XRP - Loop 3 end
+XRP - Saving data start at 2018-02-19 23:25:24.808222
+XRP - Saved data
+BCH - Loop 1 start at 2018-02-19 23:25:27.911811
+BCH - Loop 1 end
+BCH - Loop 2 start at 2018-02-19 23:30:43.079320
+BCH - Loop 2 end
+BCH - Loop 3 start at 2018-02-19 23:34:27.225830
+BCH - Loop 3 end
+BCH - Saving data start at 2018-02-19 23:41:13.774594
+BCH - Saved data
+LTC - Loop 1 start at 2018-02-19 23:41:16.861694
+LTC - Loop 1 end
+LTC - Loop 2 start at 2018-02-19 23:48:41.374143
+LTC - Loop 2 end
+LTC - Loop 3 start at 2018-02-19 23:54:18.151907
+LTC - Loop 3 end
+LTC - Saving data start at 2018-02-20 00:02:39.650148
+LTC - Saved data
+EOS - Loop 1 start at 2018-02-20 00:02:42.767808
+EOS - Loop 1 end
+EOS - Loop 2 start at 2018-02-20 00:03:02.719321
+Can't search much long ago data - EOS.
+EOS - Loop 2 end
+EOS - Loop 3 start at 2018-02-20 00:03:05.775699
+EOS - Loop 3 end
+EOS - Saving data start at 2018-02-20 00:04:32.689490
+EOS - Saved data
+DASH - Loop 1 start at 2018-02-20 00:04:35.723770
+DASH - Loop 1 end
+DASH - Loop 2 start at 2018-02-20 00:10:19.432853
+DASH - Loop 2 end
+DASH - Loop 3 start at 2018-02-20 00:14:56.780170
+DASH - Loop 3 end
+DASH - Saving data start at 2018-02-20 00:22:18.486677
+DASH - Saved data
+XMR - Loop 1 start at 2018-02-20 00:22:21.588509
+XMR - Loop 1 end
+XMR - Loop 2 start at 2018-02-20 00:26:07.654170
+XMR - Loop 2 end
+XMR - Loop 3 start at 2018-02-20 00:28:29.508750
+XMR - Loop 3 end
+XMR - Saving data start at 2018-02-20 00:33:05.077118
+XMR - Saved data
+ETC - Loop 1 start at 2018-02-20 00:33:08.141414
+ETC - Loop 1 end
+ETC - Loop 2 start at 2018-02-20 00:39:05.251719
+ETC - Loop 2 end
+ETC - Loop 3 start at 2018-02-20 00:44:03.976189
+ETC - Loop 3 end
+ETC - Saving data start at 2018-02-20 00:51:25.500323
+ETC - Saved data
+QTUM - Loop 1 start at 2018-02-20 00:51:28.587197
+QTUM - Loop 1 end
+QTUM - Loop 2 start at 2018-02-20 00:53:16.208647
+QTUM - Loop 2 end
+QTUM - Loop 3 start at 2018-02-20 00:53:50.588478
+QTUM - Loop 3 end
+QTUM - Saving data start at 2018-02-20 00:57:10.703499
+QTUM - Saved data
+BTG - Loop 1 start at 2018-02-20 00:57:13.749738
+BTG - Loop 1 end
+BTG - Loop 2 start at 2018-02-20 00:58:02.019443
+Can't search much long ago data - BTG.
+BTG - Loop 2 end
+BTG - Loop 3 start at 2018-02-20 00:58:05.069648
+BTG - Loop 3 end
+BTG - Saving data start at 2018-02-20 01:00:08.498023
+BTG - Saved data
+ZEC - Loop 1 start at 2018-02-20 01:00:11.536658
+ZEC - Loop 1 end
+ZEC - Loop 2 start at 2018-02-20 01:02:51.398590
+ZEC - Loop 2 end
+ZEC - Loop 3 start at 2018-02-20 01:04:18.940449
+ZEC - Loop 3 end
+ZEC - Saving data start at 2018-02-20 01:08:35.588170
+ZEC - Saved data
+BTC - Loop 1 start at 2018-02-20 01:08:38.656201
+BTC - Loop 1 end
+BTC - Saving data start at 2018-02-20 01:13:20.320901
+BTC - Saved data
+ETH - Loop 1 start at 2018-02-20 01:13:23.410412
+ETH - Loop 1 end
+ETH - Saving data start at 2018-02-20 01:18:06.691736
+ETH - Saved data
+XRP - Loop 1 start at 2018-02-20 01:18:09.794827
+XRP - Loop 1 end
+XRP - Saving data start at 2018-02-20 01:22:50.911393
+XRP - Saved data
+BCH - Loop 1 start at 2018-02-20 01:22:54.032210
+BCH - Loop 1 end
+BCH - Saving data start at 2018-02-20 01:25:54.245825
+BCH - Saved data
+LTC - Loop 1 start at 2018-02-20 01:25:57.326666
+LTC - Loop 1 end
+LTC - Saving data start at 2018-02-20 01:30:38.372471
+LTC - Saved data
+EOS - Loop 1 start at 2018-02-20 01:30:41.461621
+Can't search long ago data - EOS.
+EOS - Loop 1 end
+EOS - Saving data start at 2018-02-20 01:30:44.526971
+EOS - Saved data
+DASH - Loop 1 start at 2018-02-20 01:30:47.559735
+DASH - Loop 1 end
+DASH - Saving data start at 2018-02-20 01:35:26.772499
+DASH - Saved data
+XMR - Loop 1 start at 2018-02-20 01:35:29.888916
+XMR - Loop 1 end
+XMR - Saving data start at 2018-02-20 01:37:44.881611
+XMR - Saved data
+ETC - Loop 1 start at 2018-02-20 01:37:47.949772
+ETC - Loop 1 end
+ETC - Saving data start at 2018-02-20 01:42:31.759013
+ETC - Saved data
+QTUM - Loop 1 start at 2018-02-20 01:42:34.884634
+QTUM - Loop 1 end
+QTUM - Saving data start at 2018-02-20 01:43:09.907123
+QTUM - Saved data
+BTG - Loop 1 start at 2018-02-20 01:43:12.975584
+Can't search long ago data - BTG.
+BTG - Loop 1 end
+BTG - Saving data start at 2018-02-20 01:43:16.035175
+BTG - Saved data
+ZEC - Loop 1 start at 2018-02-20 01:43:19.088635
+ZEC - Loop 1 end
+ZEC - Saving data start at 2018-02-20 01:44:45.412158
+ZEC - Saved data
+BTC - Loop 1 start at 2018-02-20 01:44:48.482718
+BTC - Loop 1 end
+BTC - Loop 2 start at 2018-02-20 01:48:12.153041
+BTC - Loop 2 end
+BTC - Loop 3 start at 2018-02-20 01:50:22.596863
+BTC - Loop 3 end
+BTC - Saving data start at 2018-02-20 01:57:48.373506
+BTC - Saved data
+ETH - Loop 1 start at 2018-02-20 01:57:51.508646
+ETH - Loop 1 end
+ETH - Loop 2 start at 2018-02-20 02:01:15.842043
+ETH - Loop 2 end
+ETH - Loop 3 start at 2018-02-20 02:03:23.130417
+ETH - Loop 3 end
+ETH - Saving data start at 2018-02-20 02:10:44.806527
+ETH - Saved data
+XRP - Loop 1 start at 2018-02-20 02:10:47.927523
+XRP - Loop 1 end
+XRP - Loop 2 start at 2018-02-20 02:14:09.315104
+XRP - Loop 2 end
+XRP - Loop 3 start at 2018-02-20 02:16:13.434725
+XRP - Loop 3 end
+XRP - Saving data start at 2018-02-20 02:23:23.927682
+XRP - Saved data
+BCH - Loop 1 start at 2018-02-20 02:23:27.026817
+BCH - Loop 1 end
+BCH - Loop 2 start at 2018-02-20 02:25:07.743634
+BCH - Loop 2 end
+BCH - Loop 3 start at 2018-02-20 02:25:32.785404
+BCH - Loop 3 end
+BCH - Saving data start at 2018-02-20 02:31:01.440893
+BCH - Saved data
+LTC - Loop 1 start at 2018-02-20 02:31:04.521283
+LTC - Loop 1 end
+LTC - Loop 2 start at 2018-02-20 02:34:28.180598
+LTC - Loop 2 end
+LTC - Loop 3 start at 2018-02-20 02:36:30.388911
+LTC - Loop 3 end
+LTC - Saving data start at 2018-02-20 02:43:42.698853
+LTC - Saved data
+EOS - Loop 1 start at 2018-02-20 02:43:45.786779
+Can't search long ago data - EOS.
+EOS - Loop 1 end
+EOS - Loop 2 start at 2018-02-20 02:43:48.847278
+Can't search much long ago data - EOS.
+EOS - Loop 2 end
+EOS - Loop 3 start at 2018-02-20 02:43:51.896179
+EOS - Loop 3 end
+EOS - Saving data start at 2018-02-20 02:45:21.529071
+EOS - Saved data
+DASH - Loop 1 start at 2018-02-20 02:45:24.564303
+DASH - Loop 1 end
+DASH - Loop 2 start at 2018-02-20 02:48:46.401016
+DASH - Loop 2 end
+DASH - Loop 3 start at 2018-02-20 02:50:48.987044
+DASH - Loop 3 end
+DASH - Saving data start at 2018-02-20 02:58:04.287783
+DASH - Saved data
+XMR - Loop 1 start at 2018-02-20 02:58:07.383552
+XMR - Loop 1 end
+XMR - Loop 2 start at 2018-02-20 02:59:02.476294
+XMR - Loop 2 end
+XMR - Loop 3 start at 2018-02-20 02:59:06.793662
+XMR - Loop 3 end
+XMR - Saving data start at 2018-02-20 03:03:53.954404
+XMR - Saved data
+ETC - Loop 1 start at 2018-02-20 03:03:57.043445
+ETC - Loop 1 end
+ETC - Loop 2 start at 2018-02-20 03:07:21.063458
+ETC - Loop 2 end
+ETC - Loop 3 start at 2018-02-20 03:09:28.010914
+ETC - Loop 3 end
+ETC - Saving data start at 2018-02-20 03:16:38.858203
+ETC - Saved data
+QTUM - Loop 1 start at 2018-02-20 03:16:41.965993
+Can't search long ago data - QTUM.
+QTUM - Loop 1 end
+QTUM - Loop 2 start at 2018-02-20 03:16:45.035541
+Can't search much long ago data - QTUM.
+QTUM - Loop 2 end
+QTUM - Loop 3 start at 2018-02-20 03:16:48.081745
+QTUM - Loop 3 end
+QTUM - Saving data start at 2018-02-20 03:19:58.311699
+QTUM - Saved data
+BTG - Loop 1 start at 2018-02-20 03:20:01.367087
+Can't search long ago data - BTG.
+BTG - Loop 1 end
+BTG - Loop 2 start at 2018-02-20 03:20:04.418069
+Can't search much long ago data - BTG.
+BTG - Loop 2 end
+BTG - Loop 3 start at 2018-02-20 03:20:07.480484
+BTG - Loop 3 end
+BTG - Saving data start at 2018-02-20 03:22:12.078436
+BTG - Saved data
+ZEC - Loop 1 start at 2018-02-20 03:22:15.131822
+ZEC - Loop 1 end
+ZEC - Loop 2 start at 2018-02-20 03:22:31.898668
+Can't search much long ago data - ZEC.
+ZEC - Loop 2 end
+ZEC - Loop 3 start at 2018-02-20 03:22:34.963610
+ZEC - Loop 3 end
+ZEC - Saving data start at 2018-02-20 03:26:37.871224
+ZEC - Saved data
+BTC - Loop 1 start at 2018-02-20 03:26:40.933286
+BTC - Loop 1 end
+BTC - Saving data start at 2018-02-20 03:28:51.023373
+BTC - Saved data
+ETH - Loop 1 start at 2018-02-20 03:28:54.142101
+ETH - Loop 1 end
+ETH - Saving data start at 2018-02-20 03:31:02.133209
+ETH - Saved data
+XRP - Loop 1 start at 2018-02-20 03:31:05.256640
+XRP - Loop 1 end
+XRP - Saving data start at 2018-02-20 03:33:11.777314
+XRP - Saved data
+BCH - Loop 1 start at 2018-02-20 03:33:14.872738
+BCH - Loop 1 end
+BCH - Saving data start at 2018-02-20 03:33:42.127045
+BCH - Saved data
+LTC - Loop 1 start at 2018-02-20 03:33:45.229459
+LTC - Loop 1 end
+LTC - Saving data start at 2018-02-20 03:35:48.543724
+LTC - Saved data
+EOS - Loop 1 start at 2018-02-20 03:35:51.665000
+Can't search long ago data - EOS.
+EOS - Loop 1 end
+EOS - Saving data start at 2018-02-20 03:35:54.738984
+EOS - Saved data
+DASH - Loop 1 start at 2018-02-20 03:35:57.762596
+DASH - Loop 1 end
+DASH - Saving data start at 2018-02-20 03:38:04.593650
+DASH - Saved data
+XMR - Loop 1 start at 2018-02-20 03:38:07.683294
+XMR - Loop 1 end
+XMR - Saving data start at 2018-02-20 03:38:12.303545
+XMR - Saved data
+ETC - Loop 1 start at 2018-02-20 03:38:15.376560
+ETC - Loop 1 end
+ETC - Saving data start at 2018-02-20 03:40:21.520661
+ETC - Saved data
+QTUM - Loop 1 start at 2018-02-20 03:40:24.612471
+Can't search long ago data - QTUM.
+QTUM - Loop 1 end
+QTUM - Saving data start at 2018-02-20 03:40:27.667187
+QTUM - Saved data
+BTG - Loop 1 start at 2018-02-20 03:40:30.723164
+Can't search long ago data - BTG.
+BTG - Loop 1 end
+BTG - Saving data start at 2018-02-20 03:40:33.771656
+BTG - Saved data
+ZEC - Loop 1 start at 2018-02-20 03:40:36.838460
+Can't search long ago data - ZEC.
+ZEC - Loop 1 end
+ZEC - Saving data start at 2018-02-20 03:40:39.925715
+ZEC - Saved data
+BTC - Loop 1 start at 2018-02-20 03:40:42.986370
+BTC - Loop 1 end
+BTC - Loop 2 start at 2018-02-20 03:41:37.891170
+Can't search much long ago data - BTC.
+BTC - Loop 2 end
+BTC - Loop 3 start at 2018-02-20 03:41:41.963320
+BTC - Loop 3 end
+BTC - Saving data start at 2018-02-20 03:49:05.369205
+BTC - Saved data
+ETH - Loop 1 start at 2018-02-20 03:49:08.469652
+ETH - Loop 1 end
+ETH - Loop 2 start at 2018-02-20 03:49:59.672554
+Can't search much long ago data - ETH.
+ETH - Loop 2 end
+ETH - Loop 3 start at 2018-02-20 03:50:02.838277
+ETH - Loop 3 end
+ETH - Saving data start at 2018-02-20 03:57:15.705435
+ETH - Saved data
+XRP - Loop 1 start at 2018-02-20 03:57:18.828047
+XRP - Loop 1 end
+XRP - Loop 2 start at 2018-02-20 03:58:11.317976
+Can't search much long ago data - XRP.
+XRP - Loop 2 end
+XRP - Loop 3 start at 2018-02-20 03:58:14.367721
+XRP - Loop 3 end
+XRP - Saving data start at 2018-02-20 04:05:36.254262
+XRP - Saved data
+BCH - Loop 1 start at 2018-02-20 04:05:39.343929
+Can't search long ago data - BCH.
+BCH - Loop 1 end
+BCH - Loop 2 start at 2018-02-20 04:05:42.402102
+Can't search much long ago data - BCH.
+BCH - Loop 2 end
+BCH - Loop 3 start at 2018-02-20 04:05:45.565925
+BCH - Loop 3 end
+BCH - Saving data start at 2018-02-20 04:11:22.848605
+BCH - Saved data
+LTC - Loop 1 start at 2018-02-20 04:11:25.933813
+LTC - Loop 1 end
+LTC - Loop 2 start at 2018-02-20 04:12:18.744808
+Can't search much long ago data - LTC.
+LTC - Loop 2 end
+LTC - Loop 3 start at 2018-02-20 04:12:21.800184
+LTC - Loop 3 end
+LTC - Saving data start at 2018-02-20 04:19:41.212417
+LTC - Saved data
+EOS - Loop 1 start at 2018-02-20 04:19:44.316620
+Can't search long ago data - EOS.
+EOS - Loop 1 end
+EOS - Loop 2 start at 2018-02-20 04:19:47.390185
+Can't search much long ago data - EOS.
+EOS - Loop 2 end
+EOS - Loop 3 start at 2018-02-20 04:19:50.431961
+EOS - Loop 3 end
+EOS - Saving data start at 2018-02-20 04:21:21.443877
+EOS - Saved data
+DASH - Loop 1 start at 2018-02-20 04:21:24.479039
+DASH - Loop 1 end
+DASH - Loop 2 start at 2018-02-20 04:22:14.407101
+Can't search much long ago data - DASH.
+DASH - Loop 2 end
+DASH - Loop 3 start at 2018-02-20 04:22:17.482245
+DASH - Loop 3 end
+DASH - Saving data start at 2018-02-20 04:29:37.772041
+DASH - Saved data
+XMR - Loop 1 start at 2018-02-20 04:29:40.878172
+Can't search long ago data - XMR.
+XMR - Loop 1 end
+XMR - Loop 2 start at 2018-02-20 04:29:43.952387
+Can't search much long ago data - XMR.
+XMR - Loop 2 end
+XMR - Loop 3 start at 2018-02-20 04:29:47.019126
+XMR - Loop 3 end
+XMR - Saving data start at 2018-02-20 04:34:43.701739
+XMR - Saved data
+ETC - Loop 1 start at 2018-02-20 04:34:46.777848
+ETC - Loop 1 end
+ETC - Loop 2 start at 2018-02-20 04:35:39.061815
+Can't search much long ago data - ETC.
+ETC - Loop 2 end
+ETC - Loop 3 start at 2018-02-20 04:35:42.130330
+ETC - Loop 3 end
+ETC - Saving data start at 2018-02-20 04:43:09.573743
+ETC - Saved data
+QTUM - Loop 1 start at 2018-02-20 04:43:12.672628
+Can't search long ago data - QTUM.
+QTUM - Loop 1 end
+QTUM - Loop 2 start at 2018-02-20 04:43:15.739437
+Can't search much long ago data - QTUM.
+QTUM - Loop 2 end
+QTUM - Loop 3 start at 2018-02-20 04:43:18.790760
+QTUM - Loop 3 end
+QTUM - Saving data start at 2018-02-20 04:46:28.991177
+QTUM - Saved data
+BTG - Loop 1 start at 2018-02-20 04:46:32.059446
+Can't search long ago data - BTG.
+BTG - Loop 1 end
+BTG - Loop 2 start at 2018-02-20 04:46:35.111172
+Can't search much long ago data - BTG.
+BTG - Loop 2 end
+BTG - Loop 3 start at 2018-02-20 04:46:38.185461
+BTG - Loop 3 end
+BTG - Saving data start at 2018-02-20 04:48:42.715675
+BTG - Saved data
+ZEC - Loop 1 start at 2018-02-20 04:48:45.771264
+Can't search long ago data - ZEC.
+ZEC - Loop 1 end
+ZEC - Loop 2 start at 2018-02-20 04:48:48.827771
+Can't search much long ago data - ZEC.
+ZEC - Loop 2 end
+ZEC - Loop 3 start at 2018-02-20 04:48:51.872801
+ZEC - Loop 3 end
+ZEC - Saving data start at 2018-02-20 04:52:56.907680
+ZEC - Saved data
+BTC - Loop 1 start at 2018-02-20 04:52:59.981569
+Can't search long ago data - BTC.
+BTC - Loop 1 end
+BTC - Saving data start at 2018-02-20 04:53:03.223561
+BTC - Saved data
+ETH - Loop 1 start at 2018-02-20 04:53:06.325182
+Can't search long ago data - ETH.
+ETH - Loop 1 end
+ETH - Saving data start at 2018-02-20 04:53:09.376084
+ETH - Saved data
+XRP - Loop 1 start at 2018-02-20 04:53:12.481653
+Can't search long ago data - XRP.
+XRP - Loop 1 end
+XRP - Saving data start at 2018-02-20 04:53:15.534156
+XRP - Saved data
+BCH - Loop 1 start at 2018-02-20 04:53:18.646636
+Can't search long ago data - BCH.
+BCH - Loop 1 end
+BCH - Saving data start at 2018-02-20 04:53:21.699352
+BCH - Saved data
+LTC - Loop 1 start at 2018-02-20 04:53:24.792367
+Can't search long ago data - LTC.
+LTC - Loop 1 end
+LTC - Saving data start at 2018-02-20 04:53:27.848768
+LTC - Saved data
+EOS - Loop 1 start at 2018-02-20 04:53:30.986293
+Can't search long ago data - EOS.
+EOS - Loop 1 end
+EOS - Saving data start at 2018-02-20 04:53:34.043079
+EOS - Saved data
+DASH - Loop 1 start at 2018-02-20 04:53:37.079091
+Can't search long ago data - DASH.
+DASH - Loop 1 end
+DASH - Saving data start at 2018-02-20 04:53:40.119367
+DASH - Saved data
+XMR - Loop 1 start at 2018-02-20 04:53:43.241447
+Can't search long ago data - XMR.
+XMR - Loop 1 end
+XMR - Saving data start at 2018-02-20 04:53:46.288116
+XMR - Saved data
+ETC - Loop 1 start at 2018-02-20 04:53:49.362859
+Can't search long ago data - ETC.
+ETC - Loop 1 end
+ETC - Saving data start at 2018-02-20 04:53:52.585669
+ETC - Saved data
+QTUM - Loop 1 start at 2018-02-20 04:53:55.714528
+Can't search long ago data - QTUM.
+QTUM - Loop 1 end
+QTUM - Saving data start at 2018-02-20 04:53:58.751836
+QTUM - Saved data
+BTG - Loop 1 start at 2018-02-20 04:54:01.808082
+Can't search long ago data - BTG.
+BTG - Loop 1 end
+BTG - Saving data start at 2018-02-20 04:54:04.873145
+BTG - Saved data
+ZEC - Loop 1 start at 2018-02-20 04:54:07.918104
+Can't search long ago data - ZEC.
+ZEC - Loop 1 end
+ZEC - Saving data start at 2018-02-20 04:54:10.960102
+ZEC - Saved data
+BTC - Loop 1 start at 2018-02-20 04:54:14.019986
+Can't search long ago data - BTC.
+BTC - Loop 1 end
+BTC - Loop 2 start at 2018-02-20 04:54:17.057864
+Can't search much long ago data - BTC.
+BTC - Loop 2 end
+BTC - Loop 3 start at 2018-02-20 04:54:20.109221
+BTC - Loop 3 end
+BTC - Saving data start at 2018-02-20 05:01:52.337968
+BTC - Saved data
+ETH - Loop 1 start at 2018-02-20 05:01:55.444088
+Can't search long ago data - ETH.
+ETH - Loop 1 end
+ETH - Loop 2 start at 2018-02-20 05:01:58.506896
+Can't search much long ago data - ETH.
+ETH - Loop 2 end
+ETH - Loop 3 start at 2018-02-20 05:02:01.549331
+ETH - Loop 3 end
+ETH - Saving data start at 2018-02-20 05:09:26.489495
+ETH - Saved data
+XRP - Loop 1 start at 2018-02-20 05:09:29.595210
+Can't search long ago data - XRP.
+XRP - Loop 1 end
+XRP - Loop 2 start at 2018-02-20 05:09:33.677792
+Can't search much long ago data - XRP.
+XRP - Loop 2 end
+XRP - Loop 3 start at 2018-02-20 05:09:36.716757
+XRP - Loop 3 end
+XRP - Saving data start at 2018-02-20 05:16:58.842143
+XRP - Saved data
+BCH - Loop 1 start at 2018-02-20 05:17:01.942708
+Can't search long ago data - BCH.
+BCH - Loop 1 end
+BCH - Loop 2 start at 2018-02-20 05:17:05.000684
+Can't search much long ago data - BCH.
+BCH - Loop 2 end
+BCH - Loop 3 start at 2018-02-20 05:17:08.049343
+BCH - Loop 3 end
+BCH - Saving data start at 2018-02-20 05:22:48.987210
+BCH - Saved data
+LTC - Loop 1 start at 2018-02-20 05:22:52.099859
+Can't search long ago data - LTC.
+LTC - Loop 1 end
+LTC - Loop 2 start at 2018-02-20 05:22:55.167648
+Can't search much long ago data - LTC.
+LTC - Loop 2 end
+LTC - Loop 3 start at 2018-02-20 05:22:58.208796
+LTC - Loop 3 end
+LTC - Saving data start at 2018-02-20 05:30:17.452514
+LTC - Saved data
+EOS - Loop 1 start at 2018-02-20 05:30:20.556931
+Can't search long ago data - EOS.
+EOS - Loop 1 end
+EOS - Loop 2 start at 2018-02-20 05:30:23.621166
+Can't search much long ago data - EOS.
+EOS - Loop 2 end
+EOS - Loop 3 start at 2018-02-20 05:30:26.785040
+EOS - Loop 3 end
+EOS - Saving data start at 2018-02-20 05:31:58.351306
+EOS - Saved data
+DASH - Loop 1 start at 2018-02-20 05:32:01.393592
+Can't search long ago data - DASH.
+DASH - Loop 1 end
+DASH - Loop 2 start at 2018-02-20 05:32:04.432242
+Can't search much long ago data - DASH.
+DASH - Loop 2 end
+DASH - Loop 3 start at 2018-02-20 05:32:07.538794
+DASH - Loop 3 end
+DASH - Saving data start at 2018-02-20 05:39:22.454513
+DASH - Saved data
+XMR - Loop 1 start at 2018-02-20 05:39:25.549951
+Can't search long ago data - XMR.
+XMR - Loop 1 end
+XMR - Loop 2 start at 2018-02-20 05:39:28.606251
+Can't search much long ago data - XMR.
+XMR - Loop 2 end
+XMR - Loop 3 start at 2018-02-20 05:39:31.648252
+XMR - Loop 3 end
+XMR - Saving data start at 2018-02-20 05:44:26.069516
+XMR - Saved data
+ETC - Loop 1 start at 2018-02-20 05:44:29.148036
+Can't search long ago data - ETC.
+ETC - Loop 1 end
+ETC - Loop 2 start at 2018-02-20 05:44:32.214977
+Can't search much long ago data - ETC.
+ETC - Loop 2 end
+ETC - Loop 3 start at 2018-02-20 05:44:35.255183
+ETC - Loop 3 end
+ETC - Saving data start at 2018-02-20 05:51:53.969512
+ETC - Saved data
+QTUM - Loop 1 start at 2018-02-20 05:51:57.090156
+Can't search long ago data - QTUM.
+QTUM - Loop 1 end
+QTUM - Loop 2 start at 2018-02-20 05:52:00.140777
+Can't search much long ago data - QTUM.
+QTUM - Loop 2 end
+QTUM - Loop 3 start at 2018-02-20 05:52:03.191296
+QTUM - Loop 3 end
+QTUM - Saving data start at 2018-02-20 05:55:12.311196
+QTUM - Saved data
+BTG - Loop 1 start at 2018-02-20 05:55:15.372740
+Can't search long ago data - BTG.
+BTG - Loop 1 end
+BTG - Loop 2 start at 2018-02-20 05:55:18.429582
+Can't search much long ago data - BTG.
+BTG - Loop 2 end
+BTG - Loop 3 start at 2018-02-20 05:55:21.472779
+BTG - Loop 3 end
+BTG - Saving data start at 2018-02-20 05:57:25.406512
+BTG - Saved data
+ZEC - Loop 1 start at 2018-02-20 05:57:28.446362
+Can't search long ago data - ZEC.
+ZEC - Loop 1 end
+ZEC - Loop 2 start at 2018-02-20 05:57:31.501474
+Can't search much long ago data - ZEC.
+ZEC - Loop 2 end
+ZEC - Loop 3 start at 2018-02-20 05:57:34.546114
+ZEC - Loop 3 end
+ZEC - Saving data start at 2018-02-20 06:01:40.985520
+ZEC - Saved data
+BTC - Loop 1 start at 2018-02-20 06:01:44.058305
+Can't search long ago data - BTC.
+BTC - Loop 1 end
+BTC - Saving data start at 2018-02-20 06:01:47.111379
+BTC - Saved data
+ETH - Loop 1 start at 2018-02-20 06:01:50.233143
+Can't search long ago data - ETH.
+ETH - Loop 1 end
+ETH - Saving data start at 2018-02-20 06:01:53.279522
+ETH - Saved data
+XRP - Loop 1 start at 2018-02-20 06:01:56.373397
+Can't search long ago data - XRP.
+XRP - Loop 1 end
+XRP - Saving data start at 2018-02-20 06:01:59.480734
+XRP - Saved data
+BCH - Loop 1 start at 2018-02-20 06:02:02.581214
+Can't search long ago data - BCH.
+BCH - Loop 1 end
+BCH - Saving data start at 2018-02-20 06:02:05.630583
+BCH - Saved data
+LTC - Loop 1 start at 2018-02-20 06:02:08.731314
+Can't search long ago data - LTC.
+LTC - Loop 1 end
+LTC - Saving data start at 2018-02-20 06:02:11.777630
+LTC - Saved data
+EOS - Loop 1 start at 2018-02-20 06:02:14.903027
+Can't search long ago data - EOS.
+EOS - Loop 1 end
+EOS - Saving data start at 2018-02-20 06:02:17.948569
+EOS - Saved data
+DASH - Loop 1 start at 2018-02-20 06:02:20.990112
+Can't search long ago data - DASH.
+DASH - Loop 1 end
+DASH - Saving data start at 2018-02-20 06:02:24.040098
+DASH - Saved data
+XMR - Loop 1 start at 2018-02-20 06:02:27.152781
+Can't search long ago data - XMR.
+XMR - Loop 1 end
+XMR - Saving data start at 2018-02-20 06:02:30.209887
+XMR - Saved data
+ETC - Loop 1 start at 2018-02-20 06:02:33.282911
+Can't search long ago data - ETC.
+ETC - Loop 1 end
+ETC - Saving data start at 2018-02-20 06:02:36.347716
+ETC - Saved data
+QTUM - Loop 1 start at 2018-02-20 06:02:39.449131
+Can't search long ago data - QTUM.
+QTUM - Loop 1 end
+QTUM - Saving data start at 2018-02-20 06:02:42.495836
+QTUM - Saved data
+BTG - Loop 1 start at 2018-02-20 06:02:45.549776
+Can't search long ago data - BTG.
+BTG - Loop 1 end
+BTG - Saving data start at 2018-02-20 06:02:48.592923
+BTG - Saved data
+ZEC - Loop 1 start at 2018-02-20 06:02:51.641520
+Can't search long ago data - ZEC.
+ZEC - Loop 1 end
+ZEC - Saving data start at 2018-02-20 06:02:54.690277
+ZEC - Saved data
+BTC - Loop 1 start at 2018-02-20 06:02:57.752008
+Can't search long ago data - BTC.
+BTC - Loop 1 end
+BTC - Loop 2 start at 2018-02-20 06:03:00.795119
+Can't search much long ago data - BTC.
+BTC - Loop 2 end
+BTC - Loop 3 start at 2018-02-20 06:03:03.871444
+BTC - Loop 3 end
+BTC - Saving data start at 2018-02-20 06:10:36.053572
+BTC - Saved data
+ETH - Loop 1 start at 2018-02-20 06:10:39.159031
+Can't search long ago data - ETH.
+ETH - Loop 1 end
+ETH - Loop 2 start at 2018-02-20 06:10:42.219896
+Can't search much long ago data - ETH.
+ETH - Loop 2 end
+ETH - Loop 3 start at 2018-02-20 06:10:45.293407
+ETH - Loop 3 end
+ETH - Saving data start at 2018-02-20 06:18:12.966104
+ETH - Saved data
+XRP - Loop 1 start at 2018-02-20 06:18:16.089946
+Can't search long ago data - XRP.
+XRP - Loop 1 end
+XRP - Loop 2 start at 2018-02-20 06:18:19.159198
+Can't search much long ago data - XRP.
+XRP - Loop 2 end
+XRP - Loop 3 start at 2018-02-20 06:18:22.199860
+XRP - Loop 3 end
+XRP - Saving data start at 2018-02-20 06:25:47.413471
+XRP - Saved data
+BCH - Loop 1 start at 2018-02-20 06:25:50.513136
+Can't search long ago data - BCH.
+BCH - Loop 1 end
+BCH - Loop 2 start at 2018-02-20 06:25:53.565788
+Can't search much long ago data - BCH.
+BCH - Loop 2 end
+BCH - Loop 3 start at 2018-02-20 06:25:56.618844
+BCH - Loop 3 end
+BCH - Saving data start at 2018-02-20 06:31:39.131788
+BCH - Saved data
+LTC - Loop 1 start at 2018-02-20 06:31:42.230366
+Can't search long ago data - LTC.
+LTC - Loop 1 end
+LTC - Loop 2 start at 2018-02-20 06:31:45.328237
+Can't search much long ago data - LTC.
+LTC - Loop 2 end
+LTC - Loop 3 start at 2018-02-20 06:31:48.500772
+LTC - Loop 3 end
+LTC - Saving data start at 2018-02-20 06:39:19.044412
+LTC - Saved data
+EOS - Loop 1 start at 2018-02-20 06:39:22.168995
+Can't search long ago data - EOS.
+EOS - Loop 1 end
+EOS - Loop 2 start at 2018-02-20 06:39:25.254366
+Can't search much long ago data - EOS.
+EOS - Loop 2 end
+EOS - Loop 3 start at 2018-02-20 06:39:28.292791
+EOS - Loop 3 end
+EOS - Saving data start at 2018-02-20 06:41:01.928134
+EOS - Saved data
+DASH - Loop 1 start at 2018-02-20 06:41:04.965427
+Can't search long ago data - DASH.
+DASH - Loop 1 end
+DASH - Loop 2 start at 2018-02-20 06:41:08.012873
+Can't search much long ago data - DASH.
+DASH - Loop 2 end
+DASH - Loop 3 start at 2018-02-20 06:41:11.092180
+DASH - Loop 3 end
+DASH - Saving data start at 2018-02-20 06:48:39.802314
+DASH - Saved data
+XMR - Loop 1 start at 2018-02-20 06:48:42.905122
+Can't search long ago data - XMR.
+XMR - Loop 1 end
+XMR - Loop 2 start at 2018-02-20 06:48:46.021895
+Can't search much long ago data - XMR.
+XMR - Loop 2 end
+XMR - Loop 3 start at 2018-02-20 06:48:49.094730
+XMR - Loop 3 end
+XMR - Saving data start at 2018-02-20 06:53:45.588447
+XMR - Saved data
+ETC - Loop 1 start at 2018-02-20 06:53:48.669087
+Can't search long ago data - ETC.
+ETC - Loop 1 end
+ETC - Loop 2 start at 2018-02-20 06:53:51.722089
+Can't search much long ago data - ETC.
+ETC - Loop 2 end
+ETC - Loop 3 start at 2018-02-20 06:53:54.768416
+ETC - Loop 3 end
+ETC - Saving data start at 2018-02-20 07:01:27.991700
+ETC - Saved data
+QTUM - Loop 1 start at 2018-02-20 07:01:31.102101
+Can't search long ago data - QTUM.
+QTUM - Loop 1 end
+QTUM - Loop 2 start at 2018-02-20 07:01:34.212699
+Can't search much long ago data - QTUM.
+QTUM - Loop 2 end
+QTUM - Loop 3 start at 2018-02-20 07:01:37.268091
+QTUM - Loop 3 end
+QTUM - Saving data start at 2018-02-20 07:04:51.805496
+QTUM - Saved data
+BTG - Loop 1 start at 2018-02-20 07:04:54.862037
+Can't search long ago data - BTG.
+BTG - Loop 1 end
+BTG - Loop 2 start at 2018-02-20 07:04:57.921932
+Can't search much long ago data - BTG.
+BTG - Loop 2 end
+BTG - Loop 3 start at 2018-02-20 07:05:00.979020
+BTG - Loop 3 end
+BTG - Saving data start at 2018-02-20 07:07:08.402652
+BTG - Saved data
+ZEC - Loop 1 start at 2018-02-20 07:07:11.438246
+Can't search long ago data - ZEC.
+ZEC - Loop 1 end
+ZEC - Loop 2 start at 2018-02-20 07:07:14.579799
+Can't search much long ago data - ZEC.
+ZEC - Loop 2 end
+ZEC - Loop 3 start at 2018-02-20 07:07:17.637531
+ZEC - Loop 3 end
+ZEC - Saving data start at 2018-02-20 07:11:30.335536
+ZEC - Saved data
+BTC - Loop 1 start at 2018-02-20 07:11:33.391648
+Can't search long ago data - BTC.
+BTC - Loop 1 end
+BTC - Saving data start at 2018-02-20 07:11:36.440319
+BTC - Saved data
+ETH - Loop 1 start at 2018-02-20 07:11:39.559643
+Can't search long ago data - ETH.
+ETH - Loop 1 end
+ETH - Saving data start at 2018-02-20 07:11:42.631332
+ETH - Saved data
+XRP - Loop 1 start at 2018-02-20 07:11:45.747947
+Can't search long ago data - XRP.
+XRP - Loop 1 end
+XRP - Saving data start at 2018-02-20 07:11:48.815319
+XRP - Saved data
+BCH - Loop 1 start at 2018-02-20 07:11:51.925711
+Can't search long ago data - BCH.
+BCH - Loop 1 end
+BCH - Saving data start at 2018-02-20 07:11:55.052489
+BCH - Saved data
+LTC - Loop 1 start at 2018-02-20 07:11:58.146923
+Can't search long ago data - LTC.
+LTC - Loop 1 end
+LTC - Saving data start at 2018-02-20 07:12:01.186066
+LTC - Saved data
+EOS - Loop 1 start at 2018-02-20 07:12:04.295937
+Can't search long ago data - EOS.
+EOS - Loop 1 end
+EOS - Saving data start at 2018-02-20 07:12:07.351058
+EOS - Saved data
+DASH - Loop 1 start at 2018-02-20 07:12:10.390200
+Can't search long ago data - DASH.
+DASH - Loop 1 end
+DASH - Saving data start at 2018-02-20 07:12:13.442081
+DASH - Saved data
+XMR - Loop 1 start at 2018-02-20 07:12:16.533863
+Can't search long ago data - XMR.
+XMR - Loop 1 end
+XMR - Saving data start at 2018-02-20 07:12:19.589029
+XMR - Saved data
+ETC - Loop 1 start at 2018-02-20 07:12:22.659578
+Can't search long ago data - ETC.
+ETC - Loop 1 end
+ETC - Saving data start at 2018-02-20 07:12:25.734651
+ETC - Saved data
+QTUM - Loop 1 start at 2018-02-20 07:12:28.830518
+Can't search long ago data - QTUM.
+QTUM - Loop 1 end
+QTUM - Saving data start at 2018-02-20 07:12:31.875329
+QTUM - Saved data
+BTG - Loop 1 start at 2018-02-20 07:12:34.932860
+Can't search long ago data - BTG.
+BTG - Loop 1 end
+BTG - Saving data start at 2018-02-20 07:12:37.976889
+BTG - Saved data
+ZEC - Loop 1 start at 2018-02-20 07:12:41.028813
+Can't search long ago data - ZEC.
+ZEC - Loop 1 end
+ZEC - Saving data start at 2018-02-20 07:12:44.073057
+ZEC - Saved data
+BTC - Loop 1 start at 2018-02-20 07:12:47.151964
+Can't search long ago data - BTC.
+BTC - Loop 1 end
+BTC - Loop 2 start at 2018-02-20 07:12:50.198727
+Can't search much long ago data - BTC.
+BTC - Loop 2 end
+BTC - Loop 3 start at 2018-02-20 07:12:53.247661
+BTC - Loop 3 end
+BTC - Saving data start at 2018-02-20 07:20:33.716535
+BTC - Saved data
+ETH - Loop 1 start at 2018-02-20 07:20:36.818103
+Can't search long ago data - ETH.
+ETH - Loop 1 end
+ETH - Loop 2 start at 2018-02-20 07:20:39.869000
+Can't search much long ago data - ETH.
+ETH - Loop 2 end
+ETH - Loop 3 start at 2018-02-20 07:20:42.927648
+ETH - Loop 3 end
+ETH - Saving data start at 2018-02-20 07:28:19.176711
+ETH - Saved data
+XRP - Loop 1 start at 2018-02-20 07:28:22.279766
+Can't search long ago data - XRP.
+XRP - Loop 1 end
+XRP - Loop 2 start at 2018-02-20 07:28:25.343412
+Can't search much long ago data - XRP.
+XRP - Loop 2 end
+XRP - Loop 3 start at 2018-02-20 07:28:29.397868
+XRP - Loop 3 end
+XRP - Saving data start at 2018-02-20 07:35:59.813944
+XRP - Saved data
+BCH - Loop 1 start at 2018-02-20 07:36:02.909352
+Can't search long ago data - BCH.
+BCH - Loop 1 end
+BCH - Loop 2 start at 2018-02-20 07:36:05.969342
+Can't search much long ago data - BCH.
+BCH - Loop 2 end
+BCH - Loop 3 start at 2018-02-20 07:36:09.062260
+BCH - Loop 3 end
+BCH - Saving data start at 2018-02-20 07:41:52.940946
+BCH - Saved data
+LTC - Loop 1 start at 2018-02-20 07:41:56.013336
+Can't search long ago data - LTC.
+LTC - Loop 1 end
+LTC - Loop 2 start at 2018-02-20 07:41:59.107814
+Can't search much long ago data - LTC.
+LTC - Loop 2 end
+LTC - Loop 3 start at 2018-02-20 07:42:02.173635
+LTC - Loop 3 end
+LTC - Saving data start at 2018-02-20 07:49:30.097274
+LTC - Saved data
+EOS - Loop 1 start at 2018-02-20 07:49:33.203883
+Can't search long ago data - EOS.
+EOS - Loop 1 end
+EOS - Loop 2 start at 2018-02-20 07:49:36.261466
+Can't search much long ago data - EOS.
+EOS - Loop 2 end
+EOS - Loop 3 start at 2018-02-20 07:49:39.303091
+EOS - Loop 3 end
+EOS - Saving data start at 2018-02-20 07:51:06.088105
+EOS - Saved data
+DASH - Loop 1 start at 2018-02-20 07:51:09.127878
+Can't search long ago data - DASH.
+DASH - Loop 1 end
+DASH - Loop 2 start at 2018-02-20 07:51:13.177274
+Can't search much long ago data - DASH.
+DASH - Loop 2 end
+DASH - Loop 3 start at 2018-02-20 07:51:16.222064
+DASH - Loop 3 end
+DASH - Saving data start at 2018-02-20 07:58:43.516756
+DASH - Saved data
+XMR - Loop 1 start at 2018-02-20 07:58:46.609467
+Can't search long ago data - XMR.
+XMR - Loop 1 end
+XMR - Loop 2 start at 2018-02-20 07:58:49.836922
+Can't search much long ago data - XMR.
+XMR - Loop 2 end
+XMR - Loop 3 start at 2018-02-20 07:58:52.997742
+XMR - Loop 3 end
+XMR - Saving data start at 2018-02-20 08:03:53.479872
+XMR - Saved data
+ETC - Loop 1 start at 2018-02-20 08:03:56.554409
+Can't search long ago data - ETC.
+ETC - Loop 1 end
+ETC - Loop 2 start at 2018-02-20 08:03:59.771077
+Can't search much long ago data - ETC.
+ETC - Loop 2 end
+ETC - Loop 3 start at 2018-02-20 08:04:02.816291
+ETC - Loop 3 end
+ETC - Saving data start at 2018-02-20 08:11:40.525574
+ETC - Saved data
+QTUM - Loop 1 start at 2018-02-20 08:11:43.614964
+Can't search long ago data - QTUM.
+QTUM - Loop 1 end
+QTUM - Loop 2 start at 2018-02-20 08:11:46.865511
+Can't search much long ago data - QTUM.
+QTUM - Loop 2 end
+QTUM - Loop 3 start at 2018-02-20 08:11:49.930339
+QTUM - Loop 3 end
+QTUM - Saving data start at 2018-02-20 08:15:08.548506
+QTUM - Saved data
+BTG - Loop 1 start at 2018-02-20 08:15:11.610898
+Can't search long ago data - BTG.
+BTG - Loop 1 end
+BTG - Loop 2 start at 2018-02-20 08:15:14.661538
+Can't search much long ago data - BTG.
+BTG - Loop 2 end
+BTG - Loop 3 start at 2018-02-20 08:15:17.709248
+BTG - Loop 3 end
+BTG - Saving data start at 2018-02-20 08:17:27.538927
+BTG - Saved data
+ZEC - Loop 1 start at 2018-02-20 08:17:30.572370
+Can't search long ago data - ZEC.
+ZEC - Loop 1 end
+ZEC - Loop 2 start at 2018-02-20 08:17:33.767973
+Can't search much long ago data - ZEC.
+ZEC - Loop 2 end
+ZEC - Loop 3 start at 2018-02-20 08:17:36.808975
+ZEC - Loop 3 end
+ZEC - Saving data start at 2018-02-20 08:21:48.476103
+ZEC - Saved data
+BTC - Loop 1 start at 2018-02-20 08:21:51.539164
+Can't search long ago data - BTC.
+BTC - Loop 1 end
+BTC - Saving data start at 2018-02-20 08:21:54.584618
+BTC - Saved data
+ETH - Loop 1 start at 2018-02-20 08:21:57.663032
+Can't search long ago data - ETH.
+ETH - Loop 1 end
+ETH - Saving data start at 2018-02-20 08:22:00.708872
+ETH - Saved data
+XRP - Loop 1 start at 2018-02-20 08:22:03.812498
+Can't search long ago data - XRP.
+XRP - Loop 1 end
+XRP - Saving data start at 2018-02-20 08:22:06.864157
+XRP - Saved data
+BCH - Loop 1 start at 2018-02-20 08:22:09.932968
+Can't search long ago data - BCH.
+BCH - Loop 1 end
+BCH - Saving data start at 2018-02-20 08:22:13.001021
+BCH - Saved data
+LTC - Loop 1 start at 2018-02-20 08:22:16.076478
+Can't search long ago data - LTC.
+LTC - Loop 1 end
+LTC - Saving data start at 2018-02-20 08:22:19.125391
+LTC - Saved data
+EOS - Loop 1 start at 2018-02-20 08:22:22.205280
+Can't search long ago data - EOS.
+EOS - Loop 1 end
+EOS - Saving data start at 2018-02-20 08:22:25.262150
+EOS - Saved data
+DASH - Loop 1 start at 2018-02-20 08:22:28.289911
+Can't search long ago data - DASH.
+DASH - Loop 1 end
+DASH - Saving data start at 2018-02-20 08:22:31.355368
+DASH - Saved data
+XMR - Loop 1 start at 2018-02-20 08:22:34.434465
+Can't search long ago data - XMR.
+XMR - Loop 1 end
+XMR - Saving data start at 2018-02-20 08:22:37.617455
+XMR - Saved data
+ETC - Loop 1 start at 2018-02-20 08:22:40.681154
+Can't search long ago data - ETC.
+ETC - Loop 1 end
+ETC - Saving data start at 2018-02-20 08:22:43.726594
+ETC - Saved data
+QTUM - Loop 1 start at 2018-02-20 08:22:46.812917
+Can't search long ago data - QTUM.
+QTUM - Loop 1 end
+QTUM - Saving data start at 2018-02-20 08:22:49.869314
+QTUM - Saved data
+BTG - Loop 1 start at 2018-02-20 08:22:52.911192
+Can't search long ago data - BTG.
+BTG - Loop 1 end
+BTG - Saving data start at 2018-02-20 08:22:55.966815
+BTG - Saved data
+ZEC - Loop 1 start at 2018-02-20 08:22:59.002627
+Can't search long ago data - ZEC.
+ZEC - Loop 1 end
+ZEC - Saving data start at 2018-02-20 08:23:02.047266
+ZEC - Saved data
+BTC - Loop 1 start at 2018-02-20 08:23:05.107564
+Can't search long ago data - BTC.
+BTC - Loop 1 end
+BTC - Loop 2 start at 2018-02-20 08:23:08.168525
+Can't search much long ago data - BTC.
+BTC - Loop 2 end
+BTC - Loop 3 start at 2018-02-20 08:23:11.227437
+BTC - Loop 3 end
+BTC - Saving data start at 2018-02-20 08:30:50.925394
+BTC - Saved data
+ETH - Loop 1 start at 2018-02-20 08:30:54.044053
+Can't search long ago data - ETH.
+ETH - Loop 1 end
+ETH - Loop 2 start at 2018-02-20 08:30:57.554914
+Can't search much long ago data - ETH.
+ETH - Loop 2 end
+ETH - Loop 3 start at 2018-02-20 08:31:00.597791
+ETH - Loop 3 end
+ETH - Saving data start at 2018-02-20 08:38:41.723524
+ETH - Saved data
+XRP - Loop 1 start at 2018-02-20 08:38:44.857192
+Can't search long ago data - XRP.
+XRP - Loop 1 end
+XRP - Loop 2 start at 2018-02-20 08:38:49.059693
+Can't search much long ago data - XRP.
+XRP - Loop 2 end
+XRP - Loop 3 start at 2018-02-20 08:38:53.108231
+XRP - Loop 3 end
+XRP - Saving data start at 2018-02-20 08:46:30.789786
+XRP - Saved data
+BCH - Loop 1 start at 2018-02-20 08:46:33.880776
+Can't search long ago data - BCH.
+BCH - Loop 1 end
+BCH - Loop 2 start at 2018-02-20 08:46:39.952384
+Can't search much long ago data - BCH.
+BCH - Loop 2 end
+BCH - Loop 3 start at 2018-02-20 08:46:42.999433
+BCH - Loop 3 end
+BCH - Saving data start at 2018-02-20 08:52:27.021811
+BCH - Saved data
+LTC - Loop 1 start at 2018-02-20 08:52:30.137255
+Can't search long ago data - LTC.
+LTC - Loop 1 end
+LTC - Loop 2 start at 2018-02-20 08:52:33.340371
+Can't search much long ago data - LTC.
+LTC - Loop 2 end
+LTC - Loop 3 start at 2018-02-20 08:52:37.407755
+LTC - Loop 3 end
+LTC - Saving data start at 2018-02-20 09:00:18.801589
+LTC - Saved data
+EOS - Loop 1 start at 2018-02-20 09:00:21.889825
+Can't search long ago data - EOS.
+EOS - Loop 1 end
+EOS - Loop 2 start at 2018-02-20 09:00:25.217630
+Can't search much long ago data - EOS.
+EOS - Loop 2 end
+EOS - Loop 3 start at 2018-02-20 09:00:28.362835
+EOS - Loop 3 end
+EOS - Saving data start at 2018-02-20 09:02:04.929338
+EOS - Saved data
+DASH - Loop 1 start at 2018-02-20 09:02:07.969756
+Can't search long ago data - DASH.
+DASH - Loop 1 end
+DASH - Loop 2 start at 2018-02-20 09:02:11.015217
+Can't search much long ago data - DASH.
+DASH - Loop 2 end
+DASH - Loop 3 start at 2018-02-20 09:02:14.067446
+DASH - Loop 3 end
+DASH - Saving data start at 2018-02-20 09:09:43.358267
+DASH - Saved data
+XMR - Loop 1 start at 2018-02-20 09:09:46.462715
+Can't search long ago data - XMR.
+XMR - Loop 1 end
+XMR - Loop 2 start at 2018-02-20 09:09:59.558832
+Can't search much long ago data - XMR.
+XMR - Loop 2 end
+XMR - Loop 3 start at 2018-02-20 09:10:02.707579
+XMR - Loop 3 end
+XMR - Saving data start at 2018-02-20 09:15:03.874911
+XMR - Saved data
+ETC - Loop 1 start at 2018-02-20 09:15:06.951541
+Can't search long ago data - ETC.
+ETC - Loop 1 end
+ETC - Loop 2 start at 2018-02-20 09:15:10.229322
+Can't search much long ago data - ETC.
+ETC - Loop 2 end
+ETC - Loop 3 start at 2018-02-20 09:15:13.282479
+ETC - Loop 3 end
+ETC - Saving data start at 2018-02-20 09:22:51.830039
+ETC - Saved data
+QTUM - Loop 1 start at 2018-02-20 09:22:54.950109
+Can't search long ago data - QTUM.
+QTUM - Loop 1 end
+QTUM - Loop 2 start at 2018-02-20 09:22:58.257331
+Can't search much long ago data - QTUM.
+QTUM - Loop 2 end
+QTUM - Loop 3 start at 2018-02-20 09:23:01.299457
+QTUM - Loop 3 end
+QTUM - Saving data start at 2018-02-20 09:26:20.935155
+QTUM - Saved data
+BTG - Loop 1 start at 2018-02-20 09:26:23.996226
+Can't search long ago data - BTG.
+BTG - Loop 1 end
+BTG - Loop 2 start at 2018-02-20 09:26:27.045303
+Can't search much long ago data - BTG.
+BTG - Loop 2 end
+BTG - Loop 3 start at 2018-02-20 09:26:30.138348
+BTG - Loop 3 end
+BTG - Saving data start at 2018-02-20 09:28:41.119891
+BTG - Saved data
+ZEC - Loop 1 start at 2018-02-20 09:28:44.163734
+Can't search long ago data - ZEC.
+ZEC - Loop 1 end
+ZEC - Loop 2 start at 2018-02-20 09:28:47.423061
+Can't search much long ago data - ZEC.
+ZEC - Loop 2 end
+ZEC - Loop 3 start at 2018-02-20 09:28:50.495718
+ZEC - Loop 3 end
+ZEC - Saving data start at 2018-02-20 09:33:03.340266
+ZEC - Saved data
+BTC - Loop 1 start at 2018-02-20 09:33:06.412670
+Can't search long ago data - BTC.
+BTC - Loop 1 end
+BTC - Saving data start at 2018-02-20 09:33:10.566177
+BTC - Saved data
+ETH - Loop 1 start at 2018-02-20 09:33:13.685656
+Can't search long ago data - ETH.
+ETH - Loop 1 end
+ETH - Saving data start at 2018-02-20 09:33:16.748183
+ETH - Saved data
+XRP - Loop 1 start at 2018-02-20 09:33:19.866757
+Can't search long ago data - XRP.
+XRP - Loop 1 end
+XRP - Saving data start at 2018-02-20 09:33:22.912247
+XRP - Saved data
+BCH - Loop 1 start at 2018-02-20 09:33:26.002702
+Can't search long ago data - BCH.
+BCH - Loop 1 end
+BCH - Saving data start at 2018-02-20 09:33:29.044638
+BCH - Saved data
+LTC - Loop 1 start at 2018-02-20 09:33:32.129036
+Can't search long ago data - LTC.
+LTC - Loop 1 end
+LTC - Saving data start at 2018-02-20 09:33:35.189111
+LTC - Saved data
+EOS - Loop 1 start at 2018-02-20 09:33:38.285406
+Can't search long ago data - EOS.
+EOS - Loop 1 end
+EOS - Saving data start at 2018-02-20 09:33:41.335840
+EOS - Saved data
+DASH - Loop 1 start at 2018-02-20 09:33:44.387540
+Can't search long ago data - DASH.
+DASH - Loop 1 end
+DASH - Saving data start at 2018-02-20 09:33:47.490556
+DASH - Saved data
+XMR - Loop 1 start at 2018-02-20 09:33:50.613799
+Can't search long ago data - XMR.
+XMR - Loop 1 end
+XMR - Saving data start at 2018-02-20 09:33:53.669160
+XMR - Saved data
+ETC - Loop 1 start at 2018-02-20 09:33:56.767588
+Can't search long ago data - ETC.
+ETC - Loop 1 end
+ETC - Saving data start at 2018-02-20 09:33:59.817966
+ETC - Saved data
+QTUM - Loop 1 start at 2018-02-20 09:34:02.923215
+Can't search long ago data - QTUM.
+QTUM - Loop 1 end
+QTUM - Saving data start at 2018-02-20 09:34:05.978909
+QTUM - Saved data
+BTG - Loop 1 start at 2018-02-20 09:34:09.025990
+Can't search long ago data - BTG.
+BTG - Loop 1 end
+BTG - Saving data start at 2018-02-20 09:34:12.089551
+BTG - Saved data
+ZEC - Loop 1 start at 2018-02-20 09:34:15.153463
+Can't search long ago data - ZEC.
+ZEC - Loop 1 end
+ZEC - Saving data start at 2018-02-20 09:34:18.195899
+ZEC - Saved data
+BTC - Loop 1 start at 2018-02-20 09:34:21.270212
+Can't search long ago data - BTC.
+BTC - Loop 1 end
+BTC - Loop 2 start at 2018-02-20 09:34:24.320061
+Can't search much long ago data - BTC.
+BTC - Loop 2 end
+BTC - Loop 3 start at 2018-02-20 09:34:27.387053
+BTC - Loop 3 end
+BTC - Saving data start at 2018-02-20 09:42:06.861882
+BTC - Saved data
+ETH - Loop 1 start at 2018-02-20 09:42:09.993263
+Can't search long ago data - ETH.
+ETH - Loop 1 end
+ETH - Loop 2 start at 2018-02-20 09:42:13.236722
+Can't search much long ago data - ETH.
+ETH - Loop 2 end
+ETH - Loop 3 start at 2018-02-20 09:42:16.294272
+ETH - Loop 3 end
+ETH - Saving data start at 2018-02-20 09:50:00.564556
+ETH - Saved data
+XRP - Loop 1 start at 2018-02-20 09:50:03.695559
+Can't search long ago data - XRP.
+XRP - Loop 1 end
+XRP - Loop 2 start at 2018-02-20 09:50:06.921559
+Can't search much long ago data - XRP.
+XRP - Loop 2 end
+XRP - Loop 3 start at 2018-02-20 09:50:09.968332
+XRP - Loop 3 end
+XRP - Saving data start at 2018-02-20 09:57:51.457848
+XRP - Saved data
+BCH - Loop 1 start at 2018-02-20 09:57:54.552835
+Can't search long ago data - BCH.
+BCH - Loop 1 end
+BCH - Loop 2 start at 2018-02-20 09:57:57.771206
+Can't search much long ago data - BCH.
+BCH - Loop 2 end
+BCH - Loop 3 start at 2018-02-20 09:58:00.812096
+BCH - Loop 3 end
+BCH - Saving data start at 2018-02-20 10:03:24.094873
+BCH - Saved data
+LTC - Loop 1 start at 2018-02-20 10:03:27.192222
+Can't search long ago data - LTC.
+LTC - Loop 1 end
+LTC - Loop 2 start at 2018-02-20 10:03:30.463882
+Can't search much long ago data - LTC.
+LTC - Loop 2 end
+LTC - Loop 3 start at 2018-02-20 10:03:33.505720
+LTC - Loop 3 end
+LTC - Saving data start at 2018-02-20 10:11:16.898020
+LTC - Saved data
+EOS - Loop 1 start at 2018-02-20 10:11:19.996586
+Can't search long ago data - EOS.
+EOS - Loop 1 end
+EOS - Loop 2 start at 2018-02-20 10:11:23.199568
+Can't search much long ago data - EOS.
+EOS - Loop 2 end
+EOS - Loop 3 start at 2018-02-20 10:11:26.247675
+EOS - Loop 3 end
+EOS - Saving data start at 2018-02-20 10:13:06.110349
+EOS - Saved data
+DASH - Loop 1 start at 2018-02-20 10:13:09.147201
+Can't search long ago data - DASH.
+DASH - Loop 1 end
+DASH - Loop 2 start at 2018-02-20 10:13:12.322139
+Can't search much long ago data - DASH.
+DASH - Loop 2 end
+DASH - Loop 3 start at 2018-02-20 10:13:15.377765
+DASH - Loop 3 end
+DASH - Saving data start at 2018-02-20 10:21:01.312284
+DASH - Saved data
+XMR - Loop 1 start at 2018-02-20 10:21:04.415085
+Can't search long ago data - XMR.
+XMR - Loop 1 end
+XMR - Loop 2 start at 2018-02-20 10:21:07.470691
+Can't search much long ago data - XMR.
+XMR - Loop 2 end
+XMR - Loop 3 start at 2018-02-20 10:21:10.542127
+XMR - Loop 3 end
+XMR - Saving data start at 2018-02-20 10:26:01.687658
+XMR - Saved data
+ETC - Loop 1 start at 2018-02-20 10:26:04.792720
+Can't search long ago data - ETC.
+ETC - Loop 1 end
+ETC - Loop 2 start at 2018-02-20 10:26:07.846900
+Can't search much long ago data - ETC.
+ETC - Loop 2 end
+ETC - Loop 3 start at 2018-02-20 10:26:10.882508
+ETC - Loop 3 end
+ETC - Saving data start at 2018-02-20 10:34:01.117996
+ETC - Saved data
+QTUM - Loop 1 start at 2018-02-20 10:34:04.208830
+Can't search long ago data - QTUM.
+QTUM - Loop 1 end
+QTUM - Loop 2 start at 2018-02-20 10:34:07.302327
+Can't search much long ago data - QTUM.
+QTUM - Loop 2 end
+QTUM - Loop 3 start at 2018-02-20 10:34:10.339894
+QTUM - Loop 3 end
+QTUM - Saving data start at 2018-02-20 10:37:33.719604
+QTUM - Saved data
+BTG - Loop 1 start at 2018-02-20 10:37:36.778732
+Can't search long ago data - BTG.
+BTG - Loop 1 end
+BTG - Loop 2 start at 2018-02-20 10:37:39.821020
+Can't search much long ago data - BTG.
+BTG - Loop 2 end
+BTG - Loop 3 start at 2018-02-20 10:37:44.069040
+BTG - Loop 3 end
+BTG - Saving data start at 2018-02-20 10:40:01.262422
+BTG - Saved data
+ZEC - Loop 1 start at 2018-02-20 10:40:04.308166
+Can't search long ago data - ZEC.
+ZEC - Loop 1 end
+ZEC - Loop 2 start at 2018-02-20 10:40:07.357856
+Can't search much long ago data - ZEC.
+ZEC - Loop 2 end
+ZEC - Loop 3 start at 2018-02-20 10:40:10.421128
+ZEC - Loop 3 end
+ZEC - Saving data start at 2018-02-20 10:44:36.050573
+ZEC - Saved data
+BTC - Loop 1 start at 2018-02-20 10:44:39.131633
+Can't search long ago data - BTC.
+BTC - Loop 1 end
+BTC - Saving data start at 2018-02-20 10:44:42.207306
+BTC - Saved data
+ETH - Loop 1 start at 2018-02-20 10:44:45.308681
+Can't search long ago data - ETH.
+ETH - Loop 1 end
+ETH - Saving data start at 2018-02-20 10:44:48.345525
+ETH - Saved data
+XRP - Loop 1 start at 2018-02-20 10:44:51.458206
+Can't search long ago data - XRP.
+XRP - Loop 1 end
+XRP - Saving data start at 2018-02-20 10:44:54.572574
+XRP - Saved data
+BCH - Loop 1 start at 2018-02-20 10:44:57.680419
+Can't search long ago data - BCH.
+BCH - Loop 1 end
+BCH - Saving data start at 2018-02-20 10:45:00.827090
+BCH - Saved data
+LTC - Loop 1 start at 2018-02-20 10:45:03.956591
+Can't search long ago data - LTC.
+LTC - Loop 1 end
+LTC - Saving data start at 2018-02-20 10:45:07.082133
+LTC - Saved data
+EOS - Loop 1 start at 2018-02-20 10:45:10.199626
+Can't search long ago data - EOS.
+EOS - Loop 1 end
+EOS - Saving data start at 2018-02-20 10:45:13.346138
+EOS - Saved data
+DASH - Loop 1 start at 2018-02-20 10:45:16.379528
+Can't search long ago data - DASH.
+DASH - Loop 1 end
+DASH - Saving data start at 2018-02-20 10:45:19.540180
+DASH - Saved data
+XMR - Loop 1 start at 2018-02-20 10:45:22.654977
+Can't search long ago data - XMR.
+XMR - Loop 1 end
+XMR - Saving data start at 2018-02-20 10:45:25.730043
+XMR - Saved data
+ETC - Loop 1 start at 2018-02-20 10:45:28.823342
+Can't search long ago data - ETC.
+ETC - Loop 1 end
+ETC - Saving data start at 2018-02-20 10:45:31.873649
+ETC - Saved data
+QTUM - Loop 1 start at 2018-02-20 10:45:34.994748
+Can't search long ago data - QTUM.
+QTUM - Loop 1 end
+QTUM - Saving data start at 2018-02-20 10:45:38.050058
+QTUM - Saved data
+BTG - Loop 1 start at 2018-02-20 10:45:41.123658
+Can't search long ago data - BTG.
+BTG - Loop 1 end
+BTG - Saving data start at 2018-02-20 10:45:44.170140
+BTG - Saved data
+ZEC - Loop 1 start at 2018-02-20 10:45:47.214929
+Can't search long ago data - ZEC.
+ZEC - Loop 1 end
+ZEC - Saving data start at 2018-02-20 10:45:50.260325
+ZEC - Saved data
+BTC - Loop 1 start at 2018-02-20 10:45:53.335414
+Can't search long ago data - BTC.
+BTC - Loop 1 end
+BTC - Loop 2 start at 2018-02-20 10:45:56.375442
+Can't search much long ago data - BTC.
+BTC - Loop 2 end
+BTC - Loop 3 start at 2018-02-20 10:45:59.412396
+BTC - Loop 3 end
+BTC - Saving data start at 2018-02-20 10:53:58.485882
+BTC - Saved data
+ETH - Loop 1 start at 2018-02-20 10:54:01.609494
+Can't search long ago data - ETH.
+ETH - Loop 1 end
+ETH - Loop 2 start at 2018-02-20 10:54:04.673066
+Can't search much long ago data - ETH.
+ETH - Loop 2 end
+ETH - Loop 3 start at 2018-02-20 10:54:07.727668
+ETH - Loop 3 end
+ETH - Saving data start at 2018-02-20 11:02:01.724160
+ETH - Saved data
+XRP - Loop 1 start at 2018-02-20 11:02:04.852151
+Can't search long ago data - XRP.
+XRP - Loop 1 end
+XRP - Loop 2 start at 2018-02-20 11:02:07.953445
+Can't search much long ago data - XRP.
+XRP - Loop 2 end
+XRP - Loop 3 start at 2018-02-20 11:02:10.995923
+XRP - Loop 3 end
+XRP - Saving data start at 2018-02-20 11:10:08.898659
+XRP - Saved data
+BCH - Loop 1 start at 2018-02-20 11:10:11.996854
+Can't search long ago data - BCH.
+BCH - Loop 1 end
+BCH - Loop 2 start at 2018-02-20 11:10:15.060503
+Can't search much long ago data - BCH.
+BCH - Loop 2 end
+BCH - Loop 3 start at 2018-02-20 11:10:18.124691
+BCH - Loop 3 end
+BCH - Saving data start at 2018-02-20 11:16:24.046717
+BCH - Saved data
+LTC - Loop 1 start at 2018-02-20 11:16:27.139337
+Can't search long ago data - LTC.
+LTC - Loop 1 end
+LTC - Loop 2 start at 2018-02-20 11:16:30.243838
+Can't search much long ago data - LTC.
+LTC - Loop 2 end
+LTC - Loop 3 start at 2018-02-20 11:16:33.363988
+LTC - Loop 3 end
+LTC - Saving data start at 2018-02-20 11:24:28.461055
+LTC - Saved data
+EOS - Loop 1 start at 2018-02-20 11:24:31.562456
+Can't search long ago data - EOS.
+EOS - Loop 1 end
+EOS - Loop 2 start at 2018-02-20 11:24:34.644178
+Can't search much long ago data - EOS.
+EOS - Loop 2 end
+EOS - Loop 3 start at 2018-02-20 11:24:37.756624
+EOS - Loop 3 end
+EOS - Saving data start at 2018-02-20 11:26:17.148920
+EOS - Saved data
+DASH - Loop 1 start at 2018-02-20 11:26:20.179814
+Can't search long ago data - DASH.
+DASH - Loop 1 end
+DASH - Loop 2 start at 2018-02-20 11:26:23.243299
+Can't search much long ago data - DASH.
+DASH - Loop 2 end
+DASH - Loop 3 start at 2018-02-20 11:26:26.313884
+DASH - Loop 3 end
+DASH - Saving data start at 2018-02-20 11:34:15.794776
+DASH - Saved data
+XMR - Loop 1 start at 2018-02-20 11:34:18.877669
+Can't search long ago data - XMR.
+XMR - Loop 1 end
+XMR - Loop 2 start at 2018-02-20 11:34:22.419067
+Can't search much long ago data - XMR.
+XMR - Loop 2 end
+XMR - Loop 3 start at 2018-02-20 11:34:25.565441
+XMR - Loop 3 end
+XMR - Saving data start at 2018-02-20 11:39:27.485599
+XMR - Saved data
+ETC - Loop 1 start at 2018-02-20 11:39:30.561865
+Can't search long ago data - ETC.
+ETC - Loop 1 end
+ETC - Loop 2 start at 2018-02-20 11:39:33.779332
+Can't search much long ago data - ETC.
+ETC - Loop 2 end
+ETC - Loop 3 start at 2018-02-20 11:39:36.953294
+ETC - Loop 3 end
+ETC - Saving data start at 2018-02-20 11:47:30.530881
+ETC - Saved data
+QTUM - Loop 1 start at 2018-02-20 11:47:33.627346
+Can't search long ago data - QTUM.
+QTUM - Loop 1 end
+QTUM - Loop 2 start at 2018-02-20 11:47:36.776409
+Can't search much long ago data - QTUM.
+QTUM - Loop 2 end
+QTUM - Loop 3 start at 2018-02-20 11:47:39.817109
+QTUM - Loop 3 end
+QTUM - Saving data start at 2018-02-20 11:51:00.589262
+QTUM - Saved data
+BTG - Loop 1 start at 2018-02-20 11:51:03.650935
+Can't search long ago data - BTG.
+BTG - Loop 1 end
+BTG - Loop 2 start at 2018-02-20 11:51:06.785685
+Can't search much long ago data - BTG.
+BTG - Loop 2 end
+BTG - Loop 3 start at 2018-02-20 11:51:09.913076
+BTG - Loop 3 end
+BTG - Saving data start at 2018-02-20 11:53:25.338522
+BTG - Saved data
+ZEC - Loop 1 start at 2018-02-20 11:53:28.376228
+Can't search long ago data - ZEC.
+ZEC - Loop 1 end
+ZEC - Loop 2 start at 2018-02-20 11:53:31.476684
+Can't search much long ago data - ZEC.
+ZEC - Loop 2 end
+ZEC - Loop 3 start at 2018-02-20 11:53:34.528962
+ZEC - Loop 3 end
+ZEC - Saving data start at 2018-02-20 11:57:52.882567
+ZEC - Saved data
+BTC - Loop 1 start at 2018-02-20 11:57:55.959262
+Can't search long ago data - BTC.
+BTC - Loop 1 end
+BTC - Saving data start at 2018-02-20 11:57:59.005430
+BTC - Saved data
+ETH - Loop 1 start at 2018-02-20 11:58:02.105114
+Can't search long ago data - ETH.
+ETH - Loop 1 end
+ETH - Saving data start at 2018-02-20 11:58:05.155098
+ETH - Saved data
+XRP - Loop 1 start at 2018-02-20 11:58:08.261481
+Can't search long ago data - XRP.
+XRP - Loop 1 end
+XRP - Saving data start at 2018-02-20 11:58:11.346955
+XRP - Saved data
+BCH - Loop 1 start at 2018-02-20 11:58:14.433157
+Can't search long ago data - BCH.
+BCH - Loop 1 end
+BCH - Saving data start at 2018-02-20 11:58:17.555478
+BCH - Saved data
+LTC - Loop 1 start at 2018-02-20 11:58:20.659117
+Can't search long ago data - LTC.
+LTC - Loop 1 end
+LTC - Saving data start at 2018-02-20 11:58:23.753829
+LTC - Saved data
+EOS - Loop 1 start at 2018-02-20 11:58:26.874724
+Can't search long ago data - EOS.
+EOS - Loop 1 end
+EOS - Saving data start at 2018-02-20 11:58:30.002494
+EOS - Saved data
+DASH - Loop 1 start at 2018-02-20 11:58:33.041762
+Can't search long ago data - DASH.
+DASH - Loop 1 end
+DASH - Saving data start at 2018-02-20 11:58:36.748735
+DASH - Saved data
+XMR - Loop 1 start at 2018-02-20 11:58:39.843806
+Can't search long ago data - XMR.
+XMR - Loop 1 end
+XMR - Saving data start at 2018-02-20 11:58:42.902675
+XMR - Saved data
+ETC - Loop 1 start at 2018-02-20 11:58:45.977771
+Can't search long ago data - ETC.
+ETC - Loop 1 end
+ETC - Saving data start at 2018-02-20 11:58:49.069643
+ETC - Saved data
+QTUM - Loop 1 start at 2018-02-20 11:58:52.165507
+Can't search long ago data - QTUM.
+QTUM - Loop 1 end
+QTUM - Saving data start at 2018-02-20 11:58:56.270573
+QTUM - Saved data
+BTG - Loop 1 start at 2018-02-20 11:58:59.324371
+Can't search long ago data - BTG.
+BTG - Loop 1 end
+BTG - Saving data start at 2018-02-20 11:59:02.474084
+BTG - Saved data
+ZEC - Loop 1 start at 2018-02-20 11:59:05.514684
+Can't search long ago data - ZEC.
+ZEC - Loop 1 end
+ZEC - Saving data start at 2018-02-20 11:59:08.627334
+ZEC - Saved data
+BTC - Loop 1 start at 2018-02-20 11:59:11.701545
+Can't search long ago data - BTC.
+BTC - Loop 1 end
+BTC - Loop 2 start at 2018-02-20 11:59:14.758413
+Can't search much long ago data - BTC.
+BTC - Loop 2 end
+BTC - Loop 3 start at 2018-02-20 11:59:17.852634
+BTC - Loop 3 end
+BTC - Saving data start at 2018-02-20 12:07:13.986715
+BTC - Saved data
+ETH - Loop 1 start at 2018-02-20 12:07:17.073045
+Can't search long ago data - ETH.
+ETH - Loop 1 end
+ETH - Loop 2 start at 2018-02-20 12:07:20.140171
+Can't search much long ago data - ETH.
+ETH - Loop 2 end
+ETH - Loop 3 start at 2018-02-20 12:07:23.196370
+ETH - Loop 3 end
+ETH - Saving data start at 2018-02-20 12:15:07.521475
+ETH - Saved data
+XRP - Loop 1 start at 2018-02-20 12:15:10.623603
+Can't search long ago data - XRP.
+XRP - Loop 1 end
+XRP - Loop 2 start at 2018-02-20 12:15:13.672992
+Can't search much long ago data - XRP.
+XRP - Loop 2 end
+XRP - Loop 3 start at 2018-02-20 12:15:16.726252
+XRP - Loop 3 end
+XRP - Saving data start at 2018-02-20 12:23:02.041998
+XRP - Saved data
+BCH - Loop 1 start at 2018-02-20 12:23:05.129080
+Can't search long ago data - BCH.
+BCH - Loop 1 end
+BCH - Loop 2 start at 2018-02-20 12:23:08.188482
+Can't search much long ago data - BCH.
+BCH - Loop 2 end
+BCH - Loop 3 start at 2018-02-20 12:23:11.227714
+BCH - Loop 3 end
+BCH - Saving data start at 2018-02-20 12:29:02.746820
+BCH - Saved data
+LTC - Loop 1 start at 2018-02-20 12:29:05.836580
+Can't search long ago data - LTC.
+LTC - Loop 1 end
+LTC - Loop 2 start at 2018-02-20 12:29:08.920796
+Can't search much long ago data - LTC.
+LTC - Loop 2 end
+LTC - Loop 3 start at 2018-02-20 12:29:11.978357
+LTC - Loop 3 end
+LTC - Saving data start at 2018-02-20 12:36:47.528702
+LTC - Saved data
+EOS - Loop 1 start at 2018-02-20 12:36:50.654686
+Can't search long ago data - EOS.
+EOS - Loop 1 end
+EOS - Loop 2 start at 2018-02-20 12:36:53.723926
+Can't search much long ago data - EOS.
+EOS - Loop 2 end
+EOS - Loop 3 start at 2018-02-20 12:36:56.801126
+EOS - Loop 3 end
+EOS - Saving data start at 2018-02-20 12:38:35.282865
+EOS - Saved data
+DASH - Loop 1 start at 2018-02-20 12:38:38.312148
+Can't search long ago data - DASH.
+DASH - Loop 1 end
+DASH - Loop 2 start at 2018-02-20 12:38:41.362848
+Can't search much long ago data - DASH.
+DASH - Loop 2 end
+DASH - Loop 3 start at 2018-02-20 12:38:44.434544
+DASH - Loop 3 end
+DASH - Saving data start at 2018-02-20 12:46:36.407661
+DASH - Saved data
+XMR - Loop 1 start at 2018-02-20 12:46:39.504144
+Can't search long ago data - XMR.
+XMR - Loop 1 end
+XMR - Loop 2 start at 2018-02-20 12:46:42.563692
+Can't search much long ago data - XMR.
+XMR - Loop 2 end
+XMR - Loop 3 start at 2018-02-20 12:46:45.701509
+XMR - Loop 3 end
+XMR - Saving data start at 2018-02-20 12:51:54.801108
+XMR - Saved data
+ETC - Loop 1 start at 2018-02-20 12:51:57.880500
+Can't search long ago data - ETC.
+ETC - Loop 1 end
+ETC - Loop 2 start at 2018-02-20 12:52:00.942145
+Can't search much long ago data - ETC.
+ETC - Loop 2 end
+ETC - Loop 3 start at 2018-02-20 12:52:04.002229
+ETC - Loop 3 end
+ETC - Saving data start at 2018-02-20 12:59:52.573274
+ETC - Saved data
+QTUM - Loop 1 start at 2018-02-20 12:59:55.673590
+Can't search long ago data - QTUM.
+QTUM - Loop 1 end
+QTUM - Loop 2 start at 2018-02-20 12:59:58.731808
+Can't search much long ago data - QTUM.
+QTUM - Loop 2 end
+QTUM - Loop 3 start at 2018-02-20 13:00:02.781706
+QTUM - Loop 3 end
+QTUM - Saving data start at 2018-02-20 13:03:27.029939
+QTUM - Saved data
+BTG - Loop 1 start at 2018-02-20 13:03:30.100486
+Can't search long ago data - BTG.
+BTG - Loop 1 end
+BTG - Loop 2 start at 2018-02-20 13:03:33.217487
+Can't search much long ago data - BTG.
+BTG - Loop 2 end
+BTG - Loop 3 start at 2018-02-20 13:03:36.280992
+BTG - Loop 3 end
+BTG - Saving data start at 2018-02-20 13:05:51.866751
+BTG - Saved data
+ZEC - Loop 1 start at 2018-02-20 13:05:54.903176
+Can't search long ago data - ZEC.
+ZEC - Loop 1 end
+ZEC - Loop 2 start at 2018-02-20 13:05:57.956718
+Can't search much long ago data - ZEC.
+ZEC - Loop 2 end
+ZEC - Loop 3 start at 2018-02-20 13:06:01.017730
+ZEC - Loop 3 end
+ZEC - Saving data start at 2018-02-20 13:10:23.809921
+ZEC - Saved data
+BTC - Loop 1 start at 2018-02-20 13:10:26.880057
+Can't search long ago data - BTC.
+BTC - Loop 1 end
+BTC - Saving data start at 2018-02-20 13:10:30.011199
+BTC - Saved data
+ETH - Loop 1 start at 2018-02-20 13:10:33.135740
+Can't search long ago data - ETH.
+ETH - Loop 1 end
+ETH - Saving data start at 2018-02-20 13:10:36.208802
+ETH - Saved data
+XRP - Loop 1 start at 2018-02-20 13:10:39.289228
+Can't search long ago data - XRP.
+XRP - Loop 1 end
+XRP - Saving data start at 2018-02-20 13:10:42.395666
+XRP - Saved data
+BCH - Loop 1 start at 2018-02-20 13:10:45.464360
+Can't search long ago data - BCH.
+BCH - Loop 1 end
+BCH - Saving data start at 2018-02-20 13:10:48.601689
+BCH - Saved data
+LTC - Loop 1 start at 2018-02-20 13:10:51.677001
+Can't search long ago data - LTC.
+LTC - Loop 1 end
+LTC - Saving data start at 2018-02-20 13:10:54.769465
+LTC - Saved data
+EOS - Loop 1 start at 2018-02-20 13:10:57.886095
+Can't search long ago data - EOS.
+EOS - Loop 1 end
+EOS - Saving data start at 2018-02-20 13:11:01.037478
+EOS - Saved data
+DASH - Loop 1 start at 2018-02-20 13:11:04.079886
+Can't search long ago data - DASH.
+DASH - Loop 1 end
+DASH - Saving data start at 2018-02-20 13:11:07.199367
+DASH - Saved data
+XMR - Loop 1 start at 2018-02-20 13:11:10.286619
+Can't search long ago data - XMR.
+XMR - Loop 1 end
+XMR - Saving data start at 2018-02-20 13:11:13.403949
+XMR - Saved data
+ETC - Loop 1 start at 2018-02-20 13:11:16.498014
+Can't search long ago data - ETC.
+ETC - Loop 1 end
+ETC - Saving data start at 2018-02-20 13:11:19.646467
+ETC - Saved data
+QTUM - Loop 1 start at 2018-02-20 13:11:22.753474
+Can't search long ago data - QTUM.
+QTUM - Loop 1 end
+QTUM - Saving data start at 2018-02-20 13:11:25.898440
+QTUM - Saved data
+BTG - Loop 1 start at 2018-02-20 13:11:28.958849
+Can't search long ago data - BTG.
+BTG - Loop 1 end
+BTG - Saving data start at 2018-02-20 13:11:32.030688
+BTG - Saved data
+ZEC - Loop 1 start at 2018-02-20 13:11:35.075822
+Can't search long ago data - ZEC.
+ZEC - Loop 1 end
+ZEC - Saving data start at 2018-02-20 13:11:38.156121
+ZEC - Saved data
+BTC - Loop 1 start at 2018-02-20 13:11:41.212793
+Can't search long ago data - BTC.
+BTC - Loop 1 end
+BTC - Loop 2 start at 2018-02-20 13:11:44.437418
+Can't search much long ago data - BTC.
+BTC - Loop 2 end
+BTC - Loop 3 start at 2018-02-20 13:11:47.512235
+BTC - Loop 3 end
+BTC - Saving data start at 2018-02-20 13:19:44.312217
+BTC - Saved data
+ETH - Loop 1 start at 2018-02-20 13:19:47.409852
+Can't search long ago data - ETH.
+ETH - Loop 1 end
+ETH - Loop 2 start at 2018-02-20 13:19:50.477995
+Can't search much long ago data - ETH.
+ETH - Loop 2 end
+ETH - Loop 3 start at 2018-02-20 13:19:53.529815
+ETH - Loop 3 end
+ETH - Saving data start at 2018-02-20 13:27:49.167816
+ETH - Saved data
+XRP - Loop 1 start at 2018-02-20 13:27:52.274125
+Can't search long ago data - XRP.
+XRP - Loop 1 end
+XRP - Loop 2 start at 2018-02-20 13:27:55.486106
+Can't search much long ago data - XRP.
+XRP - Loop 2 end
+XRP - Loop 3 start at 2018-02-20 13:27:58.612729
+XRP - Loop 3 end
+XRP - Saving data start at 2018-02-20 13:35:56.832766
+XRP - Saved data
+BCH - Loop 1 start at 2018-02-20 13:35:59.926904
+Can't search long ago data - BCH.
+BCH - Loop 1 end
+BCH - Loop 2 start at 2018-02-20 13:36:03.029567
+Can't search much long ago data - BCH.
+BCH - Loop 2 end
+BCH - Loop 3 start at 2018-02-20 13:36:06.075269
+BCH - Loop 3 end
+BCH - Saving data start at 2018-02-20 13:42:13.304006
+BCH - Saved data
+LTC - Loop 1 start at 2018-02-20 13:42:16.384199
+Can't search long ago data - LTC.
+LTC - Loop 1 end
+LTC - Loop 2 start at 2018-02-20 13:42:19.447441
+Can't search much long ago data - LTC.
+LTC - Loop 2 end
+LTC - Loop 3 start at 2018-02-20 13:42:22.506974
+LTC - Loop 3 end
+LTC - Saving data start at 2018-02-20 13:50:21.396680
+LTC - Saved data
+EOS - Loop 1 start at 2018-02-20 13:50:24.497839
+Can't search long ago data - EOS.
+EOS - Loop 1 end
+EOS - Loop 2 start at 2018-02-20 13:50:27.632185
+Can't search much long ago data - EOS.
+EOS - Loop 2 end
+EOS - Loop 3 start at 2018-02-20 13:50:30.673796
+EOS - Loop 3 end
+EOS - Saving data start at 2018-02-20 13:52:10.253557
+EOS - Saved data
+DASH - Loop 1 start at 2018-02-20 13:52:13.292605
+Can't search long ago data - DASH.
+DASH - Loop 1 end
+DASH - Loop 2 start at 2018-02-20 13:52:16.357067
+Can't search much long ago data - DASH.
+DASH - Loop 2 end
+DASH - Loop 3 start at 2018-02-20 13:52:19.443388
+DASH - Loop 3 end
+DASH - Saving data start at 2018-02-20 14:00:00.645387
+DASH - Saved data
+XMR - Loop 1 start at 2018-02-20 14:00:03.769265
+Can't search long ago data - XMR.
+XMR - Loop 1 end
+XMR - Loop 2 start at 2018-02-20 14:00:06.839006
+Can't search much long ago data - XMR.
+XMR - Loop 2 end
+XMR - Loop 3 start at 2018-02-20 14:00:09.877829
+XMR - Loop 3 end
+XMR - Saving data start at 2018-02-20 14:05:17.413107
+XMR - Saved data
+ETC - Loop 1 start at 2018-02-20 14:05:20.476945
+Can't search long ago data - ETC.
+ETC - Loop 1 end
+ETC - Loop 2 start at 2018-02-20 14:05:23.743862
+Can't search much long ago data - ETC.
+ETC - Loop 2 end
+ETC - Loop 3 start at 2018-02-20 14:05:26.786364
+ETC - Loop 3 end
+ETC - Saving data start at 2018-02-20 14:13:33.346461
+ETC - Saved data
+QTUM - Loop 1 start at 2018-02-20 14:13:36.450943
+Can't search long ago data - QTUM.
+QTUM - Loop 1 end
+QTUM - Loop 2 start at 2018-02-20 14:13:39.660492
+Can't search much long ago data - QTUM.
+QTUM - Loop 2 end
+QTUM - Loop 3 start at 2018-02-20 14:13:42.757435
+QTUM - Loop 3 end
+QTUM - Saving data start at 2018-02-20 14:17:06.694948
+QTUM - Saved data
+BTG - Loop 1 start at 2018-02-20 14:17:09.766906
+Can't search long ago data - BTG.
+BTG - Loop 1 end
+BTG - Loop 2 start at 2018-02-20 14:17:13.832009
+Can't search much long ago data - BTG.
+BTG - Loop 2 end
+BTG - Loop 3 start at 2018-02-20 14:17:16.876103
+BTG - Loop 3 end
+BTG - Saving data start at 2018-02-20 14:19:30.271748
+BTG - Saved data
+ZEC - Loop 1 start at 2018-02-20 14:19:33.307106
+Can't search long ago data - ZEC.
+ZEC - Loop 1 end
+ZEC - Loop 2 start at 2018-02-20 14:19:36.506791
+Can't search much long ago data - ZEC.
+ZEC - Loop 2 end
+ZEC - Loop 3 start at 2018-02-20 14:19:39.553423
+ZEC - Loop 3 end
+ZEC - Saving data start at 2018-02-20 14:24:02.563436
+ZEC - Saved data
+BTC - Loop 1 start at 2018-02-20 14:24:05.648246
+Can't search long ago data - BTC.
+BTC - Loop 1 end
+BTC - Saving data start at 2018-02-20 14:24:08.763077
+BTC - Saved data
+ETH - Loop 1 start at 2018-02-20 14:24:11.874335
+Can't search long ago data - ETH.
+ETH - Loop 1 end
+ETH - Saving data start at 2018-02-20 14:24:14.925704
+ETH - Saved data
+XRP - Loop 1 start at 2018-02-20 14:24:18.050250
+Can't search long ago data - XRP.
+XRP - Loop 1 end
+XRP - Saving data start at 2018-02-20 14:24:21.101384
+XRP - Saved data
+BCH - Loop 1 start at 2018-02-20 14:24:24.211508
+Can't search long ago data - BCH.
+BCH - Loop 1 end
+BCH - Saving data start at 2018-02-20 14:24:27.270503
+BCH - Saved data
+LTC - Loop 1 start at 2018-02-20 14:24:30.349859
+Can't search long ago data - LTC.
+LTC - Loop 1 end
+LTC - Saving data start at 2018-02-20 14:24:33.423403
+LTC - Saved data
+EOS - Loop 1 start at 2018-02-20 14:24:36.523245
+Can't search long ago data - EOS.
+EOS - Loop 1 end
+EOS - Saving data start at 2018-02-20 14:24:39.624706
+EOS - Saved data
+DASH - Loop 1 start at 2018-02-20 14:24:42.658280
+Can't search long ago data - DASH.
+DASH - Loop 1 end
+DASH - Saving data start at 2018-02-20 14:24:45.703350
+DASH - Saved data
+XMR - Loop 1 start at 2018-02-20 14:24:48.821120
+Can't search long ago data - XMR.
+XMR - Loop 1 end
+XMR - Saving data start at 2018-02-20 14:24:51.899957
+XMR - Saved data
+ETC - Loop 1 start at 2018-02-20 14:24:54.976893
+Can't search long ago data - ETC.
+ETC - Loop 1 end
+ETC - Saving data start at 2018-02-20 14:24:58.052214
+ETC - Saved data
+QTUM - Loop 1 start at 2018-02-20 14:25:01.154269
+Can't search long ago data - QTUM.
+QTUM - Loop 1 end
+QTUM - Saving data start at 2018-02-20 14:25:04.411439
+QTUM - Saved data
+BTG - Loop 1 start at 2018-02-20 14:25:07.468729
+Can't search long ago data - BTG.
+BTG - Loop 1 end
+BTG - Saving data start at 2018-02-20 14:25:10.511286
+BTG - Saved data
+ZEC - Loop 1 start at 2018-02-20 14:25:13.559831
+Can't search long ago data - ZEC.
+ZEC - Loop 1 end
+ZEC - Saving data start at 2018-02-20 14:25:16.617945
+ZEC - Saved data
+BTC - Loop 1 start at 2018-02-20 14:25:19.712160
+Can't search long ago data - BTC.
+BTC - Loop 1 end
+BTC - Loop 2 start at 2018-02-20 14:25:22.840570
+Can't search much long ago data - BTC.
+BTC - Loop 2 end
+BTC - Loop 3 start at 2018-02-20 14:25:25.894142
+BTC - Loop 3 end
+BTC - Saving data start at 2018-02-20 14:33:34.368728
+BTC - Saved data
+ETH - Loop 1 start at 2018-02-20 14:33:37.468964
+Can't search long ago data - ETH.
+ETH - Loop 1 end
+ETH - Loop 2 start at 2018-02-20 14:33:40.665792
+Can't search much long ago data - ETH.
+ETH - Loop 2 end
+ETH - Loop 3 start at 2018-02-20 14:33:43.808543
+ETH - Loop 3 end
+ETH - Saving data start at 2018-02-20 14:42:19.669487
+ETH - Saved data
+XRP - Loop 1 start at 2018-02-20 14:42:22.776917
+Can't search long ago data - XRP.
+XRP - Loop 1 end
+XRP - Loop 2 start at 2018-02-20 14:42:25.851927
+Can't search much long ago data - XRP.
+XRP - Loop 2 end
+XRP - Loop 3 start at 2018-02-20 14:42:28.915334
+XRP - Loop 3 end
+XRP - Saving data start at 2018-02-20 14:51:00.671410
+XRP - Saved data
+BCH - Loop 1 start at 2018-02-20 14:51:03.760282
+Can't search long ago data - BCH.
+BCH - Loop 1 end
+BCH - Loop 2 start at 2018-02-20 14:51:06.864159
+Can't search much long ago data - BCH.
+BCH - Loop 2 end
+BCH - Loop 3 start at 2018-02-20 14:51:09.960279
+BCH - Loop 3 end
+BCH - Saving data start at 2018-02-20 14:57:17.198903
+BCH - Saved data
+LTC - Loop 1 start at 2018-02-20 14:57:20.282652
+Can't search long ago data - LTC.
+LTC - Loop 1 end
+LTC - Loop 2 start at 2018-02-20 14:57:23.663815
+Can't search much long ago data - LTC.
+LTC - Loop 2 end
+LTC - Loop 3 start at 2018-02-20 14:57:26.771058
+LTC - Loop 3 end
+LTC - Saving data start at 2018-02-20 15:05:49.969601
+LTC - Saved data
+EOS - Loop 1 start at 2018-02-20 15:05:53.074103
+Can't search long ago data - EOS.
+EOS - Loop 1 end
+EOS - Loop 2 start at 2018-02-20 15:05:56.160386
+Can't search much long ago data - EOS.
+EOS - Loop 2 end
+EOS - Loop 3 start at 2018-02-20 15:05:59.208627
+EOS - Loop 3 end
+EOS - Saving data start at 2018-02-20 15:07:45.016071
+EOS - Saved data
+DASH - Loop 1 start at 2018-02-20 15:07:48.054625
+Can't search long ago data - DASH.
+DASH - Loop 1 end
+DASH - Loop 2 start at 2018-02-20 15:07:51.322243
+Can't search much long ago data - DASH.
+DASH - Loop 2 end
+DASH - Loop 3 start at 2018-02-20 15:07:54.399374
+DASH - Loop 3 end
+DASH - Saving data start at 2018-02-20 15:16:20.106923
+DASH - Saved data
+XMR - Loop 1 start at 2018-02-20 15:16:23.226240
+Can't search long ago data - XMR.
+XMR - Loop 1 end
+XMR - Loop 2 start at 2018-02-20 15:16:26.319237
+Can't search much long ago data - XMR.
+XMR - Loop 2 end
+XMR - Loop 3 start at 2018-02-20 15:16:29.365026
+XMR - Loop 3 end
+XMR - Saving data start at 2018-02-20 15:22:01.943678
+XMR - Saved data
+ETC - Loop 1 start at 2018-02-20 15:22:05.028668
+Can't search long ago data - ETC.
+ETC - Loop 1 end
+ETC - Loop 2 start at 2018-02-20 15:22:08.121001
+Can't search much long ago data - ETC.
+ETC - Loop 2 end
+ETC - Loop 3 start at 2018-02-20 15:22:11.217137
+ETC - Loop 3 end
+ETC - Saving data start at 2018-02-20 15:30:46.319039
+ETC - Saved data
+QTUM - Loop 1 start at 2018-02-20 15:30:49.406345
+Can't search long ago data - QTUM.
+QTUM - Loop 1 end
+QTUM - Loop 2 start at 2018-02-20 15:30:52.510038
+Can't search much long ago data - QTUM.
+QTUM - Loop 2 end
+QTUM - Loop 3 start at 2018-02-20 15:30:56.611098
+QTUM - Loop 3 end
+QTUM - Saving data start at 2018-02-20 15:34:40.128719
+QTUM - Saved data
+BTG - Loop 1 start at 2018-02-20 15:34:43.182095
+Can't search long ago data - BTG.
+BTG - Loop 1 end
+BTG - Loop 2 start at 2018-02-20 15:34:46.335965
+Can't search much long ago data - BTG.
+BTG - Loop 2 end
+BTG - Loop 3 start at 2018-02-20 15:34:49.425442
+BTG - Loop 3 end
+BTG - Saving data start at 2018-02-20 15:37:20.133585
+BTG - Saved data
+ZEC - Loop 1 start at 2018-02-20 15:37:23.173484
+Can't search long ago data - ZEC.
+ZEC - Loop 1 end
+ZEC - Loop 2 start at 2018-02-20 15:37:26.305300
+Can't search much long ago data - ZEC.
+ZEC - Loop 2 end
+ZEC - Loop 3 start at 2018-02-20 15:37:29.363082
+ZEC - Loop 3 end
+ZEC - Saving data start at 2018-02-20 15:42:10.191105
+ZEC - Saved data
+BTC - Loop 1 start at 2018-02-20 15:42:13.252839
+Can't search long ago data - BTC.
+BTC - Loop 1 end
+BTC - Saving data start at 2018-02-20 15:42:16.336873
+BTC - Saved data
+ETH - Loop 1 start at 2018-02-20 15:42:19.442660
+Can't search long ago data - ETH.
+ETH - Loop 1 end
+ETH - Saving data start at 2018-02-20 15:42:23.526345
+ETH - Saved data
+XRP - Loop 1 start at 2018-02-20 15:42:26.628734
+Can't search long ago data - XRP.
+XRP - Loop 1 end
+XRP - Saving data start at 2018-02-20 15:42:30.029136
+XRP - Saved data
+BCH - Loop 1 start at 2018-02-20 15:42:33.151122
+Can't search long ago data - BCH.
+BCH - Loop 1 end
+BCH - Saving data start at 2018-02-20 15:42:36.242680
+BCH - Saved data
+LTC - Loop 1 start at 2018-02-20 15:42:39.329612
+Can't search long ago data - LTC.
+LTC - Loop 1 end
+LTC - Saving data start at 2018-02-20 15:42:42.528630
+LTC - Saved data
+EOS - Loop 1 start at 2018-02-20 15:42:45.631246
+Can't search long ago data - EOS.
+EOS - Loop 1 end
+EOS - Saving data start at 2018-02-20 15:42:48.731148
+EOS - Saved data
+DASH - Loop 1 start at 2018-02-20 15:42:51.767276
+Can't search long ago data - DASH.
+DASH - Loop 1 end
+DASH - Saving data start at 2018-02-20 15:42:54.882650
+DASH - Saved data
+XMR - Loop 1 start at 2018-02-20 15:42:57.993209
+Can't search long ago data - XMR.
+XMR - Loop 1 end
+XMR - Saving data start at 2018-02-20 15:43:01.093370
+XMR - Saved data
+ETC - Loop 1 start at 2018-02-20 15:43:04.174062
+Can't search long ago data - ETC.
+ETC - Loop 1 end
+ETC - Saving data start at 2018-02-20 15:43:07.270134
+ETC - Saved data
+QTUM - Loop 1 start at 2018-02-20 15:43:10.372640
+Can't search long ago data - QTUM.
+QTUM - Loop 1 end
+QTUM - Saving data start at 2018-02-20 15:43:13.489629
+QTUM - Saved data
+BTG - Loop 1 start at 2018-02-20 15:43:16.543343
+Can't search long ago data - BTG.
+BTG - Loop 1 end
+BTG - Saving data start at 2018-02-20 15:43:19.642000
+BTG - Saved data
+ZEC - Loop 1 start at 2018-02-20 15:43:22.689389
+Can't search long ago data - ZEC.
+ZEC - Loop 1 end
+ZEC - Saving data start at 2018-02-20 15:43:25.822346
+ZEC - Saved data
+BTC - Loop 1 start at 2018-02-20 15:43:28.877940
+Can't search long ago data - BTC.
+BTC - Loop 1 end
+BTC - Loop 2 start at 2018-02-20 15:43:32.258432
+Can't search much long ago data - BTC.
+BTC - Loop 2 end
+BTC - Loop 3 start at 2018-02-20 15:43:35.377734
+BTC - Loop 3 end
+BTC - Saving data start at 2018-02-20 15:52:25.770138
+BTC - Saved data
+ETH - Loop 1 start at 2018-02-20 15:52:28.905126
+Can't search long ago data - ETH.
+ETH - Loop 1 end
+ETH - Loop 2 start at 2018-02-20 15:52:32.060442
+Can't search much long ago data - ETH.
+ETH - Loop 2 end
+ETH - Loop 3 start at 2018-02-20 15:52:35.200904
+ETH - Loop 3 end
+ETH - Saving data start at 2018-02-20 16:01:06.479525
+ETH - Saved data
+XRP - Loop 1 start at 2018-02-20 16:01:09.604946
+Can't search long ago data - XRP.
+XRP - Loop 1 end
+XRP - Loop 2 start at 2018-02-20 16:01:12.800324
+Can't search much long ago data - XRP.
+XRP - Loop 2 end
+XRP - Loop 3 start at 2018-02-20 16:01:15.864669
+XRP - Loop 3 end
+XRP - Saving data start at 2018-02-20 16:09:47.565444
+XRP - Saved data
+BCH - Loop 1 start at 2018-02-20 16:09:50.680865
+Can't search long ago data - BCH.
+BCH - Loop 1 end
+BCH - Loop 2 start at 2018-02-20 16:09:53.740944
+Can't search much long ago data - BCH.
+BCH - Loop 2 end
+BCH - Loop 3 start at 2018-02-20 16:09:56.797999
+BCH - Loop 3 end
+BCH - Saving data start at 2018-02-20 16:16:29.746340
+BCH - Saved data
+LTC - Loop 1 start at 2018-02-20 16:16:32.827459
+Can't search long ago data - LTC.
+LTC - Loop 1 end
+LTC - Loop 2 start at 2018-02-20 16:16:35.976439
+Can't search much long ago data - LTC.
+LTC - Loop 2 end
+LTC - Loop 3 start at 2018-02-20 16:16:41.104365
+LTC - Loop 3 end
+LTC - Saving data start at 2018-02-20 16:25:07.703174
+LTC - Saved data
+EOS - Loop 1 start at 2018-02-20 16:25:10.823511
+Can't search long ago data - EOS.
+EOS - Loop 1 end
+EOS - Loop 2 start at 2018-02-20 16:25:13.966912
+Can't search much long ago data - EOS.
+EOS - Loop 2 end
+EOS - Loop 3 start at 2018-02-20 16:25:17.083687
+EOS - Loop 3 end
+EOS - Saving data start at 2018-02-20 16:27:07.489830
+EOS - Saved data
+DASH - Loop 1 start at 2018-02-20 16:27:10.525560
+Can't search long ago data - DASH.
+DASH - Loop 1 end
+DASH - Loop 2 start at 2018-02-20 16:27:13.585239
+Can't search much long ago data - DASH.
+DASH - Loop 2 end
+DASH - Loop 3 start at 2018-02-20 16:27:16.652652
+DASH - Loop 3 end
+DASH - Saving data start at 2018-02-20 16:35:49.489549
+DASH - Saved data
+XMR - Loop 1 start at 2018-02-20 16:35:52.592525
+Can't search long ago data - XMR.
+XMR - Loop 1 end
+XMR - Loop 2 start at 2018-02-20 16:35:55.690344
+Can't search much long ago data - XMR.
+XMR - Loop 2 end
+XMR - Loop 3 start at 2018-02-20 16:35:58.779826
+XMR - Loop 3 end
+XMR - Saving data start at 2018-02-20 16:42:01.873697
+XMR - Saved data
+ETC - Loop 1 start at 2018-02-20 16:42:04.939207
+Can't search long ago data - ETC.
+ETC - Loop 1 end
+ETC - Loop 2 start at 2018-02-20 16:42:08.000330
+Can't search much long ago data - ETC.
+ETC - Loop 2 end
+ETC - Loop 3 start at 2018-02-20 16:42:11.072648
+ETC - Loop 3 end
+ETC - Saving data start at 2018-02-20 16:51:14.518736
+ETC - Saved data
+QTUM - Loop 1 start at 2018-02-20 16:51:17.664577
+Can't search long ago data - QTUM.
+QTUM - Loop 1 end
+QTUM - Loop 2 start at 2018-02-20 16:51:21.892654
+Can't search much long ago data - QTUM.
+QTUM - Loop 2 end
+QTUM - Loop 3 start at 2018-02-20 16:51:24.940226
+QTUM - Loop 3 end
+QTUM - Saving data start at 2018-02-20 16:55:33.011889
+QTUM - Saved data
+BTG - Loop 1 start at 2018-02-20 16:55:36.103973
+Can't search long ago data - BTG.
+BTG - Loop 1 end
+BTG - Loop 2 start at 2018-02-20 16:55:40.163052
+Can't search much long ago data - BTG.
+BTG - Loop 2 end
+BTG - Loop 3 start at 2018-02-20 16:55:44.376153
+BTG - Loop 3 end
+BTG - Saving data start at 2018-02-20 16:58:28.956877
+BTG - Saved data
+ZEC - Loop 1 start at 2018-02-20 16:58:32.015180
+Can't search long ago data - ZEC.
+ZEC - Loop 1 end
+ZEC - Loop 2 start at 2018-02-20 16:58:35.068061
+Can't search much long ago data - ZEC.
+ZEC - Loop 2 end
+ZEC - Loop 3 start at 2018-02-20 16:58:38.116223
+ZEC - Loop 3 end
+ZEC - Saving data start at 2018-02-20 17:03:55.580448
+ZEC - Saved data
+BTC - Loop 1 start at 2018-02-20 17:03:58.643028
+Can't search long ago data - BTC.
+BTC - Loop 1 end
+BTC - Saving data start at 2018-02-20 17:04:01.709748
+BTC - Saved data
+ETH - Loop 1 start at 2018-02-20 17:04:04.819856
+Can't search long ago data - ETH.
+ETH - Loop 1 end
+ETH - Saving data start at 2018-02-20 17:04:07.870268
+ETH - Saved data
+XRP - Loop 1 start at 2018-02-20 17:04:11.002891
+Can't search long ago data - XRP.
+XRP - Loop 1 end
+XRP - Saving data start at 2018-02-20 17:04:14.113594
+XRP - Saved data
+BCH - Loop 1 start at 2018-02-20 17:04:17.200509
+Can't search long ago data - BCH.
+BCH - Loop 1 end
+BCH - Saving data start at 2018-02-20 17:04:20.321180
+BCH - Saved data
+LTC - Loop 1 start at 2018-02-20 17:04:23.400450
+Can't search long ago data - LTC.
+LTC - Loop 1 end
+LTC - Saving data start at 2018-02-20 17:04:26.490238
+LTC - Saved data
+EOS - Loop 1 start at 2018-02-20 17:04:29.607727
+Can't search long ago data - EOS.
+EOS - Loop 1 end
+EOS - Saving data start at 2018-02-20 17:04:32.693243
+EOS - Saved data
+DASH - Loop 1 start at 2018-02-20 17:04:35.722969
+Can't search long ago data - DASH.
+DASH - Loop 1 end
+DASH - Saving data start at 2018-02-20 17:04:38.881365
+DASH - Saved data
+XMR - Loop 1 start at 2018-02-20 17:04:41.987099
+Can't search long ago data - XMR.
+XMR - Loop 1 end
+XMR - Saving data start at 2018-02-20 17:04:45.035282
+XMR - Saved data
+ETC - Loop 1 start at 2018-02-20 17:04:48.127497
+Can't search long ago data - ETC.
+ETC - Loop 1 end
+ETC - Saving data start at 2018-02-20 17:04:51.182053
+ETC - Saved data
+QTUM - Loop 1 start at 2018-02-20 17:04:54.284858
+Can't search long ago data - QTUM.
+QTUM - Loop 1 end
+QTUM - Saving data start at 2018-02-20 17:04:57.351066
+QTUM - Saved data
+BTG - Loop 1 start at 2018-02-20 17:05:00.414895
+Can't search long ago data - BTG.
+BTG - Loop 1 end
+BTG - Saving data start at 2018-02-20 17:05:03.518945
+BTG - Saved data
+ZEC - Loop 1 start at 2018-02-20 17:05:06.575036
+Can't search long ago data - ZEC.
+ZEC - Loop 1 end
+ZEC - Saving data start at 2018-02-20 17:05:09.670002
+ZEC - Saved data
+BTC - Loop 1 start at 2018-02-20 17:05:12.750573
+Can't search long ago data - BTC.
+BTC - Loop 1 end
+BTC - Loop 2 start at 2018-02-20 17:05:15.809495
+Can't search much long ago data - BTC.
+BTC - Loop 2 end
+BTC - Loop 3 start at 2018-02-20 17:05:18.928007
+BTC - Loop 3 end
+BTC - Saving data start at 2018-02-20 17:14:50.270276
+BTC - Saved data
+ETH - Loop 1 start at 2018-02-20 17:14:53.401132
+Can't search long ago data - ETH.
+ETH - Loop 1 end
+ETH - Loop 2 start at 2018-02-20 17:14:56.459588
+Can't search much long ago data - ETH.
+ETH - Loop 2 end
+ETH - Loop 3 start at 2018-02-20 17:14:59.499256
+ETH - Loop 3 end
+ETH - Saving data start at 2018-02-20 17:24:25.875707
+ETH - Saved data
+XRP - Loop 1 start at 2018-02-20 17:24:29.017835
+Can't search long ago data - XRP.
+XRP - Loop 1 end
+XRP - Loop 2 start at 2018-02-20 17:24:32.075623
+Can't search much long ago data - XRP.
+XRP - Loop 2 end
+XRP - Loop 3 start at 2018-02-20 17:24:35.125304
+XRP - Loop 3 end
+XRP - Saving data start at 2018-02-20 17:34:11.275191
+XRP - Saved data
+BCH - Loop 1 start at 2018-02-20 17:34:14.415948
+Can't search long ago data - BCH.
+BCH - Loop 1 end
+BCH - Loop 2 start at 2018-02-20 17:34:17.468869
+Can't search much long ago data - BCH.
+BCH - Loop 2 end
+BCH - Loop 3 start at 2018-02-20 17:34:20.514022
+BCH - Loop 3 end
+BCH - Saving data start at 2018-02-20 17:41:31.195961
+BCH - Saved data
+LTC - Loop 1 start at 2018-02-20 17:41:34.292248
+Can't search long ago data - LTC.
+LTC - Loop 1 end
+LTC - Loop 2 start at 2018-02-20 17:41:38.501087
+Can't search much long ago data - LTC.
+LTC - Loop 2 end
+LTC - Loop 3 start at 2018-02-20 17:41:41.585620
+LTC - Loop 3 end
+LTC - Saving data start at 2018-02-20 17:50:48.925379
+LTC - Saved data
+EOS - Loop 1 start at 2018-02-20 17:50:52.046564
+Can't search long ago data - EOS.
+EOS - Loop 1 end
+EOS - Loop 2 start at 2018-02-20 17:50:55.105841
+Can't search much long ago data - EOS.
+EOS - Loop 2 end
+EOS - Loop 3 start at 2018-02-20 17:50:58.152642
+EOS - Loop 3 end
+EOS - Saving data start at 2018-02-20 17:52:52.629382
+EOS - Saved data
+DASH - Loop 1 start at 2018-02-20 17:52:55.670122
+Can't search long ago data - DASH.
+DASH - Loop 1 end
+DASH - Loop 2 start at 2018-02-20 17:52:58.783007
+Can't search much long ago data - DASH.
+DASH - Loop 2 end
+DASH - Loop 3 start at 2018-02-20 17:53:01.835401
+DASH - Loop 3 end
+DASH - Saving data start at 2018-02-20 18:02:11.117378
+DASH - Saved data
+XMR - Loop 1 start at 2018-02-20 18:02:14.215989
+Can't search long ago data - XMR.
+XMR - Loop 1 end
+XMR - Loop 2 start at 2018-02-20 18:02:17.276868
+Can't search much long ago data - XMR.
+XMR - Loop 2 end
+XMR - Loop 3 start at 2018-02-20 18:02:20.329150
+XMR - Loop 3 end
+XMR - Saving data start at 2018-02-20 18:07:54.158351
+XMR - Saved data
+ETC - Loop 1 start at 2018-02-20 18:07:57.223136
+Can't search long ago data - ETC.
+ETC - Loop 1 end
+ETC - Loop 2 start at 2018-02-20 18:08:00.304011
+Can't search much long ago data - ETC.
+ETC - Loop 2 end
+ETC - Loop 3 start at 2018-02-20 18:08:03.357757
+ETC - Loop 3 end
+ETC - Saving data start at 2018-02-20 18:16:32.434143
+ETC - Saved data
+QTUM - Loop 1 start at 2018-02-20 18:16:35.535495
+Can't search long ago data - QTUM.
+QTUM - Loop 1 end
+QTUM - Loop 2 start at 2018-02-20 18:16:38.593532
+Can't search much long ago data - QTUM.
+QTUM - Loop 2 end
+QTUM - Loop 3 start at 2018-02-20 18:16:41.793300
+QTUM - Loop 3 end
+QTUM - Saving data start at 2018-02-20 18:20:21.520007
+QTUM - Saved data
+BTG - Loop 1 start at 2018-02-20 18:20:24.572315
+Can't search long ago data - BTG.
+BTG - Loop 1 end
+BTG - Loop 2 start at 2018-02-20 18:20:27.628131
+Can't search much long ago data - BTG.
+BTG - Loop 2 end
+BTG - Loop 3 start at 2018-02-20 18:20:30.673541
+BTG - Loop 3 end
+BTG - Saving data start at 2018-02-20 18:22:54.952702
+BTG - Saved data
+ZEC - Loop 1 start at 2018-02-20 18:22:57.995075
+Can't search long ago data - ZEC.
+ZEC - Loop 1 end
+ZEC - Loop 2 start at 2018-02-20 18:23:01.104902
+Can't search much long ago data - ZEC.
+ZEC - Loop 2 end
+ZEC - Loop 3 start at 2018-02-20 18:23:04.212462
+ZEC - Loop 3 end
+ZEC - Saving data start at 2018-02-20 18:27:43.662649
+ZEC - Saved data
+BTC - Loop 1 start at 2018-02-20 18:27:46.729085
+Can't search long ago data - BTC.
+BTC - Loop 1 end
+BTC - Saving data start at 2018-02-20 18:27:49.788203
+BTC - Saved data
+ETH - Loop 1 start at 2018-02-20 18:27:52.878728
+Can't search long ago data - ETH.
+ETH - Loop 1 end
+ETH - Saving data start at 2018-02-20 18:27:56.149320
+ETH - Saved data
+XRP - Loop 1 start at 2018-02-20 18:27:59.265008
+Can't search long ago data - XRP.
+XRP - Loop 1 end
+XRP - Saving data start at 2018-02-20 18:28:02.346351
+XRP - Saved data
+BCH - Loop 1 start at 2018-02-20 18:28:05.438914
+Can't search long ago data - BCH.
+BCH - Loop 1 end
+BCH - Saving data start at 2018-02-20 18:28:08.537838
+BCH - Saved data
+LTC - Loop 1 start at 2018-02-20 18:28:11.626916
+Can't search long ago data - LTC.
+LTC - Loop 1 end
+LTC - Saving data start at 2018-02-20 18:28:14.700699
+LTC - Saved data
+EOS - Loop 1 start at 2018-02-20 18:28:17.813220
+Can't search long ago data - EOS.
+EOS - Loop 1 end
+EOS - Saving data start at 2018-02-20 18:28:21.934708
+EOS - Saved data
+DASH - Loop 1 start at 2018-02-20 18:28:24.966036
+Can't search long ago data - DASH.
+DASH - Loop 1 end
+DASH - Saving data start at 2018-02-20 18:28:28.106973
+DASH - Saved data
+XMR - Loop 1 start at 2018-02-20 18:28:31.221193
+Can't search long ago data - XMR.
+XMR - Loop 1 end
+XMR - Saving data start at 2018-02-20 18:28:34.289398
+XMR - Saved data
+ETC - Loop 1 start at 2018-02-20 18:28:37.359095
+Can't search long ago data - ETC.
+ETC - Loop 1 end
+ETC - Saving data start at 2018-02-20 18:28:40.438871
+ETC - Saved data
+QTUM - Loop 1 start at 2018-02-20 18:28:43.537525
+Can't search long ago data - QTUM.
+QTUM - Loop 1 end
+QTUM - Saving data start at 2018-02-20 18:28:46.722706
+QTUM - Saved data
+BTG - Loop 1 start at 2018-02-20 18:28:49.776737
+Can't search long ago data - BTG.
+BTG - Loop 1 end
+BTG - Saving data start at 2018-02-20 18:28:52.838586
+BTG - Saved data
+ZEC - Loop 1 start at 2018-02-20 18:28:55.882463
+Can't search long ago data - ZEC.
+ZEC - Loop 1 end
+ZEC - Saving data start at 2018-02-20 18:28:59.256509
+ZEC - Saved data
+BTC - Loop 1 start at 2018-02-20 18:29:02.320426
+Can't search long ago data - BTC.
+BTC - Loop 1 end
+BTC - Loop 2 start at 2018-02-20 18:29:05.399097
+Can't search much long ago data - BTC.
+BTC - Loop 2 end
+BTC - Loop 3 start at 2018-02-20 18:29:09.442808
+BTC - Loop 3 end
+BTC - Saving data start at 2018-02-20 18:37:38.517197
+BTC - Saved data
+ETH - Loop 1 start at 2018-02-20 18:37:41.622807
+Can't search long ago data - ETH.
+ETH - Loop 1 end
+ETH - Loop 2 start at 2018-02-20 18:37:44.677832
+Can't search much long ago data - ETH.
+ETH - Loop 2 end
+ETH - Loop 3 start at 2018-02-20 18:37:47.736332
+ETH - Loop 3 end
+ETH - Saving data start at 2018-02-20 18:46:07.138500
+ETH - Saved data
+XRP - Loop 1 start at 2018-02-20 18:46:10.235750
+Can't search long ago data - XRP.
+XRP - Loop 1 end
+XRP - Loop 2 start at 2018-02-20 18:46:13.356368
+Can't search much long ago data - XRP.
+XRP - Loop 2 end
+XRP - Loop 3 start at 2018-02-20 18:46:16.400735
+XRP - Loop 3 end
+XRP - Saving data start at 2018-02-20 18:54:31.320621
+XRP - Saved data
+BCH - Loop 1 start at 2018-02-20 18:54:34.419735
+Can't search long ago data - BCH.
+BCH - Loop 1 end
+BCH - Loop 2 start at 2018-02-20 18:54:37.487009
+Can't search much long ago data - BCH.
+BCH - Loop 2 end
+BCH - Loop 3 start at 2018-02-20 18:54:40.539220
+BCH - Loop 3 end
+BCH - Saving data start at 2018-02-20 19:01:07.535123
+BCH - Saved data
+LTC - Loop 1 start at 2018-02-20 19:01:10.635233
+Can't search long ago data - LTC.
+LTC - Loop 1 end
+LTC - Loop 2 start at 2018-02-20 19:01:13.756331
+Can't search much long ago data - LTC.
+LTC - Loop 2 end
+LTC - Loop 3 start at 2018-02-20 19:01:17.090317
+LTC - Loop 3 end
+LTC - Saving data start at 2018-02-20 19:09:45.531880
+LTC - Saved data
+EOS - Loop 1 start at 2018-02-20 19:09:48.683684
+Can't search long ago data - EOS.
+EOS - Loop 1 end
+EOS - Loop 2 start at 2018-02-20 19:09:51.752703
+Can't search much long ago data - EOS.
+EOS - Loop 2 end
+EOS - Loop 3 start at 2018-02-20 19:09:54.817963
+EOS - Loop 3 end
+EOS - Saving data start at 2018-02-20 19:11:42.659724
+EOS - Saved data
+DASH - Loop 1 start at 2018-02-20 19:11:45.695309
+Can't search long ago data - DASH.
+DASH - Loop 1 end
+DASH - Loop 2 start at 2018-02-20 19:11:48.781269
+Can't search much long ago data - DASH.
+DASH - Loop 2 end
+DASH - Loop 3 start at 2018-02-20 19:11:51.835694
+DASH - Loop 3 end
+DASH - Saving data start at 2018-02-20 19:20:52.136337
+DASH - Saved data
+XMR - Loop 1 start at 2018-02-20 19:20:55.233144
+Can't search long ago data - XMR.
+XMR - Loop 1 end
+XMR - Loop 2 start at 2018-02-20 19:20:58.327988
+Can't search much long ago data - XMR.
+XMR - Loop 2 end
+XMR - Loop 3 start at 2018-02-20 19:21:01.399634
+XMR - Loop 3 end
+XMR - Saving data start at 2018-02-20 19:26:58.650195
+XMR - Saved data
+ETC - Loop 1 start at 2018-02-20 19:27:01.714026
+Can't search long ago data - ETC.
+ETC - Loop 1 end
+ETC - Loop 2 start at 2018-02-20 19:27:04.832238
+Can't search much long ago data - ETC.
+ETC - Loop 2 end
+ETC - Loop 3 start at 2018-02-20 19:27:07.887228
+ETC - Loop 3 end
+ETC - Saving data start at 2018-02-20 19:36:04.973775
+ETC - Saved data
+QTUM - Loop 1 start at 2018-02-20 19:36:08.089873
+Can't search long ago data - QTUM.
+QTUM - Loop 1 end
+QTUM - Loop 2 start at 2018-02-20 19:36:11.159624
+Can't search much long ago data - QTUM.
+QTUM - Loop 2 end
+QTUM - Loop 3 start at 2018-02-20 19:36:14.281587
+QTUM - Loop 3 end
+QTUM - Saving data start at 2018-02-20 19:40:04.200117
+QTUM - Saved data
+BTG - Loop 1 start at 2018-02-20 19:40:07.248160
+Can't search long ago data - BTG.
+BTG - Loop 1 end
+BTG - Loop 2 start at 2018-02-20 19:40:10.305479
+Can't search much long ago data - BTG.
+BTG - Loop 2 end
+BTG - Loop 3 start at 2018-02-20 19:40:13.429847
+BTG - Loop 3 end
+BTG - Saving data start at 2018-02-20 19:42:35.911273
+BTG - Saved data
+ZEC - Loop 1 start at 2018-02-20 19:42:38.941557
+Can't search long ago data - ZEC.
+ZEC - Loop 1 end
+ZEC - Loop 2 start at 2018-02-20 19:42:42.009610
+Can't search much long ago data - ZEC.
+ZEC - Loop 2 end
+ZEC - Loop 3 start at 2018-02-20 19:42:45.148845
+ZEC - Loop 3 end
+ZEC - Saving data start at 2018-02-20 19:47:43.794815
+ZEC - Saved data
+BTC - Loop 1 start at 2018-02-20 19:47:46.876757
+Can't search long ago data - BTC.
+BTC - Loop 1 end
+BTC - Saving data start at 2018-02-20 19:47:49.984052
+BTC - Saved data
+ETH - Loop 1 start at 2018-02-20 19:47:53.106235
+Can't search long ago data - ETH.
+ETH - Loop 1 end
+ETH - Saving data start at 2018-02-20 19:47:56.231284
+ETH - Saved data
+XRP - Loop 1 start at 2018-02-20 19:47:59.317308
+Can't search long ago data - XRP.
+XRP - Loop 1 end
+XRP - Saving data start at 2018-02-20 19:48:02.462975
+XRP - Saved data
+BCH - Loop 1 start at 2018-02-20 19:48:05.569878
+Can't search long ago data - BCH.
+BCH - Loop 1 end
+BCH - Saving data start at 2018-02-20 19:48:08.677885
+BCH - Saved data
+LTC - Loop 1 start at 2018-02-20 19:48:11.774662
+Can't search long ago data - LTC.
+LTC - Loop 1 end
+LTC - Saving data start at 2018-02-20 19:48:14.887515
+LTC - Saved data
+EOS - Loop 1 start at 2018-02-20 19:48:17.999602
+Can't search long ago data - EOS.
+EOS - Loop 1 end
+EOS - Saving data start at 2018-02-20 19:48:21.085233
+EOS - Saved data
+DASH - Loop 1 start at 2018-02-20 19:48:24.122788
+Can't search long ago data - DASH.
+DASH - Loop 1 end
+DASH - Saving data start at 2018-02-20 19:48:27.223038
+DASH - Saved data
+XMR - Loop 1 start at 2018-02-20 19:48:30.329702
+Can't search long ago data - XMR.
+XMR - Loop 1 end
+XMR - Saving data start at 2018-02-20 19:48:33.424231
+XMR - Saved data
+ETC - Loop 1 start at 2018-02-20 19:48:36.530027
+Can't search long ago data - ETC.
+ETC - Loop 1 end
+ETC - Saving data start at 2018-02-20 19:48:39.712674
+ETC - Saved data
+QTUM - Loop 1 start at 2018-02-20 19:48:42.834954
+Can't search long ago data - QTUM.
+QTUM - Loop 1 end
+QTUM - Saving data start at 2018-02-20 19:48:45.921631
+QTUM - Saved data
+BTG - Loop 1 start at 2018-02-20 19:48:48.978693
+Can't search long ago data - BTG.
+BTG - Loop 1 end
+BTG - Saving data start at 2018-02-20 19:48:52.401725
+BTG - Saved data
+ZEC - Loop 1 start at 2018-02-20 19:48:55.450715
+Can't search long ago data - ZEC.
+ZEC - Loop 1 end
+ZEC - Saving data start at 2018-02-20 19:48:59.910288
+ZEC - Saved data
+BTC - Loop 1 start at 2018-02-20 19:49:02.991054
+Can't search long ago data - BTC.
+BTC - Loop 1 end
+BTC - Loop 2 start at 2018-02-20 19:49:06.107174
+Can't search much long ago data - BTC.
+BTC - Loop 2 end
+BTC - Loop 3 start at 2018-02-20 19:49:09.211732
+BTC - Loop 3 end
+BTC - Saving data start at 2018-02-20 19:58:13.626090
+BTC - Saved data
+ETH - Loop 1 start at 2018-02-20 19:58:16.775260
+Can't search long ago data - ETH.
+ETH - Loop 1 end
+ETH - Loop 2 start at 2018-02-20 19:58:19.918583
+Can't search much long ago data - ETH.
+ETH - Loop 2 end
+ETH - Loop 3 start at 2018-02-20 19:58:22.965435
+ETH - Loop 3 end
+ETH - Saving data start at 2018-02-20 20:07:46.880229
+ETH - Saved data
+XRP - Loop 1 start at 2018-02-20 20:07:50.005801
+Can't search long ago data - XRP.
+XRP - Loop 1 end
+XRP - Loop 2 start at 2018-02-20 20:07:53.105325
+Can't search much long ago data - XRP.
+XRP - Loop 2 end
+XRP - Loop 3 start at 2018-02-20 20:07:56.202074
+XRP - Loop 3 end
+XRP - Saving data start at 2018-02-20 20:16:45.799086
+XRP - Saved data
+BCH - Loop 1 start at 2018-02-20 20:16:48.915297
+Can't search long ago data - BCH.
+BCH - Loop 1 end
+BCH - Loop 2 start at 2018-02-20 20:16:51.983261
+Can't search much long ago data - BCH.
+BCH - Loop 2 end
+BCH - Loop 3 start at 2018-02-20 20:16:55.064264
+BCH - Loop 3 end
+BCH - Saving data start at 2018-02-20 20:23:42.035834
+BCH - Saved data
+LTC - Loop 1 start at 2018-02-20 20:23:45.120466
+Can't search long ago data - LTC.
+LTC - Loop 1 end
+LTC - Loop 2 start at 2018-02-20 20:23:48.263048
+Can't search much long ago data - LTC.
+LTC - Loop 2 end
+LTC - Loop 3 start at 2018-02-20 20:23:51.331349
+LTC - Loop 3 end
+LTC - Saving data start at 2018-02-20 20:32:59.217720
+LTC - Saved data
+EOS - Loop 1 start at 2018-02-20 20:33:02.322248
+Can't search long ago data - EOS.
+EOS - Loop 1 end
+EOS - Loop 2 start at 2018-02-20 20:33:05.378885
+Can't search much long ago data - EOS.
+EOS - Loop 2 end
+EOS - Loop 3 start at 2018-02-20 20:33:08.420333

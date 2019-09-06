@@ -1,0 +1,31 @@
+
+
+  
+ *** Worker 3 - Solved in episode 335: Mean score = 199.99999999999997 in 100 episodes
+
+  
+ *** Worker 3 - Solved in episode 273: Mean score = 199.99999999999997 in 100 episodes
+
+  
+ *** Worker 0 - Solved in episode 351: Mean score = 197.2278279778814 in 100 episodes
+
+  
+ *** Worker 0 - Solved in episode 303: Mean score = 196.5574200560614 in 100 episodes
+
+  
+ *** Worker 3 - Solved in episode 263: Mean score = 197.0733556068932 in 100 episodes
+
+  
+ *** Worker 0 - Solved in episode 314: Mean score = 197.9572397950527 in 100 episodes
+
+  
+ *** Worker 2 - Solved in episode 438: Mean score = 196.13232878286428 in 100 episodes
+
+  
+ *** Worker 1 - Solved in episode 213: Mean score = 197.4199464639977 in 100 episodes
+
+  
+ *** Worker 2 - Solved in episode 276: Mean score = 197.7997496375215 in 100 episodes
+
+  
+ *** Worker 2 - Solved in episode 238: Mean score = 195.76727971770376 in 100 episodes

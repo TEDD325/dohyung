@@ -1,0 +1,10 @@
+
+
+  
+ *** Worker 0 - Solved in episode 292: Mean score = 196.98005202408942 in 100 episodes0.2-0.1-0.1
+
+  
+ *** Worker 1 - Solved in episode 194: Mean score = 198.0227771002681 in 100 episodes0.2-0.1-0.1
+
+  
+ *** Worker 3 - Solved in episode 545: Mean score = 196.3858832087626 in 100 episodes0.2-0.1-0.1
