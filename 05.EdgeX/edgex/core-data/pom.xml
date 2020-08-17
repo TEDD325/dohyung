@@ -30,7 +30,7 @@
 		<spring.cloud.version>Brixton.SR5</spring.cloud.version>
 		<activemq.version>5.7.0</activemq.version>
 		<xbean.version>4.4</xbean.version>
-		<paho.version>1.0.2</paho.version>
+		<paho.version>1.2.1</paho.version>
 		<zeromq.version>0.3.6</zeromq.version>
 		<core-domain.version>0.5.0-SNAPSHOT</core-domain.version>
 		<core-exception.version>0.5.0-SNAPSHOT</core-exception.version>
